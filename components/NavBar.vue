@@ -1,5 +1,5 @@
 <template>
-  <div class="topnav">
+  <!-- <div class="topnav">
     <div class="topnav-right navbar-desktop">
       <a v-scroll-to="{ el: '#aboutus' }">ABOUT US</a>
       <a v-scroll-to="{ el: '#concept' }">CONCEPT</a>
@@ -18,16 +18,56 @@
         />
       </div>
     </div>
-  </div>
+  </div> -->
+  <b-navbar>
+    <template #brand>
+      <b-navbar-item
+        tag="router-link"
+        :to="{ path: '/' }"
+      >
+        <img
+          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
+          alt="Lightweight UI components for Vue.js based on Bulma"
+        >
+      </b-navbar-item>
+    </template>
+    <template #start>
+      <b-navbar-item href="#">
+        Home
+      </b-navbar-item>
+      <b-navbar-item href="#">
+        Documentation
+      </b-navbar-item>
+      <b-navbar-dropdown label="Info">
+        <b-navbar-item href="#">
+          About
+        </b-navbar-item>
+        <b-navbar-item href="#">
+          Contact
+        </b-navbar-item>
+      </b-navbar-dropdown>
+    </template>
+
+    <template #end>
+      <b-navbar-item tag="div">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>Sign up</strong>
+          </a>
+          <a class="button is-light">
+            Log in
+          </a>
+        </div>
+      </b-navbar-item>
+    </template>
+  </b-navbar>
 </template>
 
 <script lang="ts">
 import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component
-export default class NavBar extends Vue {
- 
-}
+export default class NavBar extends Vue {}
 </script>
 
 <style lang="scss" scoped>
@@ -35,7 +75,7 @@ export default class NavBar extends Vue {
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
-.test{
+.test {
   color: black;
 }
 .main-menu {

@@ -101,14 +101,9 @@ export default {
     'vue-scrollto/nuxt',
     ['vue-scrollto/nuxt', {
       duration: 500
-    }],
-    'bootstrap-vue/nuxt',
+    }]
     //OR like this
   ],
-  bootstrapVue: {
-    bootstrapCSS: false, // Or `css: false`
-    bootstrapVueCSS: false // Or `bvCSS: false`
-  },
   i18n: {
     locales: [
       { code: "en", name: "English" },
