@@ -1,0 +1,260 @@
+<template>
+  <div class="concept-page">
+    <img src="~static/concept-img.jpg" class="concept-img" alt="" />
+    <img
+      src="~static/concept-img-mobile.jpg"
+      class="concept-img-mobile"
+      alt=""
+    />
+    <div class="concept-modern-component" id="concept">
+      <div class="concept-modern">
+        <p class="textAlignVer">CONCEPT</p>
+        <div class="vertical-line"></div>
+      </div>
+      <div class="concept-modern-left">
+        <p>A Modern <br />Luxury Design</p>
+      </div>
+      <div class="concept-modern-right">
+        <p>
+          Locates in a residential area on Vibhavadi Rangsit Road. It is
+          surrounded by nature and convenient facilities like parks, community
+          malls, markets, educational institutions, and well-known hospitals.
+        </p>
+        <br />
+        <p>
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ
+          ตั้ง อยู่ในย่านที่ พักอาศัยถนนวิภาสดีรังสิต รายล้อมด้วยธรรมชาติ และ
+          ไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาด รวมถึงสถานศึกษา และ
+          โรงพยาบาลชั้นนำ
+        </p>
+      </div>
+    </div>
+    <img class="concept-func-img" src="~static/concept-func.jpg" />
+    <div class="concept-func-component">
+      <img class="concept-bg" src="~static/concept-bg.jpg" />
+
+      <div class="concept-func-container">
+        <p class="concept-func-header">With a simply <br />functional twist</p>
+        <br /><br />
+        <div class="concept-func-description">
+          <p>
+            Every single house is designed with the concept of modern luxury
+            with a simply functional twist on top of mind to accommodate every
+            changeover and meet the needs of all family members. It is
+            thoughtfully outlined to maximize usable space while maintaining the
+            perfect blend between modern design and the touch of nature.
+          </p>
+          <br />
+          <p>
+            ทุกหลังไดรับการออกแบบสถาปัตยกรรมบนแนวคิด “ A modern luxury design
+            with a simply functional twist ”
+            เพื่อรองรับการปรับเปลี่ยนในทุกช่วงเวลา
+            และตอบโจทย์การใช้ชีวิตของสมาชิกทุกคภาย
+            ในบ้านความพิถีพิถันในการออกแบบ เพื่อให้เกิดพื้นที่ใช้สอยสูงสุด
+            แต่ยังคงไว้ซึ่งดีไซน์ที่ลงตัว ผสมผสานกับ ธรรมชาติ และความสดชื่น
+            คือสิ่งสำคัญที่สร้างสรรค์อย่างใส่ใจเพื่อการอยู่อาศัยที่ลงตัว
+          </p>
+          <br /><br /><br />
+        </div>
+      </div>
+    </div>
+    <img class="concept-door" src="~static/concept-door.jpg" alt="" />
+  </div>
+</template>
+
+<script lang="ts">
+import { Vue, Component, Prop } from "vue-property-decorator";
+
+@Component
+export default class Concept extends Vue {}
+</script>
+
+<style lang="scss" scoped>
+@font-face {
+  font-family: "DB-Ozone-X";
+  src: url(~static/fonts/DB-Ozone-X.ttf);
+}
+body {
+  font-size: 0em;
+}
+.concept-page {
+  font-family: "DB-Ozone-X";
+  color: black;
+}
+.concept-img {
+  width: 100%;
+  height: 100%;
+}
+.concept-modern-component {
+  width: 100%;
+  display: flex;
+  background-color: #dcd5cd;
+}
+.concept-modern-left {
+  width: 40%;
+  font-weight: bold;
+  font-size: 80px;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 7%;
+  color: #455a3f;
+}
+.concept-modern-right {
+  width: 53%;
+  font-size: 35px;
+  padding-top: 12%;
+  padding-right: 6%;
+}
+
+.concept-func-component {
+  // padding-left: 30%;
+  margin-top: -25%;
+}
+.concept-func-header {
+  font-weight: bold;
+  font-size: 65px;
+}
+.concept-func-description {
+  font-size: 30px;
+  padding-right: 20%;
+}
+.textAlignVer {
+  display: block;
+  filter: flipv fliph;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: relative;
+  width: 20px;
+  white-space: nowrap;
+  font-size: 42px;
+  color: #1e2f27;
+  font-weight: bold;
+  margin-left: 60%;
+  margin-top: 150%;
+}
+div.vertical-line {
+  width: 4px;
+  background-color: #1e2f27;
+  height: 293%;
+  float: left;
+  margin-left: 6%;
+  position: absolute;
+  z-index: 1;
+}
+.concept-modern {
+  width: 10%;
+}
+.concept-door {
+  height: 100%;
+}
+.concept-bg {
+  position: absolute;
+  z-index: -1;
+  height: 1400px;
+}
+.concept-func-img {
+  padding-left: 30%;
+}
+.concept-func-container {
+  padding-left: 30%;
+  padding-top: 28%;
+  color: white;
+}
+.concept-img-mobile {
+  display: none;
+}
+@media screen and (max-width: 700px) {
+  .concept-img-mobile {
+    display: block;
+    width: 100%;
+  }
+  .concept-img {
+    display: none;
+  }
+  .concept-modern-right {
+    width: 53%;
+    font-size: 18px;
+  }
+  .concept-modern-left {
+    width: 40%;
+    font-size: 30px;
+    padding-top: 40%;
+  }
+  .textAlignVer {
+    margin-top: 230%;
+    font-size: 25px;
+  }
+  .concept-modern-right {
+    padding-bottom: 17%;
+  }
+  .concept-func-img {
+    margin-top: -10%;
+  }
+  .concept-bg {
+    height: 1400px;
+  }
+  .concept-door {
+    height: 300px;
+  }
+  .concept-func-header {
+    font-size: 32px;
+  }
+  .concept-func-description {
+    font-size: 16px;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 182%;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .concept-img-mobile {
+    display: block;
+    width: 100%;
+  }
+  .concept-img {
+    display: none;
+  }
+  .concept-modern-right {
+    width: 53%;
+    font-size: 18px;
+  }
+  .concept-modern-left {
+    width: 40%;
+    font-size: 30px;
+    padding-top: 20%;
+  }
+  .textAlignVer {
+    margin-top: 230%;
+    font-size: 25px;
+    margin-left: 70%;
+  }
+  .concept-modern-right {
+    padding-bottom: 17%;
+  }
+  .concept-func-img {
+    margin-top: -10%;
+  }
+  .concept-bg {
+    height: 1400px;
+  }
+  .concept-door {
+    height: 300px;
+  }
+  .concept-func-header {
+    font-size: 32px;
+  }
+  .concept-func-description {
+    font-size: 16px;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 8%;
+    height: 182%;
+  }
+
+}
+</style>
