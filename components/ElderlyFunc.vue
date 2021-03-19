@@ -1,10 +1,10 @@
 <template>
-  <div class="elderly-page">
-    <div class="elderly-left">
+  <div class="elderly-page ">
+    <div class="elderly-left responsive-desktop">
       <h1 class="elderly-header">ELDERLY FUNCTION</h1>
     </div>
-    <div class="elderly-right">
-      <img src="~static/elderly-img.jpg" alt="" />
+    <div class="elderly-right responsive-desktop">
+      <img src="~static/elderly-img.jpg"/>
       <div class="square"></div>
       <p class="elderly-description-en">
         To meet the needs and convenience for taking care of the elderly in the
@@ -23,6 +23,31 @@
         ด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ในทุกช่วงเวลา
       </p>
     </div>
+    <!-- mobile -->
+    <div class="mobile-container">
+      <div class="mobile-top">
+        <img src="~static/elderly-img.jpg"/>
+        <p class="mobile-title">ELDERLY FUNCTION</p>
+      </div>
+      <div class="mobile-bottom">
+        <p class="description-mobile">
+          To meet the needs and convenience for taking care of the elderly in the
+        house. The first floor is set up as a private space for the elderly. For
+        easy access, the bedroom and bathroom have been designed to be suitable,
+        safe, open to natural light, and fresh air from outside. The elder can
+        enjoy a small garden beside the bedroom, making it most relaxing moment
+        in the house.
+        </p>
+        <p class="description-mobile">
+          เพื่อสนองความต้องการและความสะดวกสบายในการดูแลผู้สูงอายุภายในบ้าน
+        ชั้นหนึ่งถูกจัดวางให้เป๋นพื้นที่ส่วนตัวของผู้สูงอายุ
+        เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม
+        ปลอดภัย สามารถเป็ดรับแสง และอากาศบริสุทธิ์จาก ภายนอกพร้อมกับสวนเล็กๆ
+        ด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ในทุกช่วงเวลา
+        </p>
+      </div>
+    </div>
+    <!-- mobile -->
   </div>
 </template>
 
@@ -54,12 +79,12 @@ export default class ElderlyFunc extends Vue {}
   width: 78%;
 }
 .elderly-header {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
 .elderly-topic {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   color: #50635d;
   padding-left: 3%;
@@ -84,6 +109,35 @@ export default class ElderlyFunc extends Vue {}
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
-  margin-top: -2%;
+  margin-top: -6%;
+}
+.mobile-container{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .responsive-desktop{
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-bottom {
+    display: flex;
+  }
+  .description-mobile{
+    font-size: 12px;
+    margin: 3%;
+  }
+  .mobile-title{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -8%;
+    font-size: 14px;
+    font-weight:bold;
+    background-color: #d6d1cb;
+    position: absolute;
+    z-index: 1;
+  }
 }
 </style>

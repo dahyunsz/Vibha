@@ -1,6 +1,6 @@
 <template>
   <div class="function-page" id="gallery">
-    <div class="function-top">
+    <div class="function-top function-container-desktop">
       <div class="function-area">
         <img @click=onClick11() class="function-container" src="~static/func1-1.jpg" />
       </div>
@@ -14,7 +14,7 @@
         <img @click=onClick14() class="function-container" src="~static/func1-4.jpg" />
       </div>
     </div>
-    <div class="function-bottom">
+    <div class="function-bottom function-container-desktop">
       <div class="function-area">
         <img @click=onClick21() class="function-container" src="~static/func2-1.jpg" />
       </div>
@@ -28,7 +28,44 @@
         <img @click=onClick24() class="function-container" src="~static/func2-4.jpg" />
       </div>
     </div>
+
+     <!-- mobile -->
+    <div class="function-setwidth-mobile"> 
+      <div class="function-setwidth">
+      <div class="function-area">
+        <img @click=onClick11() class="function-container" src="~static/func1-1.jpg" />
+      </div>
+      <div class="function-area">
+        <img @click=onClick12() class="function-container" src="~static/func1-2.jpg" />
+      </div>
+    </div>
+      <div class="function-setwidth">
+        <div class="function-area">
+          <img @click=onClick13() class="function-container" src="~static/func1-3.jpg" />
+        </div>
+        <div class="function-area">
+          <img @click=onClick14() class="function-container" src="~static/func1-4.jpg" />
+        </div>
+      </div>
+      <div class="function-setwidth">
+        <div class="function-area">
+          <img @click=onClick21() class="function-container" src="~static/func2-1.jpg" />
+        </div>
+        <div class="function-area">
+          <img @click=onClick22() class="function-container" src="~static/func2-2.jpg" />
+        </div>
+      </div>
+      <div class="function-setwidth">
+        <div class="function-area">
+          <img @click=onClick23() class="function-container" src="~static/func2-3.jpg" />
+        </div>
+        <div class="function-area">
+          <img @click=onClick24() class="function-container" src="~static/func2-4.jpg" />
+        </div>
+      </div>
+    </div>
     
+    <!-- mobile -->
 
   <b-modal v-model="function1_1" id="modal-1" title="BootstrapVue">
     <DoubleVolume/>
@@ -148,4 +185,60 @@ export default class FunctionRoom extends Vue {
 .function-button{
   height: 600px;
 }
+.function-setwidth-mobile{
+  display: none;
+}
+@media screen and (max-width: 500) {
+.function-container-desktop{
+  display: none;
+}
+.function-area{
+  width: 50%;
+}
+.function-setwidth-mobile{
+  display: flex;
+  flex-direction: column;
+}
+.function-setwidth{
+  width: 100%;
+    display: flex;
+    height: 350px;
+}
+}
+@media screen and (max-width: 375px) {
+.function-container-desktop{
+  display: none;
+}
+.function-area{
+  width: 50%;
+}
+.function-setwidth-mobile{
+  display: flex;
+  flex-direction: column;
+}
+.function-setwidth{
+  width: 100%;
+    display: flex;
+    height: 250px;
+}
+}
+
+@media only screen and (min-device-width: 501) and (max-device-width: 800px) {
+.function-container-desktop{
+  display: none;
+}
+.function-area{
+  width: 50%;
+}
+.function-setwidth-mobile{
+  display: flex;
+  flex-direction: column;
+}
+.function-setwidth{
+  width: 100%;
+    display: flex;
+    height: 500px;
+}
+}
+
 </style>

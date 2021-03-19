@@ -1,34 +1,135 @@
 <template>
   <div class="footer-container" id="contactus">
-    <div class="footer-left">
-      <div class="footer-left-top">
-        <div class="footer-form">
-          <p class="footer-bold">SALES GALLERY</p>
-          <p class="footer-description">VI PLAZA 2nd fLOOR (Vibhavadi Hospital)</p>
+    <!-- desktop -->
+    <div class="footer-desktop">
+      <!-- left -->
+      <div class="footer-left">
+        <div class="footer-left-top">
+          <div class="footer-form">
+            <p class="footer-bold">SALES GALLERY</p>
+            <p class="footer-description">
+              VI PLAZA 2nd fLOOR (Vibhavadi Hospital)
+            </p>
+          </div>
+          <div class="divFlex-left">
+            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
+            <p class="footer-tel">095-632-6356</p>
+          </div>
         </div>
-        <p class="footer-tel">095-632-6356</p>
-      </div>
-      <br>
-      <div class="footer-left-bottom">
-        <div class="footer-form">
-          <p class="footer-bold">HEAD OFFICE</p>
-          <p class="footer-description">11 Sathu Pradit Rd, Chong Nonsi, Yannawa, Bangkok 10120</p>
+        <br />
+        <div class="footer-left-bottom">
+          <div class="footer-form">
+            <p class="footer-bold">HEAD OFFICE</p>
+            <p class="footer-description">
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, Bangkok 10120
+            </p>
+          </div>
+          <div class="divFlex-left divFlex">
+            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
+            <p class="footer-tel">(02) 212-4460 – 1</p>
+          </div>
         </div>
-        <p class="footer-tel">(02) 212-4460 – 1</p>
       </div>
+      <!-- left -->
+      <!-- center -->
+      <div class="footer-center">
+        <p class="footer-bold">SALES TEAM CONTACT</p>
+        <div class="divFlex-center-column">
+          <div class="divFlex-center">
+            <img class="phone-icon-center" src="~assets/icon/phone-icon.png" />
+            <img class="mail-icon" src="~assets/icon/mail-icon.png" />
+          </div>
+          <div class="divFlex-center-font">
+            <p class="footer-tel">095-632-6356</p>
+            <p class="footer-mail footer-description">
+              VIBHASALES@KCCTHAILAND.COM
+            </p>
+          </div>
+        </div>
+        <img class="footer-logo" src="~static/footer-logo.png" />
+      </div>
+      <!-- center -->
+      <!-- right -->
+      <div class="footer-right">
+        <div class="footer-location">
+          <img class="location-icon" src="~assets/icon/location-icon.png" />
+          <span class="footer-map">GOOGLE MAP</span>
+        </div>
+        <br />
+        <div class="divFlex-right">
+          <img class="line-icon" src="~assets/icon/line-icon.png" />
+          <p class="footer-line">@vibharesidence</p>
+        </div>
+        <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+      </div>
+      <!-- right -->
     </div>
-    <div class="footer-center">
-      <p class="footer-bold">SALES TEAM CONTACT</p>
-      <p>095-632-6356</p>
-      <p class="footer-description">VIBHASALES@KCCTHAILAND.COM</p>
-      <img class="footer-logo" src="~static/footer-logo.png">
+    <!-- desktop -->
+
+    <!-- mobile -->
+    <div class="footer-mobile">
+      <!-- left -->
+      <div class="footer-left">
+        <div class="footer-left-top">
+          <div class="footer-form">
+            <p class="footer-bold">SALES GALLERY</p>
+            <p class="footer-description">
+              VI PLAZA 2nd fLOOR (Vibhavadi Hospital)
+            </p>
+          </div>
+          <div class="divFlex-left">
+            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
+            <p class="footer-tel">095-632-6356</p>
+          </div>
+        </div>
+        <br />
+        <div class="footer-left-bottom">
+          <div class="footer-form">
+            <p class="footer-bold">HEAD OFFICE</p>
+            <p class="footer-description">
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, Bangkok 10120
+            </p>
+          </div>
+          <div class="divFlex-left">
+            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
+            <p class="footer-tel">(02) 212-4460 – 1</p>
+          </div>
+        </div>
+      </div>
+      <!-- left -->
+      <!-- right -->
+      <div class="footer-right">
+        <p class="footer-bold">SALES TEAM CONTACT</p>
+        <div class="divFlex-center-column">
+          <div class="divFlex-center">
+            <img class="phone-icon-center" src="~assets/icon/phone-icon.png" />
+            <img class="mail-icon" src="~assets/icon/mail-icon.png" />
+          </div>
+          <div class="divFlex-center-font">
+            <p class="footer-tel">095-632-6356</p>
+            <p class="footer-mail footer-description">
+              VIBHASALES@KCCTHAILAND.COM
+            </p>
+          </div>
+        </div>
+        <!-- <img class="footer-logo" src="~static/footer-logo.png" /> -->
+        <br />
+        <div class="footer-location">
+          <img class="location-icon" src="~assets/icon/location-icon.png" />
+          <span class="footer-map">GOOGLE MAP</span>
+        </div>
+        <br />
+        <div class="divFlex-qr">
+          <img class="line-icon" src="~assets/icon/line-icon.png" />
+          <p class="footer-line">@vibharesidence</p>
+          <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+        </div>
+      </div>
+      <img class="footer-logo" src="~static/footer-logo.png" />
     </div>
-    <div class="footer-right">
-      <p class="footer-map">GOOGLE MAP</p>
-      <br>
-      <p>@vibharesidence</p>
-      <img src="~static/footer-qrcode.jpg" alt="">
-    </div>
+    <!-- right -->
+
+    <!-- mobile -->
   </div>
 </template>
 
@@ -40,11 +141,17 @@ export default class Footer extends Vue {}
 
 <style lang="scss" scoped>
 @font-face {
-  font-family: 'DB-Ozone-X';
+  font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
 .footer-container {
-  background-image: linear-gradient(0deg, rgba(33,55,43,1) 0%, rgba(33,55,43,1) 50%, rgba(33,55,43,0.6) 100%), url(~static/footer-bg.jpg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(33, 55, 43, 1) 0%,
+      rgba(33, 55, 43, 1) 50%,
+      rgba(33, 55, 43, 0.6) 100%
+    ),
+    url(~static/footer-bg.jpg);
   background-size: cover;
   width: 100%;
   display: flex;
@@ -62,39 +169,147 @@ export default class Footer extends Vue {}
 }
 .footer-right {
   width: 33.33%;
-  
 }
-.footer-logo{
+.footer-logo {
   width: 52%;
   margin-top: 20%;
   margin-left: 10%;
 }
-.footer-map{
-  border:1px solid #b7bcb4;
-  width: 40%;
+.footer-map {
+  border: 1px solid #b7bcb4;
+  width: 50%;
   text-align: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: -10%;
+  margin-left: 5%;
 }
-.footer-bold{
+.footer-bold {
   font-weight: bold;
 }
-.footer-form{
+.footer-form {
   width: 50%;
   margin-left: 20%;
 }
-.footer-description{
+.footer-description {
   font-size: 30px;
 }
-.footer-tel{
-  text-align: center;
-  margin-left: -20%;
+.footer-mail {
+  margin-top: 3%;
 }
-// @media screen and (max-width: 768px) {
-//   .sub-footer-container {
-//     margin-left: 30px;
-//   }
+.phone-icon {
+  width: 6%;
+  margin: 2%;
+}
+.mail-icon {
+  width: 8%;
+}
+.location-icon {
+  width: 8%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+.line-icon {
+  width: 10%;
+}
 
-//   .text-footer {
-//     margin-left: 20px;
-//   }
-// }
+.divFlex-left {
+  display: flex;
+  justify-content: center;
+  margin-left: -25%;
+}
+.divFlex-center {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  // margin-left: -25%;
+}
+.divFlex-center img {
+  width: 100%;
+  margin-top: 50%;
+}
+.divFlex-center-column {
+  display: flex;
+}
+.divFlex-center-font {
+  margin-left: 2%;
+}
+
+.divFlex-center-font p {
+  margin-top: 11%;
+  margin-left: 3%;
+}
+.divFlex-right {
+  display: flex;
+}
+.footer-line {
+  margin-left: 3%;
+}
+.line-qrCode {
+  margin-left: 14%;
+}
+.footer-mobile {
+  display: none;
+}
+.footer-desktop {
+  display: flex;
+}
+.divFlex{
+  margin-left: -17%;
+}
+@media screen and (max-width: 768px) {
+  .footer-mobile {
+    display: flex;
+  }
+  .footer-desktop {
+    display: none;
+  }
+  .footer-left {
+    width: 50%;
+  }
+  .footer-right {
+    width: 50%;
+  }
+  .footer-description {
+    font-size: 12px;
+  }
+  .footer-container {
+    font-size: 16px;
+  }
+  .footer-left-top {
+    width: 100%;
+  }
+  .footer-left-bottom {
+    width: 100%;
+  }
+  .divFlex-qr {
+    width: 100%;
+    display: flex;
+  }
+  .line-icon {
+    width: 10%;
+    height: 50%;
+  }
+  .footer-line {
+    width: 30%;
+  }
+  .line-qrCode {
+    margin-left: 21%;
+    width: 25%;
+  }
+  .footer-logo {
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    margin-top: 57%;
+    margin-left: 37%;
+  }
+  .footer-left {
+    padding-bottom: 39%;
+  }
+  .divFlex-center-font p {
+    margin-top: 6%;
+
+  }
+}
 </style>

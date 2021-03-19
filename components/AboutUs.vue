@@ -33,31 +33,65 @@
     <div class="kcc kcc-desktop">
       <div class="kcc-container">
         <img class="kcc-img" src="~static/farmhouse2.png" alt="" />
+        <p class="kcc-title kcc-title-padding">
+          บริษัท เพรสซิเดนท์ <br />
+          เบเกอรี่ จำกัด (มหาชน)
+        </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="~static/ICC-headquarter.JPG" alt="" />
+        <p class="kcc-title">
+          บริษัท ไอ.ซี.ซี <br />
+          อินเตอร์เนชั่นแนล <br />
+          จำกัด (มหาชน)
+        </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="~static/Mahidol-salaya.jpg" alt="" />
+        <p class="kcc-title">
+          มหาวิทยาลัยมหิดล <br />
+          คณะวิศวกรรมศาสตร์ <br />
+          วิทยาเขตศาลายา
+        </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="~static/thammasat.JPG" alt="" />
+        <p class="kcc-title">
+          มหาวิทยาลัยธรรมศาสตร์ <br />
+          ศูนย์ลำปาง
+        </p>
       </div>
     </div>
     <div class="kcc kcc-mobile">
       <div class="kcc-container">
         <img class="kcc-img" src="~static/farmhouse2.png" alt="" />
+        <p class="kcc-title kcc-title-padding">
+          บริษัท เพรสซิเดนท์ เบเกอรี่ จำกัด (มหาชน)
+        </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="~static/ICC-headquarter.JPG" alt="" />
+        <p class="kcc-title">
+          บริษัท ไอ.ซี.ซี อินเตอร์เนชั่นแนล <br />
+          จำกัด (มหาชน)
+        </p>
       </div>
     </div>
     <div class="kcc kcc-mobile">
       <div class="kcc-container">
         <img class="kcc-img" src="~static/Mahidol-salaya.jpg" alt="" />
+        <p class="kcc-title">
+          มหาวิทยาลัยมหิดล 
+          คณะวิศวกรรมศาสตร์ <br />
+          วิทยาเขตศาลายา
+        </p>
       </div>
       <div class="kcc-container">
         <img class="kcc-img" src="~static/thammasat.JPG" alt="" />
+        <p class="kcc-title">
+          มหาวิทยาลัยธรรมศาสตร์
+          ศูนย์ลำปาง
+        </p>
       </div>
     </div>
   </div>
@@ -107,7 +141,7 @@ export default class AboutUs extends Vue {}
 .kcc {
   width: 100%;
   display: flex;
-  height: 300px;
+  height: 360px;
 }
 .kcc-container {
   width: 25%;
@@ -142,6 +176,18 @@ div.vertical-line {
 .kcc-mobile {
   display: none;
 }
+.kcc-title {
+  position: absolute;
+  z-index: 1;
+  font-size: 25px;
+  margin-top: -18%;
+  margin-left: 1%;
+  color: #7d7d7d;
+  line-height: 1;
+}
+.kcc-title-padding {
+  margin-left: 7%;
+}
 @media screen and (max-width: 700px) {
   .about-us-description {
     font-size: 18px;
@@ -173,9 +219,17 @@ div.vertical-line {
   .kcc {
     height: 100%;
   }
-  .about-us-logo{
-      width: 70%;
+  .about-us-logo {
+    width: 70%;
   }
+  .kcc-title {
+    font-size: 10px;
+    margin-top: -40%;
+  margin-left: 2%;
+  }
+  .kcc-title-padding {
+  margin-left: 10%;
+}
 }
 @media screen and (max-width: 768px) {
   .about-us-description {
@@ -208,8 +262,43 @@ div.vertical-line {
   .kcc {
     height: 100%;
   }
-  .about-us-logo{
-      width: 70%;
+  .about-us-logo {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .about-us-description {
+    font-size: 18px;
+    margin: 2%;
+    padding-right: 15%;
+  }
+  .textAlignVer {
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: 160%;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 44%;
+  }
+  .kcc-desktop {
+    display: none;
+  }
+  .kcc-mobile {
+    display: flex;
+  }
+  .kcc-container {
+    width: 50%;
+    height: 150px;
+  }
+  .about-us-logo {
+    padding-top: 37%;
+  }
+  .kcc {
+    height: 100%;
+  }
+  .about-us-logo {
+    width: 70%;
   }
 }
 </style>

@@ -1,9 +1,9 @@
 <template>
   <div class="bedroom-page">
-    <div class="bedroom-left">
+    <div class="bedroom-left responsive-desktop">
       <h1 class="bedroom-header">MASTER BEDROOM</h1>
     </div>
-    <div class="bedroom-right">
+    <div class="bedroom-right responsive-desktop">
       <img src="~static/bedroom-img.jpg" alt="" />
       <div class="square"></div>
       <p class="bedroom-description-en">
@@ -16,6 +16,26 @@
         flexible to all sorts of decorations to fit your lifestyle.
       </p>
     </div>
+
+    <!-- mobile -->
+    <div class="mobile-container">
+      <div class="mobile-top">
+        <img src="~static/bedroom-img.jpg" alt="" />
+        <p class="mobile-title">MASTER BEDROOM</p>
+      </div>
+      <div class="mobile-bottom">
+        <p class="description-mobile">
+          To provide you with more privacy, the facilities on the 3rd floor will
+        answer your call. The master bedroom is planned to connect all functions
+        seamlessly. Complete the entire section with a large bed, a versatile
+        bathroom with both shower and bathtub, a dressing corner with a walk-in
+        closet, and a small mini bar to accommodate your nighttime. There is
+        also a multi-purpose room that connects to the bedroom area, which
+        flexible to all sorts of decorations to fit your lifestyle.
+        </p>
+      </div>
+    </div>
+    <!-- mobile -->
   </div>
 </template>
 
@@ -47,7 +67,7 @@ export default class MasterBedroom extends Vue {}
   width: 78%;
 }
 .bedroom-header {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
@@ -64,6 +84,35 @@ export default class MasterBedroom extends Vue {}
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
-  margin-top: -2%;
+  margin-top: -6%;
+}
+.mobile-container{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .responsive-desktop{
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-bottom {
+    display: flex;
+  }
+  .description-mobile{
+    font-size: 12px;
+    margin: 3%;
+  }
+  .mobile-title{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -8%;
+    font-size: 14px;
+    font-weight:bold;
+    background-color: #d6d1cb;
+    position: absolute;
+    z-index: 1;
+  }
 }
 </style>

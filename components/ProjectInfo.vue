@@ -19,14 +19,13 @@
           SINGLE HOUSES<br /><span class="description-bold">TOTAL UNIT :</span>
           4 UNITS
         </p>
-        <br />
+
         <br />
         <p class="project-description">
           <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI 60
           / <br />
           PHAHOLYOTHIN ROAD SOI 49/1
         </p>
-        <br />
         <br />
         <p class="project-description">
           <span class="description-bold">ARCHITECT :</span> ARBAY COMPANY
@@ -38,9 +37,12 @@
           <ProjectPlan />
         </b-modal>
       </div>
-      <!-- <div class="project-info-right">
+      <div class="project-info-right project-info-right-desktop">
         <img src="~static/project-info.jpg" class="img-projectinfo" alt="" />
-      </div> -->
+      </div>
+    </div>
+    <div class="project-info-right-mobile">
+      <img src="~static/project-info.jpg" class="img-projectinfo" alt="" />
     </div>
     <div class="vibha-type">
       <div class="vibha-type-top">
@@ -66,7 +68,7 @@
         </div>
       </div>
       <div v-if="this.isTypeC">
-       <div class="vibha-type-bottom">
+        <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <p class="type-non-actve" @click="onclickTypeA">TYPE A</p>
             <p class="type-non-actve" @click="onclickTypeB">TYPE B</p>
@@ -229,6 +231,7 @@ div.vertical-line {
   margin-left: 50%;
   margin-bottom: 5%;
   cursor: pointer;
+  font-weight: bold;
 }
 .type-non-actve {
   border: 2px solid #455a3f;
@@ -237,6 +240,7 @@ div.vertical-line {
   padding: 15px;
   margin-bottom: 5%;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .vibha-type {
@@ -266,7 +270,7 @@ div.vertical-line {
   color: white;
   width: 35%;
   padding: 1%;
-  font-size: 30px;
+  font-size: 32px;
   margin-top: 7%;
   margin-bottom: 10%;
   text-align: center;
@@ -275,5 +279,56 @@ div.vertical-line {
 .project-description-inner {
   color: #727a7d;
   font-size: 25px;
+}
+.project-info-right-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .textAlignVer {
+    font-size: 25px;
+    margin-left: 31%;
+    margin-top: 160%;
+    margin-top: 270%;
+  }
+  div.vertical-line {
+    width: 2px;
+    margin-left: 6.2%;
+    height: 137%;
+  }
+  .project-header {
+    font-size: 40px;
+  }
+  .project-description {
+    font-size: 16px;
+  }
+  .project-plan {
+    width: 60%;
+    font-size: 16px;
+    margin-bottom: 20%;
+  }
+  .project-info-right-mobile {
+    display: block;
+    width: 100%;
+    text-align: right;
+  }
+  .project-info-right-desktop {
+    display: none;
+  }
+  .img-projectinfo {
+    width: 75%;
+  }
+  .Vibha-detail-top-img {
+    width: 40%;
+  }
+  .type-non-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+  }
+  .type-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+  }
 }
 </style>

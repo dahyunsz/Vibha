@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Topnav/>
     <NavBar />
     <VibhaHome/>
     <AboutUs/>
@@ -49,9 +50,10 @@ import ProjectTypeB from "../components/ProjectTypeB.vue";
 import ProjectTypeC from "../components/ProjectTypeC.vue";
 import ProjectPlan from "../components/ProjectPlan.vue";
 import VibhaVideo from "../components/VibhaVideo.vue";
-
+import Topnav from "../components/Topnav.vue";
 @Component({
   components: {
+    Topnav,
     NavBar,
     VibhaHome,
     AboutUs,

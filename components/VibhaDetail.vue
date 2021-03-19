@@ -222,5 +222,9 @@ div.vertical-line {
   .Vibha-detail-top p {
     font-size: 50px;
 }
+.project-type-option {
+    height: 0%;
+
+}
 }
 </style>

@@ -1,63 +1,40 @@
 <template>
-  <!-- <div class="topnav">
-    <div class="topnav-right navbar-desktop">
-      <a v-scroll-to="{ el: '#aboutus' }">ABOUT US</a>
-      <a v-scroll-to="{ el: '#concept' }">CONCEPT</a>
-      <a v-scroll-to="{ el: '#projectinfo' }">PROJECT INFO</a>
-      <a v-scroll-to="{ el: '#location' }">LOCATION</a>
-      <a v-scroll-to="{ el: '#gallery' }">GALLERY</a>
-      <a v-scroll-to="{ el: '#contactus' }">CONTACT US</a>
-    </div>
-    <div class="topnav-right navbar-mobile">
-      <div class="navbar-mobile-container">
-        <img
-          class="menu-icon"
-          @click="onclick"
-          src="~assets/icon/menu.png"
-          alt=""
-        />
-      </div>
-    </div>
-  </div> -->
   <b-navbar>
-    <template #brand>
-      <b-navbar-item
-        tag="router-link"
-        :to="{ path: '/' }"
-      >
-        <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
-          alt="Lightweight UI components for Vue.js based on Bulma"
-        >
-      </b-navbar-item>
-    </template>
-    <template #start>
-      <b-navbar-item href="#">
-        Home
-      </b-navbar-item>
-      <b-navbar-item href="#">
-        Documentation
-      </b-navbar-item>
-      <b-navbar-dropdown label="Info">
-        <b-navbar-item href="#">
-          About
-        </b-navbar-item>
-        <b-navbar-item href="#">
-          Contact
-        </b-navbar-item>
-      </b-navbar-dropdown>
-    </template>
-
+    <div class="square"></div>
     <template #end>
-      <b-navbar-item tag="div">
-        <div class="buttons">
-          <a class="button is-primary">
-            <strong>Sign up</strong>
-          </a>
-          <a class="button is-light">
-            Log in
-          </a>
-        </div>
+      <b-navbar-item
+        v-scroll-to="{ el: '#aboutus' }"
+        class="nav-item nav-padding-top"
+      >
+        ABOUT US
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item v-scroll-to="{ el: '#concept' }" class="nav-item">
+        CONCEPT
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item v-scroll-to="{ el: '#projectinfo' }" class="nav-item">
+        PROJECT INFO
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item v-scroll-to="{ el: '#location' }" class="nav-item">
+        LOCATION
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item v-scroll-to="{ el: '#gallery' }" class="nav-item">
+        GALLERY
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item
+        v-scroll-to="{ el: '#contactus' }"
+        class="nav-item nav-padding-right"
+      >
+        CONTACT US
+        <hr class="line" />
+      </b-navbar-item>
+      <b-navbar-item class="nav-item nav-item-mobile">
+        <img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" />
+        <img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" />
       </b-navbar-item>
     </template>
   </b-navbar>
@@ -75,51 +52,46 @@ export default class NavBar extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
-.test {
-  color: black;
-}
-.main-menu {
-  text-transform: uppercase;
-}
-.topnav {
-  padding-top: 4%;
-  padding-bottom: 3%;
-  font-family: "DB-Ozone-X";
-}
-.topnav a {
-  color: black;
+.nav-item {
+  font-size: 30px;
   text-align: center;
-  padding: 16px 18px;
-  text-decoration: none;
-  font-size: 35px;
 }
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.nav-item-padding {
+  padding-right: 10%;
 }
-
-.topnav-right {
-  float: right;
-  padding-right: 4%;
-}
-.navbar-mobile {
+hr.line {
   display: none;
 }
-@media screen and (max-width: 768px) {
-  .navbar-mobile {
-    display: block;
-  }
-  .navbar-desktop {
+.nav-item-mobile {
+  display: none;
+}
+.nav-padding-right {
+  display: block;
+  padding-right: 10%;
+}
+@media screen and (max-width: 1023px) {
+  .nav-padding-right {
     display: none;
   }
-  .navbar-mobile-container {
-    width: 100%;
-    height: 80px;
-    text-align: right;
+  .nav-item {
+    font-size: 15px;
+    background-color: #4e5f55;
+    color: white;
   }
-  .menu-icon {
-    width: 10%;
+  hr.line {
+    border-top: 2px solid white;
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
+  .nav-item-mobile {
+    display: block;
+  }
+  .nav-icon {
+    margin: 2%;
+  }
+  .nav-padding-top {
+    padding-top: 10%;
   }
 }
 </style>

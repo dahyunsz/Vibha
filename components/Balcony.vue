@@ -1,10 +1,10 @@
 <template>
   <div class="balcony-page">
-    <div class="balcony-left">
+    <div class="balcony-left responsive-desktop">
       <h1 class="balcony-header">BALCONY <br> & POOL</h1>
       <h2 class="balcony-topic">TYPE C <br> POOL VILLA</h2>
     </div>
-    <div class="balcony-right">
+    <div class="balcony-right responsive-desktop">
       <img src="~static/balcony-img.jpg" alt="" />
       <div class="square"></div>
       <p class="balcony-description-en">
@@ -22,6 +22,29 @@
         ร่วมกันของครอบครัว และแขกคนสำคัญ
         </p>
     </div>
+    <!-- mobile -->
+    <div class="mobile-container">
+      <div class="mobile-top">
+        <img src="~static/balcony-img.jpg" alt="" />
+        <p class="mobile-title">BALCONY & POOL ( TYPE C POOL VILLA )</p>
+      </div>
+      <div class="mobile-bottom">
+        <p class="description-mobile">
+          The outdoor swimming pool and balcony on the 2nd floor of pool villa
+        type are perfectly placed in the center. It is connected to every
+        functional area. You will get a scenic view within a comfortable
+        atmosphere and shade of green from outside space, where you achieve
+        quality time with family and important guests.
+        </p>
+        <p class="description-mobile">
+          บริเวณชั้น 2 สระว่ายน้ำ Outdoor และ Balcony ถูกจัดวางที่ใจกลางอย่างลงตัว
+        เชื่อมให้ทุกพื้นที่การใช้สอยได้รับ ทัศนียภาพ และบรรยากาศแบบสบายๆ
+        สัมผัสความร่มรื่นด้วยพื้นที่สีเขียวจากภายนอก ช่วยเติมเต็มการพักผ่อน
+        ร่วมกันของครอบครัว และแขกคนสำคัญ
+        </p>
+      </div>
+    </div>
+    <!-- mobile -->
   </div>
 </template>
 
@@ -53,7 +76,7 @@ export default class Balcony extends Vue {}
   width: 78%;
 }
 .balcony-header {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: bold;
   color: white;
 }
@@ -83,6 +106,35 @@ export default class Balcony extends Vue {}
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
-  margin-top: -2%;
+  margin-top: -6%;
+}
+.mobile-container{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .responsive-desktop{
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-bottom {
+    display: flex;
+  }
+  .description-mobile{
+    font-size: 12px;
+    margin: 3%;
+  }
+  .mobile-title{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -8%;
+    font-size: 14px;
+    font-weight:bold;
+    background-color: #d6d1cb;
+    position: absolute;
+    z-index: 1;
+  }
 }
 </style>

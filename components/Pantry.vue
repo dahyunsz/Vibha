@@ -1,9 +1,9 @@
 <template>
   <div class="pantry-page">
-    <div class="pantry-left">
+    <div class="pantry-left responsive-desktop">
       <h1 class="pantry-header">PANTRY</h1>
     </div>
-    <div class="pantry-right">
+    <div class="pantry-right responsive-desktop">
       <img src="~static/pantry-img.jpg" alt="" />
       <div class="square"></div>
       <p class="pantry-description-en">
@@ -17,8 +17,29 @@
         พร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการ
         ออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหาร
         และห้องนั่งเล่น
-        </p>
+      </p>
     </div>
+    <!-- mobile -->
+    <div class="mobile-container">
+      <div class="mobile-top">
+        <img src="~static/pantry-img.jpg" alt="" />
+        <p class="mobile-title">PANTRY</p>
+      </div>
+      <div class="mobile-bottom">
+        <p class="description-mobile">
+          The pantry is well equipped with useful functions that can ease your
+          life. It is designed to connected with Thai kitchen, dining hall and
+          also living room that will ideally complete your living experience.
+        </p>
+        <p class="description-mobile">
+          พื้นที่ห้องแพนทรีถูกจัดเตรียมไว้ครบทุกฟังค์ชั่น
+          พร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการ
+          ออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหาร
+          และห้องนั่งเล่น
+        </p>
+      </div>
+    </div>
+    <!-- mobile -->
   </div>
 </template>
 
@@ -31,7 +52,7 @@ export default class Pantry extends Vue {}
 
 <style lang="scss" scoped>
 @font-face {
-  font-family: 'DB-Ozone-X';
+  font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
 .pantry-page {
@@ -50,7 +71,7 @@ export default class Pantry extends Vue {}
   width: 78%;
 }
 .pantry-header {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
   color: white;
 }
@@ -74,6 +95,35 @@ export default class Pantry extends Vue {}
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
-  margin-top: -2%;
+  margin-top: -6%;
+}
+.mobile-container {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .responsive-desktop {
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-bottom {
+    display: flex;
+  }
+  .description-mobile {
+    font-size: 12px;
+    margin: 3%;
+  }
+  .mobile-title {
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -8%;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d6d1cb;
+    position: absolute;
+    z-index: 1;
+  }
 }
 </style>

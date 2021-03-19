@@ -47,5 +47,10 @@ export default class ProjectPlan extends Vue {
   font-size: 50px;
   color: #1e2f27;
 }
+@media screen and (max-width: 768px) {
+  .project-titile{
+    font-size: 16px;
 
+}
+}
 </style>

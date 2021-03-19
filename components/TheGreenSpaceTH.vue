@@ -1,9 +1,9 @@
 <template>
   <div class="green-th-page">
-    <div class="green-th-left">
+    <div class="green-th-left responsive-desktop">
       <h1 class="green-th-header">THE GREEN SPACE</h1>
     </div>
-    <div class="green-th-right">
+    <div class="green-th-right responsive-desktop">
       <img src="~static/green-th-img.jpg" alt="" />
       <div class="square"></div>
       <p class="green-th-description-th">
@@ -14,6 +14,23 @@
         ด้านข้าง ให้การพักผ่อนเป็นไป อย่างเต็มที่ในทุกช่วงเวลา
       </p>
     </div>
+    <!-- mobile -->
+    <div class="mobile-container">
+      <div class="mobile-top">
+        <img src="~static/green-th-img.jpg" alt="" />
+        <p class="mobile-title">THE GREEN SPACE</p>
+      </div>
+      <div class="mobile-bottom">
+        <p class="description-mobile">
+          เพื่อสนองความต้องการและความสะดวกสบายในการ ดูแลผู้สูงอายุภายในบ้าน
+        ชั้นหนึ่งถูกจัดวางให้เป็นพื้นที่ส่วนตัวของผู้ สูงอายุ
+        เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม
+        ปลอดภัย สามารถเปิดรับแสง และอากาศ บริสุทธิ์จากภายนอก พร้อมกับสวนเล็กๆ
+        ด้านข้าง ให้การพักผ่อนเป็นไป อย่างเต็มที่ในทุกช่วงเวลา
+        </p>
+      </div>
+    </div>
+    <!-- mobile -->
   </div>
 </template>
 
@@ -45,12 +62,12 @@ export default class TheGreenSpaceTH extends Vue {}
   width: 78%;
 }
 .green-th-header {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
 }
 .green-th-topic {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
   color: #50635d;
   padding-left: 3%;
@@ -68,6 +85,35 @@ export default class TheGreenSpaceTH extends Vue {}
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
-  margin-top: -2%;
+  margin-top: -6%;
+}
+.mobile-container{
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .responsive-desktop{
+    display: none;
+  }
+  .mobile-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .mobile-bottom {
+    display: flex;
+  }
+  .description-mobile{
+    font-size: 12px;
+    margin: 3%;
+  }
+  .mobile-title{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: -8%;
+    font-size: 14px;
+    font-weight:bold;
+    background-color: #d6d1cb;
+    position: absolute;
+    z-index: 1;
+  }
 }
 </style>

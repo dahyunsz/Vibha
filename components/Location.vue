@@ -12,7 +12,7 @@
           alt=""
         />
       </div>
-      <div class="location-right">
+      <div class="location-right location-right-desktop">
         <p class="location-description">
           It is convenient to connect your journey to the major districts of
           Bangkok via Vibhavadi and Phaholyothin Road, which easily access the
@@ -26,14 +26,34 @@
         </p>
       </div>
     </div>
+
+    <div class="location-right location-right-mobile">
+      <p class="location-description">
+        It is convenient to connect your journey to the major districts of
+        Bangkok via Vibhavadi and Phaholyothin Road, which easily access the
+        green and red line Skytrain within 10 minutes drive.
+      </p>
+      <br />
+      <p class="location-description">
+        ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่าน สำคัญต่าง ๆ ของกรุงเทพฯ
+        ด้วยเส้นทางเข้าออกทั้งจาก ถนนวิภาวดี และถนนพหลโยธิน
+        ใกล้จุดขึ้นรถไฟฟ้าสายเขียว และ สีแดง เพียง 10 นาที
+      </p>
+    </div>
+
     <div class="location-bottom">
+      <p class="location-table-header location-table-header-mobile">
+        SURROUNDING
+      </p>
       <div class="location-bottom-left">
         <img src="~static/location-detail.jpg" alt="" />
       </div>
       <div class="location-bottom-right">
         <table>
           <tr>
-            <th class="location-table-header">SURROUNDING</th>
+            <th class="location-table-header location-table-header-desktop">
+              SURROUNDING
+            </th>
           </tr>
           <br />
           <tr>
@@ -91,10 +111,10 @@ export default class Location extends Vue {}
 
 <style lang="scss" scoped>
 @font-face {
-  font-family: 'DB-Ozone-X';
+  font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
-.location-page{
+.location-page {
   padding-top: 5%;
   font-family: "DB-Ozone-X";
 }
@@ -141,10 +161,10 @@ export default class Location extends Vue {}
   font-size: 65px;
 }
 .location-table-data {
-  font-size: 30px;
+  font-size: 35px;
   padding: 1%;
-  font-weight: bold;
   width: 300px;
+  font-weight: bold;
 }
 .textAlignVer {
   display: block;
@@ -172,5 +192,89 @@ div.vertical-line {
   position: absolute;
   z-index: 1;
   margin-top: -6%;
+}
+.location-right-mobile {
+  display: none;
+}
+.location-table-header-mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .location-table-header-mobile {
+    display: block;
+  }
+  .location-header {
+    width: 100%;
+    padding-top: 20%;
+  }
+  .location-img-house {
+    position: absolute;
+    z-index: -1;
+    width: 75%;
+  }
+  div.vertical-line {
+    width: 2px;
+    height: 50%;
+    margin-left: 7.2%;
+    margin-top: 16%;
+  }
+  .textAlignVer {
+    font-size: 25px;
+    margin-left: 5.2%;
+    margin-top: 4%;
+  }
+  .location-right-mobile {
+    display: block;
+    font-size: 16px;
+  }
+  .location-right-desktop {
+    display: none;
+  }
+  .location-right {
+    width: 100%;
+    padding-top: 81%;
+    padding-left: 13%;
+    padding-right: 10%;
+  }
+  .location-description {
+    font-size: 16px;
+  }
+  .location-table-header {
+    font-size: 40px;
+  }
+  .location-bottom {
+    flex-direction: column;
+  }
+  .location-table-data {
+    font-size: 16px;
+    width: 50px;
+  }
+  .location-bottom-right {
+    width: 100%;
+    padding-left: 0%;
+    padding-bottom: 10%;
+  }
+  // .location-bottom-left img{
+  //       max-width: 175%;
+  //       margin: auto;
+  // }
+  .location-bottom-left {
+    width: 90%;
+    margin: auto;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+  .location-table-header-desktop {
+    display: none;
+  }
+  .location-bottom-right table {
+    margin: auto;
+    width: 75%;
+  }
+  .location-table-header-mobile {
+    color: black;
+    padding-left: 10%;
+    font-weight: bold;
+  }
 }
 </style>
