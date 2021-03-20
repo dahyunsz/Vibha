@@ -2,7 +2,7 @@
   <div class="project-info-page" id="projectinfo">
     <div class="project-info">
       <div class="project-line">
-        <p class="textAlignVer">PROJECT INFO</p>
+        <p class="textAlignVer">PROJECT&nbsp;&nbsp;INFO</p>
         <div class="vertical-line"></div>
       </div>
       <div class="project-info-left">
@@ -46,33 +46,33 @@
     </div>
     <div class="vibha-type">
       <div class="vibha-type-top">
-        <img class="Vibha-detail-top-img" src="~static/Vibhalogo.jpg" />
+        <img class="Vibha-detail-top-img" src="~static/Vibhalogo.png" />
       </div>
 
       <div v-if="this.isTypeA">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-actve" @click="onclickTypeA">TYPE A</p>
-            <p class="type-non-actve" @click="onclickTypeB">TYPE B</p>
-            <p class="type-non-actve" @click="onclickTypeC">TYPE C</p>
+            <p class="type-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeB">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">TYPE A</p>
-            <p class="type-actve" @click="onclickTypeB">TYPE B</p>
-            <p class="type-non-actve" @click="onclickTypeC">TYPE C</p>
+            <p class="type-non-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
+            <p class="type-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeC">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">TYPE A</p>
-            <p class="type-non-actve" @click="onclickTypeB">TYPE B</p>
-            <p class="type-actve" @click="onclickTypeC">TYPE C</p>
+            <p class="type-non-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
+            <p class="type-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
           </div>
         </div>
       </div>
@@ -138,6 +138,10 @@ export default class ProjectInfo extends Vue {
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+}
 .project-info-page {
   color: #1e2f27;
   font-family: "DB-Ozone-X";
@@ -161,6 +165,7 @@ export default class ProjectInfo extends Vue {
 .project-header {
   font-weight: bold;
   font-size: 80px;
+  font-family: "Butler_Medium_Stencil";
 }
 .project-description {
   font-size: 40px;
@@ -211,8 +216,8 @@ export default class ProjectInfo extends Vue {
 }
 div.vertical-line {
   width: 4px;
-  background-color: #455a3f;
-  height: 145%;
+  background-color: #1e2f27;
+  height: 172%;
   float: left;
   margin-left: 6.2%;
   position: absolute;
@@ -223,22 +228,24 @@ div.vertical-line {
 }
 
 .type-actve {
-  border: 2px solid #455a3f;
+  border: 1px solid #455a3f;
   color: white;
   background-color: #455a3f;
-  font-size: 40px;
-  padding: 15px;
+  font-size: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: 50%;
-  margin-bottom: 5%;
+  margin-bottom: 7%;
   cursor: pointer;
   font-weight: bold;
 }
 .type-non-actve {
-  border: 2px solid #455a3f;
+  border: 1px solid #455a3f;
   color: #455a3f;
-  font-size: 40px;
-  padding: 15px;
-  margin-bottom: 5%;
+  font-size: 60px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 7%;
   cursor: pointer;
   font-weight: bold;
 }
@@ -248,6 +255,7 @@ div.vertical-line {
 }
 .vibha-type-top {
   text-align: center;
+  margin-top: -3%;
 }
 .vibha-type-bottom {
   width: 100%;
@@ -266,11 +274,10 @@ div.vertical-line {
   margin-right: 5%;
 }
 .project-plan {
-  border: 2px solid white;
+  border: 1px solid white;
   color: white;
   width: 35%;
-  padding: 1%;
-  font-size: 32px;
+  font-size: 50px;
   margin-top: 7%;
   margin-bottom: 10%;
   text-align: center;
@@ -302,8 +309,8 @@ div.vertical-line {
     font-size: 16px;
   }
   .project-plan {
-    width: 60%;
-    font-size: 16px;
+    width: 80%;
+    font-size: 25px;
     margin-bottom: 20%;
   }
   .project-info-right-mobile {

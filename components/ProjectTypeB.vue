@@ -4,9 +4,9 @@
       <div class="project-type-top">
         <img class="type-bg" src="~static/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
-          <p class="project-type-header">TYPE B</p>
+          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;B</p>
           <br />
-          <p class="project-type-Topic">LAND AREA :</p>
+          <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">51.6 SQ.WAH</p>
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
@@ -19,95 +19,109 @@
       <div class="project-type-bottom">
         <!-- desktop -->
         <div class="type-container-left type-container-desktop">
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_1.png" width="50" />
-            <p class="type-title">3 Bedrooms</p>
-          </div>
-
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_2.png" width="50" />
-            <p class="type-title">3 Bathrooms</p>
-          </div>
-
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_5.png" width="40" />
-            <p class="type-title">
-              3 &nbsp;
-              <span class="frac">
-                <span>1</span>
-                <span class="symbol">/</span>
-                <span class="bottom">2</span>
-              </span>
-              &nbsp;&nbsp;Storeys with rooftop
-            </p>
-          </div>
-        </div>
-        <div class="type-container-right type-container-desktop">
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_3.png" width="50" />
-            <p class="type-title">3 Car parking</p>
-          </div>
-
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_4.png" width="30" />
-            <p class="type-title">1 Power room</p>
-          </div>
-        </div>
-        <!-- desktop -->
-        <!-- mobile -->
-        <div class="type-container-left type-container-mobile">
-          <div class="type-container">
-            <div class="type-img-container">
+          <div class="type-container Bedrooms-container">
+            <div class="type-img-container bedroom-icon">
               <img class="type-img" src="~assets/icon/type-1_1.png" />
             </div>
             <div class="type-title-container">
               <p class="type-title">3 Bedrooms</p>
             </div>
           </div>
-          <div class="type-container">
-            <div class="type-img-container">
+
+          <div class="type-container bathroom-container">
+            <div class="type-img-container bathroom-icon">
               <img class="type-img" src="~assets/icon/type-1_2.png" />
             </div>
             <div class="type-title-container">
               <p class="type-title">3 Bathrooms</p>
             </div>
           </div>
-            <div class="type-container">
-              <div class="type-img-container">
-                <img
-                  class="type-img"
-                  src="~assets/icon/type-1_5.png"
-                />
-              </div>
-              <div class="type-title-container">
-                <p class="type-title">
-                  3&nbsp;
-                  <span class="frac">
-                    <span>1</span>
-                    <span class="symbol">/</span>
-                    <span class="bottom">2</span>
-                  </span>
-                  &nbsp;Storeys with rooftop
-                </p>
-              </div>
+
+          <div class="type-container rooftop-container">
+            <div class="type-img-container rooftop-icon">
+              <img class="type-img" src="~assets/icon/type-1_5.png" />
             </div>
-          <div class="type-container">
-            <div class="type-img-container">
+            <div class="type-title-container">
+              <p class="type-title">
+                3 &nbsp;
+                <span class="frac">
+                  <span>1</span>
+                  <span class="symbol">/</span>
+                  <span class="bottom">2</span>
+                </span>
+                &nbsp;&nbsp;Storeys with rooftop
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="type-container-right type-container-desktop">
+          <div class="type-container car-container">
+            <div class="type-img-container car-icon">
               <img class="type-img" src="~assets/icon/type-1_3.png" />
             </div>
             <div class="type-title-container">
               <p class="type-title">3 Car parking</p>
             </div>
           </div>
-          <div class="type-container">
-            <div class="type-img-container">
-              <img
-                class="type-img"
-                src="~assets/icon/type-1_4.png"
-              />
+
+          <div class="type-container powerRoom-container">
+            <div class="type-img-container powerRoom-icon">
+              <img class="type-img" src="~assets/icon/type-1_4.png" />
             </div>
             <div class="type-title-container">
               <p class="type-title">1 Power room</p>
+            </div>
+          </div>
+        </div>
+        <!-- desktop -->
+        <!-- mobile -->
+        <div class="type-container-left type-container-mobile">
+          <div class="type-container Bedrooms-container">
+            <div class="type-img-container bedroom-icon">
+              <img class="type-img" src="~assets/icon/type-1_1.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">3 Bedrooms</p>
+            </div>
+          </div>
+          <div class="type-container bathroom-container">
+            <div class="type-img-container bathroom-icon">
+              <img class="type-img" src="~assets/icon/type-1_2.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">3 Bathrooms</p>
+            </div>
+          </div>
+          <div class="type-container car-container">
+            <div class="type-img-container car-icon">
+              <img class="type-img" src="~assets/icon/type-1_3.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">3 Car parking</p>
+            </div>
+          </div>
+          <div class="type-container powerRoom-container">
+            <div class="type-img-container powerRoom-icon">
+              <img class="type-img" src="~assets/icon/type-1_4.png" />
+            </div>&nbsp;
+            <div class="type-title-container">
+              <p class="type-title">1 Power room</p>
+            </div>
+          </div>
+          <div class="type-container rooftop-container">
+            <div class="type-img-container rooftop-icon">
+              <img class="type-img" src="~assets/icon/type-1_5.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">
+                3 &nbsp;
+                <span class="frac">
+                  <span>1</span>
+                  <span class="symbol">/</span>
+                  <span class="bottom">2</span>
+                </span>
+                &nbsp;&nbsp;Storeys with rooftop
+              </p>
             </div>
           </div>
         </div>
@@ -172,7 +186,7 @@ import Rooftop from "../components/TypeB/Rooftop.vue";
     Rooftop,
   },
 })
-export default class ProjectTypeA extends Vue {
+export default class ProjectTypeB extends Vue {
   FirstFloor = false;
   SecondFloor = false;
   SecondMFloor = false;
@@ -201,7 +215,26 @@ export default class ProjectTypeA extends Vue {
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
-
+@font-face {
+  font-family: "Kiona-Regular";
+  src: url(~static/fonts/Kiona-Regular.ttf);
+}
+@font-face {
+  font-family: "SukhumvitSet";
+  src: url(~static/fonts/SukhumvitSet.ttf);
+}
+@font-face {
+  font-family: "Cremona";
+  src: url(~static/fonts/Cremona.ttf);
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url(~static/fonts/Avenir-Next.ttf);
+}
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+}
 .project-type {
   width: 100%;
   display: flex;
@@ -212,31 +245,51 @@ export default class ProjectTypeA extends Vue {
 }
 
 .project-type-header {
-  font-size: 55px;
-  border: 2px solid #455a3f;
+  border: 1px solid #455a3f;
   color: #455a3f;
-  width: 35%;
+  width: 34%;
   text-align: center;
+
+  font-size: 50px;
+  // padding-left: 15px;
+  // padding-right: 15px;
+  // margin-bottom: 7%;
+
+  font-weight: bold;
 }
 .project-type-Topic {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 .project-type-description {
-  font-size: 30px;
+  font-size: 25px;
+  margin-top: -1%;
+  font-family: "SukhumvitSet";
+  font-weight: bold;
 }
 .project-description-inner {
   color: #727a7d;
-  font-size: 25px;
+  font-size: 20px;
 }
 .type-container {
   display: flex;
   width: 100%;
   margin: 10%;
 }
+
+.type-img-container {
+  width: 25%;
+}
+.type-img {
+  width: 100%;
+  height: 100%;
+}
+.type-title-container {
+  width: 90%;
+  padding-top: 7%;
+}
 .type-title {
-  font-size: 30px;
-  padding-left: 10px;
+  font-size: 35px;
 }
 .type-bg {
   position: absolute;
@@ -252,14 +305,14 @@ export default class ProjectTypeA extends Vue {
   width: 100%;
   padding-top: 30%;
   justify-content: center;
-  margin-left: -5%;
+  // margin-left: -5%;
 }
 .type-container-right {
   margin-top: 1%;
   margin-left: -6%;
 }
 .project-type-option {
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   z-index: 1;
   opacity: 1;
@@ -267,8 +320,12 @@ export default class ProjectTypeA extends Vue {
   width: 20%;
   padding-top: 6%;
   color: black;
-}
 
+  font-family: "Kiona-Regular";
+}
+.project-type-option sup {
+  font-size: 15px;
+}
 .project-type-right {
   width: 60%;
 }
@@ -276,10 +333,15 @@ export default class ProjectTypeA extends Vue {
   margin: 2%;
   padding-left: 15%;
 }
+.is-active {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 .is-active:hover {
   opacity: 1;
   background-color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 .square {
   opacity: 0.4;
@@ -309,6 +371,41 @@ export default class ProjectTypeA extends Vue {
 .type-container-mobile {
   display: none;
 }
+.powerRoom-icon {
+  padding: 7%;
+}
+.car-icon {
+  padding: 4%;
+}
+.rooftop-icon {
+  padding: 7%;
+}
+.bathroom-icon {
+  padding: 6%;
+}
+.bedroom-icon {
+  padding: 6%;
+}
+.Bedrooms-container {
+  margin-top: -2%;
+}
+.bathroom-container {
+  margin-top: -16%;
+}
+.rooftop-container {
+  margin-top: -14%;
+}
+.car-container {
+  margin-top: -2%;
+  margin-left: -5%;
+}
+.powerRoom-container {
+  margin-top: -10%;
+  margin-left: -5%;
+}
+.project-paddingtop{
+  padding-top: 4%;
+}
 @media screen and (max-width: 768px) {
   .type-container-mobile {
     display: flex;
@@ -327,7 +424,7 @@ export default class ProjectTypeA extends Vue {
   }
   .project-type-header {
     font-size: 18px;
-    border: 2px solid #455a3f;
+    border: 1px solid #455a3f;
     color: #455a3f;
     width: 50%;
     font-weight: bold;
@@ -354,8 +451,7 @@ export default class ProjectTypeA extends Vue {
     font-size: 13px;
   }
   .project-type-option {
-    // background: white;
-    font-size: 13px;
+    font-size: 10px;
     position: absolute;
     z-index: 1;
     opacity: 1;
@@ -363,6 +459,9 @@ export default class ProjectTypeA extends Vue {
     width: 20%;
     padding-top: 6%;
     color: black;
+  }
+  .project-type-option sup {
+    font-size: 8px;
   }
   .project-type-left {
     display: flex;
@@ -373,7 +472,7 @@ export default class ProjectTypeA extends Vue {
   .project-type-bottom {
     width: 50%;
     padding-top: 20%;
-    padding-left: 8%;
+    padding-left: 2%;
     padding-bottom: 10%;
   }
 
@@ -382,6 +481,7 @@ export default class ProjectTypeA extends Vue {
   }
   .type-title {
     padding-left: 5%;
+    margin-top: -4%;
     width: 100%;
   }
   .frac {
@@ -405,15 +505,38 @@ export default class ProjectTypeA extends Vue {
   .type-img-container {
     width: 18%;
   }
-  .type-img {
-    width: 100%;
-    height: 100%;
-  }
   .type-title-container {
     width: 80%;
   }
   .type-title {
     width: 100%;
   }
+  .powerRoom-icon {
+  padding: 2%;
+  width: 12%;
+  margin-left: 3%;
+}
+.car-icon {
+  padding: 2%;
+  height: 80%;
+}
+.rooftop-icon {
+  padding: 2%;
+  height: 80%;
+  margin-top: 7%;
+}
+.bathroom-icon {
+  padding: 2%;
+}
+.bedroom-icon {
+  padding: 3%;
+  height: 80%;
+}
+.project-type-description {
+    font-size: 9px;
+}
+.project-description-inner {
+    font-size: 8px;
+}
 }
 </style>
