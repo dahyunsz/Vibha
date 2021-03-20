@@ -53,7 +53,7 @@ export default class NavBar extends Vue {}
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
 .nav-item {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
 }
 .nav-item-padding {

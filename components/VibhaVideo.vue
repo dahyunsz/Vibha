@@ -1,6 +1,7 @@
 <template>
   <div class="vibhavideo-container">
     <div class="vibhavideo-center">
+      <!-- <embed class="vibha-video" src="https://www.youtube.com/embed/FrOLeoXrvLU" type=""> -->
       <video class="vibha-video" controls>
         <source src="~static/vibha-video.mp4" type="video/mp4" />
       </video>
@@ -19,16 +20,17 @@ export default class VibhaVideo extends Vue {}
 .vibhavideo-container{
     width: 100%;
     background-image: url(~static/vibha-video-bg.jpg);
-    height: 900px   ;
+    height: 950px   ;
 }
 .vibhavideo-center{
     text-align: center;
     height: 100%;
-    padding-top: 9%;
+    padding-top: 6%;
+    padding-bottom: 4%;
 }
 .vibha-video{
     width: 60%;
-    height: 80%;
+    height: 90%;
 }
 @media screen and (max-width: 768px) {
 .vibha-video{
