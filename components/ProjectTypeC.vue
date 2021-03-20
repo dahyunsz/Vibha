@@ -20,17 +20,17 @@
         <!-- desktop -->
         <div class="type-container-left type-container-desktop">
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_1.jpg" width="50" />
-            <p class="type-title">3 Bedrooms</p>
+            <img class="type-img" src="~assets/icon/type-1_1.png" width="50" />
+            <p class="type-title">5 Bedrooms</p>
           </div>
 
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_2.jpg" width="50" />
-            <p class="type-title">3 Bathrooms</p>
+            <img class="type-img" src="~assets/icon/type-1_2.png" width="50" />
+            <p class="type-title">4 Bathrooms</p>
           </div>
 
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_5.jpg" width="40" />
+            <img class="type-img" src="~assets/icon/type-1_5.png" width="40" />
             <p class="type-title">
               3 &nbsp;
               <span class="frac">
@@ -44,12 +44,12 @@
         </div>
         <div class="type-container-right type-container-desktop">
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_3.jpg" width="50" />
-            <p class="type-title">3 Car parking</p>
+            <img class="type-img" src="~assets/icon/type-1_3.png" width="50" />
+            <p class="type-title">5 Car parking</p>
           </div>
 
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_4.jpg" width="30" />
+            <img class="type-img" src="~assets/icon/type-1_4.png" width="30" />
             <p class="type-title">1 Power room</p>
           </div>
         </div>
@@ -57,41 +57,58 @@
         <!-- mobile -->
         <div class="type-container-left type-container-mobile">
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_1.jpg" width="50" />
-            <p class="type-title">3 Bedrooms</p>
+            <div class="type-img-container">
+              <img class="type-img" src="~assets/icon/type-1_1.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">5 Bedrooms</p>
+            </div>
           </div>
           <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_2.jpg" width="50" />
-            <p class="type-title">3 Bathrooms</p>
+            <div class="type-img-container">
+              <img class="type-img" src="~assets/icon/type-1_2.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">4 Bathrooms</p>
+            </div>
+          </div>
+            <div class="type-container">
+              <div class="type-img-container">
+                <img
+                  class="type-img"
+                  src="~assets/icon/type-1_5.png"
+                />
+              </div>
+              <div class="type-title-container">
+                <p class="type-title">
+                  3&nbsp;
+                  <span class="frac">
+                    <span>1</span>
+                    <span class="symbol">/</span>
+                    <span class="bottom">2</span>
+                  </span>
+                  &nbsp;Storeys with rooftop
+                </p>
+              </div>
+            </div>
+          <div class="type-container">
+            <div class="type-img-container">
+              <img class="type-img" src="~assets/icon/type-1_3.png" />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">5 Car parking</p>
+            </div>
           </div>
           <div class="type-container">
-            <img
-              class="type-img img-ladder"
-              src="~assets/icon/type-1_5.jpg"
-              width="40"
-            />
-            <p class="type-title">
-              3&nbsp;
-              <span class="frac">
-                <span>1</span>
-                <span class="symbol">/</span>
-                <span class="bottom">2</span>
-              </span>
-              &nbsp;Storeys with rooftop
-            </p>
-          </div>
-          <div class="type-container">
-            <img class="type-img" src="~assets/icon/type-1_3.jpg" width="50" />
-            <p class="type-title">3 Car parking</p>
-          </div>
-
-          <div class="type-container">
-            <img
-              class="type-img img-ladder"
-              src="~assets/icon/type-1_4.jpg"
-              width="30"
-            />
-            <p class="type-title">1 Power room</p>
+            <div class="type-img-container">
+              <img
+                class="type-img"
+                src="~assets/icon/type-1_4.png"
+              />
+            </div>
+            <div class="type-title-container">
+              <p class="type-title">1 Power room</p>
+            </div>
           </div>
         </div>
         <!-- mobile -->
@@ -155,7 +172,7 @@ import Rooftop from "../components/TypeC/Rooftop.vue";
     Rooftop,
   },
 })
-export default class ProjectTypeB extends Vue {
+export default class ProjectTypeA extends Vue {
   FirstFloor = false;
   SecondFloor = false;
   SecondMFloor = false;
@@ -184,6 +201,7 @@ export default class ProjectTypeB extends Vue {
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
+
 .project-type {
   width: 100%;
   display: flex;
@@ -214,9 +232,11 @@ export default class ProjectTypeB extends Vue {
 .type-container {
   display: flex;
   width: 100%;
+  margin: 10%;
 }
 .type-title {
   font-size: 30px;
+  padding-left: 10px;
 }
 .type-bg {
   position: absolute;
@@ -234,15 +254,11 @@ export default class ProjectTypeB extends Vue {
   justify-content: center;
   margin-left: -5%;
 }
-.type-container {
-  margin: 10%;
-}
 .type-container-right {
   margin-top: 1%;
   margin-left: -6%;
 }
 .project-type-option {
-  // background: white;
   font-size: 30px;
   position: absolute;
   z-index: 1;
@@ -267,7 +283,7 @@ export default class ProjectTypeB extends Vue {
 }
 .square {
   opacity: 0.4;
-  height: 164%;
+  height: 134%;
   width: 20%;
   background: white;
   position: absolute;
@@ -331,6 +347,8 @@ export default class ProjectTypeB extends Vue {
   .type-container {
     display: flex;
     width: 100%;
+    height: 30px;
+    margin: 3%;
   }
   .type-title {
     font-size: 13px;
@@ -355,11 +373,8 @@ export default class ProjectTypeB extends Vue {
   .project-type-bottom {
     width: 50%;
     padding-top: 20%;
-    padding-left: 3%;
+    padding-left: 8%;
     padding-bottom: 10%;
-  }
-  .type-img {
-    width: 15%;
   }
 
   .type-bg {
@@ -371,10 +386,6 @@ export default class ProjectTypeB extends Vue {
   }
   .frac {
     font-size: 10px;
-  }
-
-  .type-container {
-    margin: 3%;
   }
   .project-type-right {
     width: 100%;
@@ -389,6 +400,20 @@ export default class ProjectTypeB extends Vue {
   .project-type-option {
     width: 35%;
     height: 0%;
+  }
+
+  .type-img-container {
+    width: 18%;
+  }
+  .type-img {
+    width: 100%;
+    height: 100%;
+  }
+  .type-title-container {
+    width: 80%;
+  }
+  .type-title {
+    width: 100%;
   }
 }
 </style>
