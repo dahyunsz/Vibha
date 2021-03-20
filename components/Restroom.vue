@@ -55,7 +55,7 @@ export default class Restroom extends Vue {}
 .restroom-page {
   width: 100%;
   display: flex;
-  background-color: #93a49e;
+  background-image: url(~static/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }
