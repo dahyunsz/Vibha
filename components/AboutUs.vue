@@ -39,7 +39,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="/ICC-headquarter.JPG" alt="" />
+        <img class="kcc-img" src="/ICC-headquarter.jpg" alt="" />
         <p class="kcc-title">
           บริษัท ไอ.ซี.ซี <br />
           อินเตอร์เนชั่นแนล <br />
@@ -55,7 +55,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="/thammasat.JPG" alt="" />
+        <img class="kcc-img" src="/thammasat.jpg" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยธรรมศาสตร์ <br />
           ศูนย์ลำปาง
@@ -70,7 +70,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="/ICC-headquarter.JPG" alt="" />
+        <img class="kcc-img" src="/ICC-headquarter.jpg" alt="" />
         <p class="kcc-title">
           บริษัท ไอ.ซี.ซี อินเตอร์เนชั่นแนล <br />
           จำกัด (มหาชน)
@@ -87,7 +87,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="/thammasat.JPG" alt="" />
+        <img class="kcc-img" src="/thammasat.jpg" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยธรรมศาสตร์
           ศูนย์ลำปาง
