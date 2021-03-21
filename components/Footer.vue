@@ -1,6 +1,7 @@
 <template>
   <div class="footer-container" id="contactus">
-    <img class="footer-bg" src="~static/footer-bg.jpg">
+    <img class="footer-bg footer-desktop" src="/footer-bg.jpg">
+    <img class="footer-bg footer-mobile" src="/footer-bg-mobile.jpg">
     <!-- desktop -->
     <div class="footer-desktop">
       <!-- left -->
@@ -47,7 +48,7 @@
             </p>
           </div>
         </div>
-        <img class="footer-logo" src="~static/footer-logo.png" />
+        <img class="footer-logo" src="/footer-logo.png" />
       </div>
       <!-- center -->
       <!-- right -->
@@ -73,7 +74,7 @@
           <img class="line-icon" src="~assets/icon/line-icon.png" />
           <p class="footer-line">@vibharesidence</p>
         </div>
-        <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+        <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
       </div>
       <!-- right -->
     </div>
@@ -87,7 +88,7 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR (Vibhavadi Hospital)
+              VI PLAZA 2nd fLOOR <br> (Vibhavadi Hospital)
             </p>
           </div>
           <div class="divFlex-left">
@@ -125,7 +126,7 @@
             </p>
           </div>
         </div>
-        <!-- <img class="footer-logo" src="~static/footer-logo.png" /> -->
+        <!-- <img class="footer-logo" src="/footer-logo.png" /> -->
         <br />
         <div class="footer-location">
           <img class="location-icon" src="~assets/icon/location-icon.png" />
@@ -135,10 +136,10 @@
         <div class="divFlex-qr">
           <img class="line-icon" src="~assets/icon/line-icon.png" />
           <p class="footer-line">@vibharesidence</p>
-          <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+          <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
         </div>
       </div>
-      <img class="footer-logo" src="~static/footer-logo.png" />
+      <img class="footer-logo" src="/footer-logo.png" />
     </div>
     <!-- right -->
 
@@ -155,27 +156,27 @@ export default class Footer extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 @font-face {
   font-family: "Kiona-Regular";
-  src: url(~static/fonts/Kiona-Regular.ttf);
+  src: url(/fonts/Kiona-Regular.ttf);
 }
 @font-face {
   font-family: "SukhumvitSet";
-  src: url(~static/fonts/SukhumvitSet.ttf);
+  src: url(/fonts/SukhumvitSet.ttf);
 }
 @font-face {
   font-family: "Cremona";
-  src: url(~static/fonts/Cremona.ttf);
+  src: url(/fonts/Cremona.ttf);
 }
 @font-face {
   font-family: "Avenir-Next";
-  src: url(~static/fonts/Avenir-Next.ttf);
+  src: url(/fonts/Avenir-Next.ttf);
 }
 @font-face {
   font-family: "Butler_Medium_Stencil";
-  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
 }
 .footer-tel{
   font-family: "SukhumvitSet";
@@ -196,7 +197,6 @@ export default class Footer extends Vue {}
       rgba(33, 55, 43, 1) 60%,
       rgba(33, 55, 43, 0.6) 100%
     );
-    // url(~static/footer-bg.jpg);
   background-size: cover;
   width: 100%;
   display: flex;
@@ -340,7 +340,15 @@ margin-top: -8%;
     font-size: 12px;
   }
   .footer-container {
+    background-image: linear-gradient(
+      0deg,
+      rgba(33, 55, 43, 1) 0%,
+      rgba(33, 55, 43, 1) 70%,
+      rgba(33, 55, 43, 0.6) 100%
+    );
     font-size: 16px;
+    height: 380px;
+    padding-top: 20%;
   }
   .footer-left-top {
     width: 100%;
@@ -358,9 +366,11 @@ margin-top: -8%;
   }
   .footer-line {
     width: 30%;
+    font-size: 11px;
+    padding-left: 4%;
   }
   .line-qrCode {
-    margin-left: 21%;
+    margin-left: 15%;
     width: 25%;
   }
   .footer-logo {
@@ -377,5 +387,24 @@ margin-top: -8%;
     margin-top: 6%;
 
   }
+  .footer-bg{
+    height: 35%;
+    margin-top: -20%;
+  }
+  .footer-tel{
+    font-size: 9px;
+  }
+  .footer-map{
+    font-size: 11px;
+  }
+  .footer-description{
+    font-size: 9px;
+}
+.divFlex-center-font p{
+    margin-top: 11%;
+}
+.divFlex-center-font {
+    margin-left: 5%;
+}
 }
 </style>

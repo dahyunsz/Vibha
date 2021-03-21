@@ -6,7 +6,7 @@
       <h2 class="doublevolume-topic">LIVING ROOM <br> & DINING ROOM</h2>
     </div>
     <div class="doublevolume-right responsive-desktop">
-      <img src="~static/double-volume-img.jpg" alt="" />
+      <img src="/double-volume-img.jpg" alt="" />
       <div class="square"></div>
       
       <p class="doublevolume-description-en">
@@ -28,7 +28,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/double-volume-img.jpg" alt="" />
+        <img src="/double-volume-img.jpg" alt="" />
         <p class="mobile-title">DOUBLE – VOLUME / LIVING ROOM & DINING ROOM</p>
       </div>
       <div class="mobile-bottom">
@@ -62,12 +62,12 @@ export default class DoubleVolume extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .doublevolume-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

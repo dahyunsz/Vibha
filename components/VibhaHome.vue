@@ -11,11 +11,11 @@
         <img class="youtube-icon" src="~assets/icon/youtube-icon.png" />
       </div>
     </div>
-    <img class="Vibhahome-logo" src="~static/Vibhahome-logo.png" alt="" />
-    <img class="Vibhahome-img vibhahome-desktop" src="~static/Vibhahome.jpg" />
+    <img class="Vibhahome-logo" src="/Vibhahome-logo.png" alt="" />
+    <img class="Vibhahome-img vibhahome-desktop" src="/Vibhahome.jpg" />
     <img
       class="Vibhahome-img vibhahome-mobile"
-      src="~static/Vibhahome-mobile.jpg"
+      src="/Vibhahome-mobile.jpg"
     />
     <p class="Vibhahome-title">YOUR LIFTIME LIVING BEGINS</p>
   </div>
@@ -31,7 +31,7 @@ export default class VibhaHome extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .Vibhahome-img {
   text-align: right;

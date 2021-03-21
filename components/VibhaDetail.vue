@@ -4,7 +4,7 @@
       <div class="Vibha-detail-top">
         <p class="Vibha-detail-top-header">In 2020</p>
         <br />
-        <img class="Vibha-detail-top-img" src="~static/Vibhalogo.jpg" />
+        <img class="Vibha-detail-top-img" src="/Vibhalogo.jpg" />
       </div>
       <div class="vertical-line"></div>
       <div class="Vibha-detail-bottom">
@@ -35,12 +35,12 @@
     </div>
     <div class="Vibha-detail-right">
       <img
-        src="~static/Vibhadetail-img.jpg"
+        src="/Vibhadetail-img.jpg"
         class="Vibha-detail-img Vibha-detail-img-desktop"
         alt=""
       />
       <img
-        src="~static/Vibhadetail-img-mobile.jpg"
+        src="/Vibhadetail-img-mobile.jpg"
         class="Vibha-detail-img Vibha-detail-img-mobile"
         alt=""
       />
@@ -69,7 +69,7 @@
         </p>
       </div>
       <div class="Vibha-detail-tree-center">
-        <img src="~static/tree.jpg" class="Vibha-detail-tree" alt="" />
+        <img src="/tree.jpg" class="Vibha-detail-tree" alt="" />
       </div>
       <br />
     </div>
@@ -86,7 +86,7 @@ export default class VibhaDetail extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 body {
   font-size: 0em;

@@ -2,7 +2,7 @@
   <div class="project-type">
     <div class="project-type-left">
       <div class="project-type-top">
-        <img class="type-bg" src="~static/type-bg.jpg" alt="" />
+        <img class="type-bg" src="/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
           <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;B</p>
           <br />
@@ -164,7 +164,7 @@
         <Rooftop />
       </b-modal>
 
-      <img src="~static/project-type-a.jpg" alt="" />
+      <img src="/project-type-a.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -213,27 +213,27 @@ export default class ProjectTypeA extends Vue {
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 @font-face {
   font-family: "Kiona-Regular";
-  src: url(~static/fonts/Kiona-Regular.ttf);
+  src: url(/fonts/Kiona-Regular.ttf);
 }
 @font-face {
   font-family: "SukhumvitSet";
-  src: url(~static/fonts/SukhumvitSet.ttf);
+  src: url(/fonts/SukhumvitSet.ttf);
 }
 @font-face {
   font-family: "Cremona";
-  src: url(~static/fonts/Cremona.ttf);
+  src: url(/fonts/Cremona.ttf);
 }
 @font-face {
   font-family: "Avenir-Next";
-  src: url(~static/fonts/Avenir-Next.ttf);
+  src: url(/fonts/Avenir-Next.ttf);
 }
 @font-face {
   font-family: "Butler_Medium_Stencil";
-  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
 }
 .project-type {
   width: 100%;

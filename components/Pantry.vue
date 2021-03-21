@@ -4,7 +4,7 @@
       <h1 class="pantry-header">PANTRY</h1>
     </div>
     <div class="pantry-right responsive-desktop">
-      <img src="~static/pantry-img.jpg" alt="" />
+      <img src="/pantry-img.jpg" alt="" />
       <div class="square"></div>
       <p class="pantry-description-en">
         The pantry is well equipped with useful functions that can ease your
@@ -22,7 +22,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/pantry-img.jpg" alt="" />
+        <img src="/pantry-img.jpg" alt="" />
         <p class="mobile-title">PANTRY</p>
       </div>
       <div class="mobile-bottom">
@@ -53,12 +53,12 @@ export default class Pantry extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .pantry-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

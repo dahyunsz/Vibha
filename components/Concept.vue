@@ -1,8 +1,8 @@
 <template>
   <div class="concept-page">
-    <img src="~static/concept-img.jpg" class="concept-img" alt="" />
+    <img src="/concept-img.jpg" class="concept-img" alt="" />
     <img
-      src="~static/concept-img-mobile.jpg"
+      src="/concept-img-mobile.jpg"
       class="concept-img-mobile"
       alt=""
     />
@@ -29,9 +29,9 @@
         </p>
       </div>
     </div>
-    <img class="concept-func-img" src="~static/concept-func.jpg" />
+    <img class="concept-func-img" src="/concept-func.jpg" />
     <div class="concept-func-component">
-      <img class="concept-bg" src="~static/concept-bg.jpg" />
+      <img class="concept-bg" src="/concept-bg.jpg" />
 
       <div class="concept-func-container">
         <p class="concept-func-header">With a simply <br />functional twist</p>
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <img class="concept-door" src="~static/concept-door.jpg" alt="" />
+    <img class="concept-door" src="/concept-door.jpg" alt="" />
   </div>
 </template>
 
@@ -72,7 +72,7 @@ export default class Concept extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 body {
   font-size: 0em;
