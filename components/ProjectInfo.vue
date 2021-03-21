@@ -38,15 +38,15 @@
         </b-modal>
       </div>
       <div class="project-info-right project-info-right-desktop">
-        <img src="~static/project-info.jpg" class="img-projectinfo" alt="" />
+        <img src="/project-info.jpg" class="img-projectinfo" alt="" />
       </div>
     </div>
     <div class="project-info-right-mobile">
-      <img src="~static/project-info.jpg" class="img-projectinfo" alt="" />
+      <img src="/project-info.jpg" class="img-projectinfo" alt="" />
     </div>
     <div class="vibha-type">
       <div class="vibha-type-top">
-        <img class="Vibha-detail-top-img" src="~static/Vibhalogo.png" />
+        <img class="Vibha-detail-top-img" src="/Vibhalogo.png" />
       </div>
 
       <div v-if="this.isTypeA">
@@ -136,11 +136,11 @@ export default class ProjectInfo extends Vue {
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 @font-face {
   font-family: "Butler_Medium_Stencil";
-  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
 }
 .project-info-page {
   color: #1e2f27;

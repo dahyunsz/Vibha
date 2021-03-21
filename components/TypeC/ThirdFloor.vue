@@ -1,7 +1,7 @@
 <template>
   <div class="project-page">
     <div class="project-center">
-      <img class="project-plan-img" src="~static/TypeC/C-F03.jpg" />
+      <img class="project-plan-img" src="/TypeC/C-F03.jpg" />
     </div>
     <h1 class="project-titile">3rd FLOOR PLAN</h1>
   </div>
@@ -17,7 +17,7 @@ export default class ThirdFloor extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .project-page {
   width: 100%;

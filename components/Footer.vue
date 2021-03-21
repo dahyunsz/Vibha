@@ -46,7 +46,7 @@
             </p>
           </div>
         </div>
-        <img class="footer-logo" src="~static/footer-logo.png" />
+        <img class="footer-logo" src="/footer-logo.png" />
       </div>
       <!-- center -->
       <!-- right -->
@@ -60,7 +60,7 @@
           <img class="line-icon" src="~assets/icon/line-icon.png" />
           <p class="footer-line">@vibharesidence</p>
         </div>
-        <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+        <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
       </div>
       <!-- right -->
     </div>
@@ -112,7 +112,7 @@
             </p>
           </div>
         </div>
-        <!-- <img class="footer-logo" src="~static/footer-logo.png" /> -->
+        <!-- <img class="footer-logo" src="/footer-logo.png" /> -->
         <br />
         <div class="footer-location">
           <img class="location-icon" src="~assets/icon/location-icon.png" />
@@ -122,10 +122,10 @@
         <div class="divFlex-qr">
           <img class="line-icon" src="~assets/icon/line-icon.png" />
           <p class="footer-line">@vibharesidence</p>
-          <img class="line-qrCode" src="~static/footer-qrcode.jpg" alt="" />
+          <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
         </div>
       </div>
-      <img class="footer-logo" src="~static/footer-logo.png" />
+      <img class="footer-logo" src="/footer-logo.png" />
     </div>
     <!-- right -->
 
@@ -142,7 +142,7 @@ export default class Footer extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .footer-container {
   background-image: linear-gradient(
@@ -151,7 +151,7 @@ export default class Footer extends Vue {}
       rgba(33, 55, 43, 1) 50%,
       rgba(33, 55, 43, 0.6) 100%
     ),
-    url(~static/footer-bg.jpg);
+    url(/footer-bg.jpg);
   background-size: cover;
   width: 100%;
   display: flex;

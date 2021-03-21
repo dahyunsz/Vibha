@@ -1,10 +1,10 @@
 <template>
   <div class="vibhavideo-container">
-    <img class="vibhavideo-bg" src="~static/vibha-video-bg.jpg">
+    <img class="vibhavideo-bg" src="/vibha-video-bg.jpg">
     <div class="vibhavideo-center">
       <!-- <embed class="vibha-video" src="https://www.youtube.com/embed/FrOLeoXrvLU" type=""> -->
       <video class="vibha-video" controls>
-        <source src="~static/vibha-video.mp4" type="video/mp4" />
+        <source src="/vibha-video.mp4" type="video/mp4" />
       </video>
     </div>
   </div>

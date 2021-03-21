@@ -4,7 +4,7 @@
       <h1 class="green-th-header">THE GREEN SPACE</h1>
     </div>
     <div class="green-th-right responsive-desktop">
-      <img src="~static/green-th-img.jpg" alt="" />
+      <img src="/green-th-img.jpg" alt="" />
       <div class="square"></div>
       <p class="green-th-description-th">
         เพื่อสนองความต้องการและความสะดวกสบายในการ ดูแลผู้สูงอายุภายในบ้าน
@@ -17,7 +17,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/green-th-img.jpg" alt="" />
+        <img src="/green-th-img.jpg" alt="" />
         <p class="mobile-title">THE GREEN SPACE</p>
       </div>
       <div class="mobile-bottom">
@@ -44,12 +44,12 @@ export default class TheGreenSpaceTH extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .green-th-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

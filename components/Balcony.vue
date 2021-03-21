@@ -5,7 +5,7 @@
       <h2 class="balcony-topic">TYPE C <br> POOL VILLA</h2>
     </div>
     <div class="balcony-right responsive-desktop">
-      <img src="~static/balcony-img.jpg" alt="" />
+      <img src="/balcony-img.jpg" alt="" />
       <div class="square"></div>
       <p class="balcony-description-en">
         The outdoor swimming pool and balcony on the 2nd floor of pool villa
@@ -25,7 +25,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/balcony-img.jpg" alt="" />
+        <img src="/balcony-img.jpg" alt="" />
         <p class="mobile-title">BALCONY & POOL ( TYPE C POOL VILLA )</p>
       </div>
       <div class="mobile-bottom">
@@ -58,12 +58,12 @@ export default class Balcony extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .balcony-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family:'DB-Ozone-X';
 }

@@ -4,7 +4,7 @@
       <h1 class="elderly-header">ELDERLY FUNCTION</h1>
     </div>
     <div class="elderly-right responsive-desktop">
-      <img src="~static/elderly-img.jpg"/>
+      <img src="/elderly-img.jpg"/>
       <div class="square"></div>
       <p class="elderly-description-en">
         To meet the needs and convenience for taking care of the elderly in the
@@ -26,7 +26,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/elderly-img.jpg"/>
+        <img src="/elderly-img.jpg"/>
         <p class="mobile-title">ELDERLY FUNCTION</p>
       </div>
       <div class="mobile-bottom">
@@ -61,12 +61,12 @@ export default class ElderlyFunc extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .elderly-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

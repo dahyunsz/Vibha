@@ -6,7 +6,7 @@
       <h2 class="restroom-topic">MASTER <br> BEDROOM</h2>
     </div>
     <div class="restroom-right responsive-desktop">
-      <img src="~static/restroom-img.jpg" alt="" />
+      <img src="/restroom-img.jpg" alt="" />
       <div class="square"></div>
       <p class="restroom-description-th">
         เพื่อความเป็นส่วนตัว บนพื้นที่ชั้น 3 สำหรับ
@@ -21,7 +21,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/restroom-img.jpg" alt="" />
+        <img src="/restroom-img.jpg" alt="" />
         <p class="mobile-title">MASTER BEDROOM / RESTROOM</p>
       </div>
       <div class="mobile-bottom">
@@ -50,12 +50,12 @@ export default class Restroom extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .restroom-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

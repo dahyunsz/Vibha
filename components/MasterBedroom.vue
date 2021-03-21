@@ -4,7 +4,7 @@
       <h1 class="bedroom-header">MASTER BEDROOM</h1>
     </div>
     <div class="bedroom-right responsive-desktop">
-      <img src="~static/bedroom-img.jpg" alt="" />
+      <img src="/bedroom-img.jpg" alt="" />
       <div class="square"></div>
       <p class="bedroom-description-en">
         To provide you with more privacy, the facilities on the 3rd floor will
@@ -20,7 +20,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/bedroom-img.jpg" alt="" />
+        <img src="/bedroom-img.jpg" alt="" />
         <p class="mobile-title">MASTER BEDROOM</p>
       </div>
       <div class="mobile-bottom">
@@ -49,12 +49,12 @@ export default class MasterBedroom extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .bedroom-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

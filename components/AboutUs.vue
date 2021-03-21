@@ -7,7 +7,7 @@
       </div>
       <div class="about-us-right">
         <div class="about-us-header">
-          <img src="~static/kcc-logo.png" class="about-us-logo" alt="" />
+          <img src="/kcc-logo.png" class="about-us-logo" alt="" />
         </div>
         <div class="about-us-description">
           <p>
@@ -32,14 +32,14 @@
     </div>
     <div class="kcc kcc-desktop">
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/farmhouse2.png" alt="" />
+        <img class="kcc-img" src="/farmhouse2.png" alt="" />
         <p class="kcc-title kcc-title-padding">
           บริษัท เพรสซิเดนท์ <br />
           เบเกอรี่ จำกัด (มหาชน)
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/ICC-headquarter.JPG" alt="" />
+        <img class="kcc-img" src="/ICC-headquarter.JPG" alt="" />
         <p class="kcc-title">
           บริษัท ไอ.ซี.ซี <br />
           อินเตอร์เนชั่นแนล <br />
@@ -47,7 +47,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/Mahidol-salaya.jpg" alt="" />
+        <img class="kcc-img" src="/Mahidol-salaya.jpg" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยมหิดล <br />
           คณะวิศวกรรมศาสตร์ <br />
@@ -55,7 +55,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/thammasat.JPG" alt="" />
+        <img class="kcc-img" src="/thammasat.JPG" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยธรรมศาสตร์ <br />
           ศูนย์ลำปาง
@@ -64,13 +64,13 @@
     </div>
     <div class="kcc kcc-mobile">
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/farmhouse2.png" alt="" />
+        <img class="kcc-img" src="/farmhouse2.png" alt="" />
         <p class="kcc-title kcc-title-padding">
           บริษัท เพรสซิเดนท์ เบเกอรี่ จำกัด (มหาชน)
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/ICC-headquarter.JPG" alt="" />
+        <img class="kcc-img" src="/ICC-headquarter.JPG" alt="" />
         <p class="kcc-title">
           บริษัท ไอ.ซี.ซี อินเตอร์เนชั่นแนล <br />
           จำกัด (มหาชน)
@@ -79,7 +79,7 @@
     </div>
     <div class="kcc kcc-mobile">
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/Mahidol-salaya.jpg" alt="" />
+        <img class="kcc-img" src="/Mahidol-salaya.jpg" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยมหิดล 
           คณะวิศวกรรมศาสตร์ <br />
@@ -87,7 +87,7 @@
         </p>
       </div>
       <div class="kcc-container">
-        <img class="kcc-img" src="~static/thammasat.JPG" alt="" />
+        <img class="kcc-img" src="/thammasat.JPG" alt="" />
         <p class="kcc-title">
           มหาวิทยาลัยธรรมศาสตร์
           ศูนย์ลำปาง
@@ -107,7 +107,7 @@ export default class AboutUs extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .about-us-page {
   background-color: #dcd5cd;

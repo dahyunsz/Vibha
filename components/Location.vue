@@ -7,7 +7,7 @@
       </div>
       <div class="location-left">
         <img
-          src="~static/location-img-house.jpg"
+          src="/location-img-house.jpg"
           class="location-img-house"
           alt=""
         />
@@ -46,7 +46,7 @@
         SURROUNDING
       </p>
       <div class="location-bottom-left">
-        <img src="~static/location-detail.jpg" alt="" />
+        <img src="/location-detail.jpg" alt="" />
       </div>
       <div class="location-bottom-right">
         <table>
@@ -112,7 +112,7 @@ export default class Location extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: "DB-Ozone-X";
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .location-page {
   padding-top: 5%;

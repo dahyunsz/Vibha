@@ -4,7 +4,7 @@
       <h1 class="green-en-header">THE GREEN SPACE</h1>
     </div>
     <div class="green-en-right responsive-desktop">
-      <img src="~static/green-en-img.jpg" alt="" />
+      <img src="/green-en-img.jpg" alt="" />
       <div class="square"></div>
       <p class="green-en-description-en">
         The exterior designer intentionally synchronizes the green space with
@@ -19,7 +19,7 @@
     <!-- mobile -->
     <div class="mobile-container">
       <div class="mobile-top">
-        <img src="~static/green-en-img.jpg" alt="" />
+        <img src="/green-en-img.jpg" alt="" />
         <p class="mobile-title">THE GREEN SPACE</p>
       </div>
       <div class="mobile-bottom">
@@ -48,12 +48,12 @@ export default class TheGreenSpaceEN extends Vue {}
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .green-en-page {
   width: 100%;
   display: flex;
-  background-image: url(~static/function-bg.jpg);
+  background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
 }

@@ -11,24 +11,24 @@
             <img class="add-icon" src="~assets/icon/add-icon.png">
           </div>
         </div>
-        <img @click=onClick11() class="function-container" src="~static/func1-1.jpg" />
+        <img @click=onClick11() class="function-container" src="/func1-1.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick12() class="function-container" src="~static/func1-2.jpg" />
+        <img @click=onClick12() class="function-container" src="/func1-2.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick13() class="function-container" src="~static/func1-3.jpg" />
+        <img @click=onClick13() class="function-container" src="/func1-3.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick14() class="function-container" src="~static/func1-4.jpg" />
+        <img @click=onClick14() class="function-container" src="/func1-4.jpg" />
       </div>
     </div>
     <div class="function-bottom function-container-desktop">
       <div class="function-area">
-        <img @click=onClick21() class="function-container" src="~static/func2-1.jpg" />
+        <img @click=onClick21() class="function-container" src="/func2-1.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick22() class="function-container" src="~static/func2-2.jpg" />
+        <img @click=onClick22() class="function-container" src="/func2-2.jpg" />
       </div>
       <div class="function-area">
         <div @click=onClick23() class="square pointer"></div>
@@ -40,10 +40,10 @@
             <img class="add-icon" src="~assets/icon/add-icon.png">
           </div>
         </div>
-        <img @click=onClick23() class="function-container" src="~static/func2-3.jpg" />
+        <img @click=onClick23() class="function-container" src="/func2-3.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick24() class="function-container" src="~static/func2-4.jpg" />
+        <img @click=onClick24() class="function-container" src="/func2-4.jpg" />
       </div>
     </div>
 
@@ -60,23 +60,23 @@
             <img class="add-icon" src="~assets/icon/add-icon.png">
           </div>
         </div>
-        <img @click=onClick11() class="function-container function-color" src="~static/func1-1.jpg" />
+        <img @click=onClick11() class="function-container function-color" src="/func1-1.jpg" />
       </div>
       <div class="function-area">
-        <img @click=onClick12() class="function-container" src="~static/func1-2.jpg" />
+        <img @click=onClick12() class="function-container" src="/func1-2.jpg" />
       </div>
     </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <img @click=onClick13() class="function-container" src="~static/func1-3.jpg" />
+          <img @click=onClick13() class="function-container" src="/func1-3.jpg" />
         </div>
         <div class="function-area">
-          <img @click=onClick14() class="function-container" src="~static/func1-4.jpg" />
+          <img @click=onClick14() class="function-container" src="/func1-4.jpg" />
         </div>
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <img @click=onClick21() class="function-container" src="~static/func2-1.jpg" />
+          <img @click=onClick21() class="function-container" src="/func2-1.jpg" />
         </div>
         <div class="function-area">
           <div @click=onClick22() class="square pointer"></div>
@@ -88,7 +88,7 @@
             <img class="add-icon" src="~assets/icon/add-icon.png">
           </div>
         </div>
-          <img @click=onClick22() class="function-container" src="~static/func2-2.jpg" />
+          <img @click=onClick22() class="function-container" src="/func2-2.jpg" />
         </div>
       </div>
       <div class="function-setwidth">
@@ -102,10 +102,10 @@
             <img class="add-icon" src="~assets/icon/add-icon.png">
           </div>
         </div>
-          <img @click=onClick23() class="function-container" src="~static/func2-3.jpg" />
+          <img @click=onClick23() class="function-container" src="/func2-3.jpg" />
         </div>
         <div class="function-area">
-          <img @click=onClick24() class="function-container" src="~static/func2-4.jpg" />
+          <img @click=onClick24() class="function-container" src="/func2-4.jpg" />
         </div>
       </div>
     </div>
@@ -204,7 +204,7 @@ export default class FunctionRoom extends Vue {
 <style lang="scss" scoped>
 @font-face {
   font-family: 'DB-Ozone-X';
-  src: url(~static/fonts/DB-Ozone-X.ttf);
+  src: url(/fonts/DB-Ozone-X.ttf);
 }
 .function-page {
   width: 100%;
