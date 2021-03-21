@@ -164,6 +164,11 @@ div.vertical-line {
 .concept-img-mobile {
   display: none;
 }
+@media screen and (max-width: 1024px) {
+  div.vertical-line{
+    height: 200%;
+  }
+}
 @media screen and (max-width: 700px) {
   .concept-img-mobile {
     display: block;

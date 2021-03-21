@@ -49,7 +49,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storeys with rooftop
+                &nbsp;&nbsp;Storey with rooftop
               </p>
             </div>
           </div>
@@ -120,7 +120,7 @@
                   <span class="symbol">/</span>
                   <span class="bottom">2</span>
                 </span>
-                &nbsp;&nbsp;Storeys with rooftop
+                &nbsp;&nbsp;Storey with rooftop
               </p>
             </div>
           </div>
@@ -405,6 +405,131 @@ export default class ProjectTypeB extends Vue {
 }
 .project-paddingtop{
   padding-top: 4%;
+}
+@media screen and (max-width: 1024px) {
+  .type-container-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .type-container-desktop {
+    display: none;
+  }
+  .project-type-left {
+    width: 100%;
+  }
+  .type-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+  }
+  .project-type-header {
+    font-size: 35px;
+    border: 1px solid #455a3f;
+    color: #455a3f;
+    width: 50%;
+    font-weight: bold;
+    text-align: center;
+  }
+  .project-type-Topic {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .project-type-description {
+      font-size: 20px;
+  }
+  .project-description-inner {
+      font-size: 18px;
+  }
+  .project-description-inner {
+    color: #727a7d;
+    font-size: 13px;
+  }
+  .type-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 3%;
+  }
+  .project-type-option {
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    opacity: 1;
+    height: 134%;
+    width: 20%;
+    padding-top: 6%;
+    color: black;
+  }
+  .project-type-option sup {
+    font-size: 8px;
+  }
+  .project-type-left {
+    display: flex;
+  }
+  .project-type-top {
+    width: 50%;
+  }
+  .project-type-bottom {
+    width: 50%;
+    padding-top: 20%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+  }
+
+  .type-bg {
+    height: 100%;
+  }
+  .type-title {
+    padding-left: 5%;
+    margin-top: -4%;
+    width: 100%;
+    font-size: 17px;
+  }
+  .frac {
+    font-size: 10px;
+  }
+  .project-type-right {
+    width: 100%;
+  }
+  .project-type {
+    flex-direction: column;
+  }
+  .square {
+    height: 82.7%;
+    width: 35%;
+  }
+  .project-type-option {
+    width: 35%;
+    height: 0%;
+  }
+
+  .type-img-container {
+    width: 18%;
+  }
+  .type-title-container {
+    width: 80%;
+  }
+  .powerRoom-icon {
+  padding: 2%;
+  width: 12%;
+  margin-left: 3%;
+}
+.car-icon {
+  padding: 2%;
+  height: 80%;
+}
+.rooftop-icon {
+  padding: 2%;
+  height: 80%;
+  margin-top: 7%;
+}
+.bathroom-icon {
+  padding: 2%;
+}
+.bedroom-icon {
+  padding: 3%;
+  height: 80%;
+}
 }
 @media screen and (max-width: 768px) {
   .type-container-mobile {

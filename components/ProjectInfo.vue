@@ -290,6 +290,35 @@ div.vertical-line {
 .project-info-right-mobile {
   display: none;
 }
+@media screen and (max-width: 1024px) {
+  div.vertical-line {
+    width: 2px;
+    margin-left: 6.2%;
+    height: 132%;
+  }
+  .type-non-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+  }
+  .type-actve {
+    font-size: 16px;
+    padding: 5px;
+    height: 100%;
+  }
+  .project-plan{
+    font-size: 25px;
+  }
+  .project-description {
+    font-size: 30px;
+}
+.project-type-bottom {
+    width: 50%;
+    padding-top: 15%;
+    padding-left: 2%;
+    padding-bottom: 10%;
+}
+}
 @media screen and (max-width: 768px) {
   .textAlignVer {
     font-size: 25px;
@@ -303,7 +332,7 @@ div.vertical-line {
     height: 137%;
   }
   .project-header {
-    font-size: 40px;
+    font-size: 35px;
   }
   .project-description {
     font-size: 16px;

@@ -292,9 +292,10 @@ export default class FunctionRoom extends Vue {
     font-size: 15px;
     justify-items: center;
     margin-top: 27%;
+    width: 50%;
 }
 .function-title-container-left{
-  width: 75%;
+  width: 100%;
   text-align: center;
 }
 .function-title-container-right{
@@ -326,14 +327,15 @@ export default class FunctionRoom extends Vue {
   position: absolute;
   z-index: 1;
 }
-.function-title-container-left{
-  width: 50%;
-  text-align: center;
-}
 .function-title{
     font-size: 15px;
     justify-items: center;
     margin-top: 27%;
+    width: 50%;
+}
+.function-title-container-left{
+  width: 100%;
+  text-align: center;
 }
 .function-title-container-right{
   width: 100%;
@@ -368,9 +370,10 @@ export default class FunctionRoom extends Vue {
     font-size: 15px;
     justify-items: center;
     margin-top: 27%;
+    width: 50%;
 }
 .function-title-container-left{
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 .function-title-container-right{

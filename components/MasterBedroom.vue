@@ -80,7 +80,7 @@ export default class MasterBedroom extends Vue {}
   padding-bottom: 4%;
 }
 .square {
-  width: 100%;
+  width: 92%;
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;

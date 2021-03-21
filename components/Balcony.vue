@@ -102,7 +102,7 @@ export default class Balcony extends Vue {}
   font-weight: bold;
 }
 .square {
-  width: 100%;
+  width: 92%;
   height: 60px;
   background: #d6d1cb;
   margin-left: 8%;
