@@ -619,7 +619,7 @@ export default class ProjectTypeA extends Vue {
     flex-direction: column;
   }
   .square {
-    height: 65.7%;
+    height: 50.7%;
     width: 35%;
   }
   .project-type-option {

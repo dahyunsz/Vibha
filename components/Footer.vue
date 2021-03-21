@@ -343,7 +343,7 @@ margin-top: -8%;
     background-image: linear-gradient(
       0deg,
       rgba(33, 55, 43, 1) 0%,
-      rgba(33, 55, 43, 1) 70%,
+      rgba(33, 55, 43, 1) 55%,
       rgba(33, 55, 43, 0.6) 100%
     );
     font-size: 16px;
