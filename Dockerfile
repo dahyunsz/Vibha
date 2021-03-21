@@ -1,12 +1,12 @@
-FROM node:12.13.0-alpine
-
+FROM node:lts-alpine as build-stage
 WORKDIR /app
-
-COPY ./package*.json /app
-COPY ./yarn.lock /app
+COPY package*.json ./
+COPY yarn.lock ./
 RUN yarn
-ADD . /app
-RUN yarn build
+COPY . .
+RUN yarn generate
 
+FROM nginx:stable-alpine as production-stage
+COPY --from=build-stage /app/dist /usr/share/nginx/html
 EXPOSE 3000
-CMD yarn start
+CMD ["nginx", "-g", "daemon off;"]
