@@ -339,7 +339,7 @@ export default class ProjectTypeA extends Vue {
 }
 .square {
   opacity: 0.4;
-  height: 134%;
+  height: 163%;
   width: 20%;
   background: white;
   position: absolute;

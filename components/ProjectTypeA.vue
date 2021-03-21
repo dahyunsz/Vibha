@@ -4,7 +4,7 @@
       <div class="project-type-top">
         <img class="type-bg" src="~static/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
-          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;A</p>
+          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;B</p>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">61.1 SQ.WAH / 53 SQ.WAH</p>
@@ -495,7 +495,7 @@ export default class ProjectTypeA extends Vue {
     flex-direction: column;
   }
   .square {
-    height: 132.7%;
+    height: 82.7%;
     width: 35%;
   }
   .project-type-option {
@@ -619,7 +619,7 @@ export default class ProjectTypeA extends Vue {
     flex-direction: column;
   }
   .square {
-    height: 50.7%;
+    height: 65.7%;
     width: 35%;
   }
   .project-type-option {

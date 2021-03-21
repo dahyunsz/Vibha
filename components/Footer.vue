@@ -1,5 +1,6 @@
 <template>
   <div class="footer-container" id="contactus">
+    <img class="footer-bg" src="~static/footer-bg.jpg">
     <!-- desktop -->
     <div class="footer-desktop">
       <!-- left -->
@@ -8,7 +9,7 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR (Vibhavadi Hospital)
+              VI PLAZA 2nd fLOOR <br> (Vibhavadi Hospital)
             </p>
           </div>
           <div class="divFlex-left">
@@ -40,7 +41,7 @@
             <img class="mail-icon" src="~assets/icon/mail-icon.png" />
           </div>
           <div class="divFlex-center-font">
-            <p class="footer-tel">095-632-6356</p>
+            <p class="footer-tel-center">095-632-6356</p>
             <p class="footer-mail footer-description">
               VIBHASALES@KCCTHAILAND.COM
             </p>
@@ -53,7 +54,19 @@
       <div class="footer-right">
         <div class="footer-location">
           <img class="location-icon" src="~assets/icon/location-icon.png" />
-          <span class="footer-map">GOOGLE MAP</span>
+          <span class="footer-map">
+            <span class="footer-map-padding">G</span>
+            <span class="footer-map-padding">O</span>
+            <span class="footer-map-padding">O</span>
+            <span class="footer-map-padding">G</span>
+            <span class="footer-map-padding">L</span>
+            <span class="footer-map-padding">E</span>
+            &nbsp;
+            <span class="footer-map-padding">M</span>
+            <span class="footer-map-padding">A</span>
+            <span class="footer-map-padding">P</span>
+            <!-- GOOGLE MAP -->
+            </span>
         </div>
         <br />
         <div class="divFlex-right">
@@ -144,79 +157,131 @@ export default class Footer extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(~static/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "Kiona-Regular";
+  src: url(~static/fonts/Kiona-Regular.ttf);
+}
+@font-face {
+  font-family: "SukhumvitSet";
+  src: url(~static/fonts/SukhumvitSet.ttf);
+}
+@font-face {
+  font-family: "Cremona";
+  src: url(~static/fonts/Cremona.ttf);
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url(~static/fonts/Avenir-Next.ttf);
+}
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(~static/fonts/Butler_Medium_Stencil.ttf);
+}
+.footer-tel{
+  font-family: "SukhumvitSet";
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 3%;
+  padding-left: 1%;
+}
+.footer-tel-center{
+  font-family: "SukhumvitSet";
+  font-size: 32px;
+  font-weight: bold;
+}
 .footer-container {
   background-image: linear-gradient(
       0deg,
       rgba(33, 55, 43, 1) 0%,
-      rgba(33, 55, 43, 1) 50%,
+      rgba(33, 55, 43, 1) 60%,
       rgba(33, 55, 43, 0.6) 100%
-    ),
-    url(~static/footer-bg.jpg);
+    );
+    // url(~static/footer-bg.jpg);
   background-size: cover;
   width: 100%;
   display: flex;
   color: #b7bcb4;
   font-family: "DB-Ozone-X";
-  margin-bottom: -2%;
   padding-top: 8%;
   font-size: 40px;
 }
 .footer-left {
   width: 33.33%;
+  padding-left: 2%;
 }
 .footer-center {
   width: 33.33%;
+  padding-left: 7%;
 }
 .footer-right {
   width: 33.33%;
+  padding-left: 5%;
+}
+.footer-bg{
+  width: 100%;
+  height: 50%;
+  position: absolute;
+z-index: -1;
+margin-top: -8%;
 }
 .footer-logo {
-  width: 52%;
-  margin-top: 20%;
+  width: 70%;
+  margin-top: 30%;
   margin-left: 10%;
 }
 .footer-map {
   border: 1px solid #b7bcb4;
   width: 50%;
   text-align: center;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-top: -10%;
+  // padding-left: 3%;
+  // padding-right: 3%;
+  // padding-top: -10%;
+  // margin-left: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-family:"SukhumvitSet" ;
+  font-weight: bold;
+  font-size: 30px;
   margin-left: 5%;
+}
+.footer-map-padding{
+  margin: 0.2%;
 }
 .footer-bold {
   font-weight: bold;
 }
 .footer-form {
-  width: 50%;
+  width: 70%;
   margin-left: 20%;
 }
 .footer-description {
-  font-size: 30px;
+  font-size: 35px;
 }
 .footer-mail {
   margin-top: 3%;
 }
 .phone-icon {
-  width: 6%;
+  width: 8%;
   margin: 2%;
 }
 .mail-icon {
   width: 8%;
 }
 .location-icon {
-  width: 8%;
+  width: 10%;
   margin-left: 1%;
   margin-top: 1%;
 }
 .line-icon {
-  width: 10%;
+  width: 12%;
 }
 
 .divFlex-left {
   display: flex;
   justify-content: center;
-  margin-left: -25%;
+  margin-left: -20%;
 }
 .divFlex-center {
   display: flex;
@@ -236,17 +301,18 @@ export default class Footer extends Vue {}
 }
 
 .divFlex-center-font p {
-  margin-top: 11%;
+  margin-top: 7%;
   margin-left: 3%;
 }
 .divFlex-right {
   display: flex;
+  margin-top: 3%;
 }
 .footer-line {
   margin-left: 3%;
 }
 .line-qrCode {
-  margin-left: 14%;
+  margin-left: 17%;
 }
 .footer-mobile {
   display: none;
@@ -255,7 +321,7 @@ export default class Footer extends Vue {}
   display: flex;
 }
 .divFlex{
-  margin-left: -17%;
+  margin-left: -12%;
 }
 @media screen and (max-width: 768px) {
   .footer-mobile {
