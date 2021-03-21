@@ -12,7 +12,7 @@
         <div class="about-us-description">
           <p>
             K. Commercial and Construction Co., Ltd. joined the construction
-            business in 1987. With a registeredcapital of 100 million baht. In
+            business in 1987. With a registered capital of 100 million baht. In
             addition to construction works in the private sector, the company
             also has notable achievements in the government sector, government
             organizations, and state enterprises. Throughout the years, the
@@ -21,7 +21,7 @@
           <br />
           <p>
             บริษัท เค.คอมเมอร์เชียลแอนด์คอนสตรัคชั่น จำกัด
-            ได้เข้าสู่ธุรกิจรับเหมาก่อสร้างในปี พ.ศ. 2530ด้วยทุนจดทะเบียน 100
+            ได้เข้าสู่ธุรกิจรับเหมาก่อสร้างในปี พ.ศ. 2530 ด้วยทุนจดทะเบียน 100
             ล้านบาท ตลอดระยะเวลาที่ผ่านมาจนถึงปัจจุบัน
             นอกจากผลงานการก่อสร้างในภาคเอกชน ยังได้มีผลงานในส่วนภาคราชการ
             หรือองค์กรของรัฐฯ รวมถึงรัฐวิสาหกิจ มูลค่ารวมมากกว่า 9,000 ล้านบาท
