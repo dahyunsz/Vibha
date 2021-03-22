@@ -123,12 +123,13 @@ export default class AboutUs extends Vue {}
 }
 .about-us-right {
   width: 85%;
-  text-align: center;
+  text-align: left;
   padding-left: 5%;
 }
 .about-us-header {
   margin: 5%;
   padding-right: 25%;
+  text-align: center;
 }
 .about-us-description {
   font-size: 34px;
@@ -190,7 +191,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 700px) {
   .about-us-description {
-    font-size: 18px;
+    font-size: 12px;
     margin: 2%;
     padding-right: 15%;
   }
@@ -233,7 +234,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 768px) {
   .about-us-description {
-    font-size: 18px;
+    font-size: 12px;
     margin: 2%;
     padding-right: 15%;
   }
@@ -268,7 +269,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 400px) {
   .about-us-description {
-    font-size: 18px;
+    font-size: 12px;
     margin: 2%;
     padding-right: 15%;
   }

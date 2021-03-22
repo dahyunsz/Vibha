@@ -188,7 +188,7 @@ div.vertical-line {
   }
   div.vertical-line {
     margin-top: -16%;
-    height: 180%;
+    height: 155%;
     width: 2px;
   }
   .Vibha-detail-page {
@@ -215,6 +215,7 @@ div.vertical-line {
   .Vibha-detail-swapMobile {
     width: 50%;
     padding: 2%;
+    font-size: 12px;
   }
   .Vibha-detail-description-right {
     padding-right: 0%;

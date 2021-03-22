@@ -1,18 +1,20 @@
 <template>
   <div class="concept-page">
     <img src="/concept-img.jpg" class="concept-img" alt="" />
-    <img
-      src="/concept-img-mobile.jpg"
-      class="concept-img-mobile"
-      alt=""
-    />
+    <img src="/concept-img-mobile.jpg" class="concept-img-mobile" alt="" />
     <div class="concept-modern-component" id="concept">
       <div class="concept-modern">
         <p class="textAlignVer">CONCEPT</p>
         <div class="vertical-line"></div>
       </div>
-      <div class="concept-modern-left">
+      <div class="concept-modern-left concept-desktop">
         <p>A Modern <br />Luxury Design</p>
+      </div>
+      <div class="concept-modern-left concept-mobile">
+        <p>
+          A Modern <br />Luxury <br />
+          House
+        </p>
       </div>
       <div class="concept-modern-right">
         <p>
@@ -35,7 +37,7 @@
 
       <div class="concept-func-container">
         <p class="concept-func-header">With a simply <br />functional twist</p>
-        <br /><br />
+        <br>
         <div class="concept-func-description">
           <p>
             Every single house is designed with the concept of modern luxury
@@ -58,7 +60,8 @@
         </div>
       </div>
     </div>
-    <img class="concept-door" src="/concept-door.jpg" alt="" />
+    <img class="concept-door concept-desktop" src="/concept-door.jpg" alt="" />
+    <img class="concept-door concept-mobile" src="/concept-door-mobile.jpg" alt="" />
   </div>
 </template>
 
@@ -74,8 +77,38 @@ export default class Concept extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "Kiona-Regular";
+  src: url(/fonts/Kiona-Regular.ttf);
+}
+@font-face {
+  font-family: "SukhumvitSet";
+  src: url(/fonts/SukhumvitSet.ttf);
+}
+@font-face {
+  font-family: "Cremona";
+  src: url(/fonts/Cremona.ttf);
+}
+@font-face {
+  font-family: "Avenir-Next";
+  src: url(/fonts/Avenir-Next.ttf);
+}
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
+}
 body {
   font-size: 0em;
+}
+.concept-modern-left {
+  width: 40%;
+  font-weight: bold;
+  font-size: 80px;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  padding-left: 7%;
+  color: #455a3f;
+  font-family: "Butler_Medium_Stencil";
 }
 .concept-page {
   font-family: "DB-Ozone-X";
@@ -90,15 +123,6 @@ body {
   display: flex;
   background-color: #dcd5cd;
 }
-.concept-modern-left {
-  width: 40%;
-  font-weight: bold;
-  font-size: 80px;
-  padding-top: 15%;
-  padding-bottom: 15%;
-  padding-left: 7%;
-  color: #455a3f;
-}
 .concept-modern-right {
   width: 53%;
   font-size: 35px;
@@ -107,12 +131,12 @@ body {
 }
 
 .concept-func-component {
-  // padding-left: 30%;
   margin-top: -25%;
 }
 .concept-func-header {
   font-weight: bold;
-  font-size: 65px;
+  font-size: 75px;
+  font-family: "Butler_Medium_Stencil";
 }
 .concept-func-description {
   font-size: 30px;
@@ -147,6 +171,7 @@ div.vertical-line {
 }
 .concept-door {
   height: 100%;
+  width: 100%;
 }
 .concept-bg {
   position: absolute;
@@ -155,6 +180,7 @@ div.vertical-line {
 }
 .concept-func-img {
   padding-left: 30%;
+  width: 100%;
 }
 .concept-func-container {
   padding-left: 30%;
@@ -164,12 +190,31 @@ div.vertical-line {
 .concept-img-mobile {
   display: none;
 }
+.concept-mobile {
+  display: none;
+}
 @media screen and (max-width: 1024px) {
-  div.vertical-line{
+  div.vertical-line {
     height: 200%;
+  }
+  .concept-mobile {
+    display: block;
+  }
+  .concept-desktop {
+    display: none;
+  }
+  .concept-func-description {
+    font-size: 16px;
+    padding-right: 7%;
   }
 }
 @media screen and (max-width: 700px) {
+  .concept-mobile {
+    display: block;
+  }
+  .concept-desktop {
+    display: none;
+  }
   .concept-img-mobile {
     display: block;
     width: 100%;
@@ -179,11 +224,11 @@ div.vertical-line {
   }
   .concept-modern-right {
     width: 53%;
-    font-size: 18px;
+    font-size: 12px;
   }
   .concept-modern-left {
     width: 40%;
-    font-size: 30px;
+    font-size: 22px;
     padding-top: 40%;
   }
   .textAlignVer {
@@ -203,19 +248,25 @@ div.vertical-line {
     height: 300px;
   }
   .concept-func-header {
-    font-size: 32px;
+    font-size: 21px;
   }
   .concept-func-description {
     font-size: 16px;
+    padding-right: 7%;
   }
   div.vertical-line {
     width: 2px;
     margin-left: 8%;
-    height: 182%;
+    height: 105%;
   }
-
 }
 @media screen and (max-width: 768px) {
+  .concept-mobile {
+    display: block;
+  }
+  .concept-desktop {
+    display: none;
+  }
   .concept-img-mobile {
     display: block;
     width: 100%;
@@ -225,11 +276,11 @@ div.vertical-line {
   }
   .concept-modern-right {
     width: 53%;
-    font-size: 18px;
+    font-size: 12px;
   }
   .concept-modern-left {
     width: 40%;
-    font-size: 30px;
+    font-size: 22px;
     padding-top: 20%;
   }
   .textAlignVer {
@@ -247,19 +298,19 @@ div.vertical-line {
     height: 1400px;
   }
   .concept-door {
-    height: 300px;
+    height: 230px;
   }
   .concept-func-header {
-    font-size: 32px;
+    font-size: 21px;
   }
   .concept-func-description {
-    font-size: 16px;
+    font-size: 12px;
+    padding-right: 7%;
   }
   div.vertical-line {
     width: 2px;
     margin-left: 8%;
-    height: 182%;
+   height: 105%;
   }
-
 }
 </style>

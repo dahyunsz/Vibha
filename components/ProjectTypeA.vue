@@ -4,7 +4,7 @@
       <div class="project-type-top">
         <img class="type-bg" src="/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
-          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;B</p>
+          <p class="project-type-header">T Y P E&nbsp;&nbsp;&nbsp;A</p>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">61.1 SQ.WAH / 53 SQ.WAH</p>
@@ -103,7 +103,8 @@
           <div class="type-container powerRoom-container">
             <div class="type-img-container powerRoom-icon">
               <img class="type-img" src="~assets/icon/type-1_4.png" />
-            </div>&nbsp;
+            </div>
+            &nbsp;
             <div class="type-title-container">
               <p class="type-title">1 Power room</p>
             </div>
@@ -164,7 +165,7 @@
         <Rooftop />
       </b-modal>
 
-      <img src="/project-type-a.jpg" alt="" />
+      <img class="project-type-img" src="/project-type-a.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -243,7 +244,9 @@ export default class ProjectTypeA extends Vue {
 .project-type-left {
   width: 40%;
 }
-
+.project-type-img {
+  width: 100%;
+}
 .project-type-header {
   border: 1px solid #455a3f;
   color: #455a3f;
@@ -345,7 +348,7 @@ export default class ProjectTypeA extends Vue {
 }
 .square {
   opacity: 0.4;
-  height: 134%;
+  height: 131%;
   width: 20%;
   background: white;
   position: absolute;
@@ -403,8 +406,34 @@ export default class ProjectTypeA extends Vue {
   margin-top: -10%;
   margin-left: -5%;
 }
-.project-paddingtop{
+.project-paddingtop {
   padding-top: 4%;
+}
+@media screen and (max-width: 1300px) {
+  .project-type-header {
+    font-size: 34px;
+  }
+  .project-type-Topic {
+    font-size: 30px;
+  }
+  .project-type-description {
+    font-size: 21px;
+  }
+  .project-type-bottom {
+    padding-top: 22%;
+  }
+  .type-container {
+    width: 126%;
+  }
+  .type-title {
+    font-size: 25px;
+  }
+  .project-type-option {
+    font-size: 18px;
+  }
+  .square {
+    height: 92%;
+  }
 }
 @media screen and (max-width: 1024px) {
   .type-container-mobile {
@@ -435,10 +464,10 @@ export default class ProjectTypeA extends Vue {
     font-weight: bold;
   }
   .project-type-description {
-      font-size: 20px;
+    font-size: 20px;
   }
   .project-description-inner {
-      font-size: 18px;
+    font-size: 18px;
   }
   .project-description-inner {
     color: #727a7d;
@@ -510,26 +539,26 @@ export default class ProjectTypeA extends Vue {
     width: 80%;
   }
   .powerRoom-icon {
-  padding: 2%;
-  width: 12%;
-  margin-left: 3%;
-}
-.car-icon {
-  padding: 2%;
-  height: 80%;
-}
-.rooftop-icon {
-  padding: 2%;
-  height: 80%;
-  margin-top: 7%;
-}
-.bathroom-icon {
-  padding: 2%;
-}
-.bedroom-icon {
-  padding: 3%;
-  height: 80%;
-}
+    padding: 2%;
+    width: 12%;
+    margin-left: 3%;
+  }
+  .car-icon {
+    padding: 2%;
+    height: 80%;
+  }
+  .rooftop-icon {
+    padding: 2%;
+    height: 80%;
+    margin-top: 7%;
+  }
+  .bathroom-icon {
+    padding: 2%;
+  }
+  .bedroom-icon {
+    padding: 3%;
+    height: 80%;
+  }
 }
 @media screen and (max-width: 768px) {
   .type-container-mobile {
@@ -637,31 +666,31 @@ export default class ProjectTypeA extends Vue {
     width: 100%;
   }
   .powerRoom-icon {
-  padding: 2%;
-  width: 12%;
-  margin-left: 3%;
-}
-.car-icon {
-  padding: 2%;
-  height: 80%;
-}
-.rooftop-icon {
-  padding: 2%;
-  height: 80%;
-  margin-top: 7%;
-}
-.bathroom-icon {
-  padding: 2%;
-}
-.bedroom-icon {
-  padding: 3%;
-  height: 80%;
-}
-.project-type-description {
+    padding: 2%;
+    width: 12%;
+    margin-left: 3%;
+  }
+  .car-icon {
+    padding: 2%;
+    height: 80%;
+  }
+  .rooftop-icon {
+    padding: 2%;
+    height: 80%;
+    margin-top: 7%;
+  }
+  .bathroom-icon {
+    padding: 2%;
+  }
+  .bedroom-icon {
+    padding: 3%;
+    height: 80%;
+  }
+  .project-type-description {
     font-size: 9px;
-}
-.project-description-inner {
+  }
+  .project-description-inner {
     font-size: 8px;
-}
+  }
 }
 </style>

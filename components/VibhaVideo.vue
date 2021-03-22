@@ -2,10 +2,10 @@
   <div class="vibhavideo-container">
     <img class="vibhavideo-bg" src="/vibha-video-bg.jpg">
     <div class="vibhavideo-center">
-      <!-- <embed class="vibha-video" src="https://www.youtube.com/embed/FrOLeoXrvLU" type=""> -->
-      <video class="vibha-video" controls>
+      <embed class="vibha-video" src="https://www.youtube.com/embed/5cqaTv3lyhE">
+      <!-- <video class="vibha-video" controls>
         <source src="/vibha-video.mp4" type="video/mp4" />
-      </video>
+      </video> -->
     </div>
   </div>
 </template>
@@ -31,8 +31,8 @@ export default class VibhaVideo extends Vue {}
 .vibhavideo-center{
     text-align: center;
     height: 100%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 .vibha-video{
     width: 60%;

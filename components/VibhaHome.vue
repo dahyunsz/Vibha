@@ -1,6 +1,7 @@
 <template>
   <div class="Vibhahome-page">
-    <div class="Vibhahome-contact">
+    <div class="Vibhahome-page-row">
+      <div class="Vibhahome-contact">
       <div class="Vibhahome-contact-container">
         <img class="facebook-icon" src="~assets/icon/facebook-icon.png" />
       </div>
@@ -13,11 +14,14 @@
     </div>
     <img class="Vibhahome-logo" src="/Vibhahome-logo.png" alt="" />
     <img class="Vibhahome-img vibhahome-desktop" src="/Vibhahome.jpg" />
-    <img
-      class="Vibhahome-img vibhahome-mobile"
-      src="/Vibhahome-mobile.jpg"
-    />
-    <p class="Vibhahome-title">YOUR LIFTIME LIVING BEGINS</p>
+    <img class="Vibhahome-img vibhahome-mobile" src="/Vibhahome-mobile.jpg"/>
+    </div>
+    <div>
+      <div class="Vibhahome-title-right">
+        <div class="square vibhahome-desktop"></div>
+        <p class="Vibhahome-title">YOUR LIFTIME LIVING BEGINS</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -41,8 +45,10 @@ export default class VibhaHome extends Vue {}
 .Vibhahome-page {
   background-color: #93a49e;
   width: 100%;
-  display: flex;
   font-family: "DB-Ozone-X";
+}
+.Vibhahome-page-row{
+  display: flex;
 }
 .Vibhahome-contact {
   width: 10%;
@@ -57,12 +63,8 @@ export default class VibhaHome extends Vue {}
   margin-left: 12%;
 }
 .Vibhahome-title {
-  position: absolute;
-  z-index: 1;
   color: white;
-  font-size: 25px;
-  padding-left: 45%;
-  padding-top: 55%;
+  font-size: 35px;
   font-weight: bold;
 }
 .vibhahome-desktop {
@@ -86,6 +88,21 @@ export default class VibhaHome extends Vue {}
 .instagram-icon {
   width: 30%;
 }
+.square {
+  width: 80%;
+  height: 60px;
+  background: white;
+  opacity: 0.2;
+  position: absolute;
+  z-index: 1;
+  margin-top: -0.37%;
+  margin-left: 10%;
+}
+.Vibhahome-title-right{
+  width: 100%;
+    text-align: center;
+    margin-top: -2.75%;
+}
 @media screen and (max-width: 700px) {
   .vibhahome-desktop {
     display: none;
@@ -102,8 +119,6 @@ export default class VibhaHome extends Vue {}
     width: 20%;
   }
   .Vibhahome-title {
-    padding-top: 105%;
-    padding-left: 60%;
     font-size: 14px;
   }
   .Vibhahome-logo {
@@ -122,6 +137,12 @@ export default class VibhaHome extends Vue {}
   }
   .Vibhahome-contact {
     padding-top: 43%;
+  }
+  .Vibhahome-title-right{
+    width: 100%;
+    text-align: right;
+    margin-top: -6%;
+    padding-right: 5%;
   }
 }
 </style>

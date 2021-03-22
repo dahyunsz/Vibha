@@ -52,27 +52,45 @@
       <div v-if="this.isTypeA">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
-            <p class="type-non-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
-            <p class="type-non-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
+            <p class="type-actve" @click="onclickTypeA">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
+            </p>
+            <p class="type-non-actve" @click="onclickTypeB">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
+            </p>
+            <p class="type-non-actve" @click="onclickTypeC">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
+            </p>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeB">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
-            <p class="type-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
-            <p class="type-non-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeA">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
+            </p>
+            <p class="type-actve" @click="onclickTypeB">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
+            </p>
+            <p class="type-non-actve" @click="onclickTypeC">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
+            </p>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeC">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;</p>
-            <p class="type-non-actve" @click="onclickTypeB">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;</p>
-            <p class="type-actve" @click="onclickTypeC">&nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;</p>
+            <p class="type-non-actve" @click="onclickTypeA">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
+            </p>
+            <p class="type-non-actve" @click="onclickTypeB">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
+            </p>
+            <p class="type-actve" @click="onclickTypeC">
+              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
+            </p>
           </div>
         </div>
       </div>
@@ -306,17 +324,29 @@ div.vertical-line {
     padding: 5px;
     height: 100%;
   }
-  .project-plan{
+  .project-plan {
     font-size: 25px;
   }
   .project-description {
     font-size: 30px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     width: 50%;
     padding-top: 15%;
     padding-left: 2%;
     padding-bottom: 10%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .type-actve{
+    font-size: 40px;
+  }
+  .type-non-actve{
+    font-size: 40px;
+  }
+  .project-plan{
+    font-size: 40px;
+    width: 40%;
 }
 }
 @media screen and (max-width: 768px) {
@@ -329,7 +359,7 @@ div.vertical-line {
   div.vertical-line {
     width: 2px;
     margin-left: 6.2%;
-    height: 137%;
+    height: 135%;
   }
   .project-header {
     font-size: 35px;

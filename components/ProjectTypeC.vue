@@ -164,7 +164,7 @@
         <Rooftop />
       </b-modal>
 
-      <img src="/project-type-c.jpg" alt="" />
+      <img class="project-type-img" src="/project-type-c.jpg" alt="" />
     </div>
   </div>
 </template>
@@ -264,6 +264,9 @@ export default class ProjectTypeA extends Vue {
 .project-description-inner {
   color: #727a7d;
   font-size: 20px;
+}
+.project-type-img{
+  width: 100%;
 }
 .type-container {
   display: flex;
@@ -399,6 +402,32 @@ export default class ProjectTypeA extends Vue {
 }
 .project-paddingtop{
   padding-top: 4%;
+}
+@media screen and (max-width: 1300px) {
+  .project-type-header {
+    font-size: 34px;
+  }
+  .project-type-Topic {
+    font-size: 30px;
+  }
+  .project-type-description {
+    font-size: 21px;
+  }
+  .project-type-bottom {
+    padding-top: 22%;
+  }
+  .type-container {
+    width: 126%;
+  }
+  .type-title {
+    font-size: 25px;
+  }
+  .project-type-option {
+    font-size: 18px;
+  }
+  .square {
+    height: 115%;
+  }
 }
 @media screen and (max-width: 1024px) {
   .type-container-mobile {

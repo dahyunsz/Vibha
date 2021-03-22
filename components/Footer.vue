@@ -1,7 +1,7 @@
 <template>
   <div class="footer-container" id="contactus">
-    <img class="footer-bg footer-desktop" src="/footer-bg.jpg">
-    <img class="footer-bg footer-mobile" src="/footer-bg-mobile.jpg">
+    <img class="footer-bg footer-desktop" src="/footer-bg.jpg" />
+    <img class="footer-bg footer-mobile" src="/footer-bg-mobile.jpg" />
     <!-- desktop -->
     <div class="footer-desktop">
       <!-- left -->
@@ -10,7 +10,8 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR <br> (Vibhavadi Hospital)
+              VI PLAZA 2nd fLOOR <br />
+              (Vibhavadi Hospital)
             </p>
           </div>
           <div class="divFlex-left">
@@ -67,7 +68,7 @@
             <span class="footer-map-padding">A</span>
             <span class="footer-map-padding">P</span>
             <!-- GOOGLE MAP -->
-            </span>
+          </span>
         </div>
         <br />
         <div class="divFlex-right">
@@ -88,7 +89,8 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR <br> (Vibhavadi Hospital)
+              VI PLAZA 2nd fLOOR <br />
+              (Vibhavadi Hospital)
             </p>
           </div>
           <div class="divFlex-left">
@@ -178,25 +180,25 @@ export default class Footer extends Vue {}
   font-family: "Butler_Medium_Stencil";
   src: url(/fonts/Butler_Medium_Stencil.ttf);
 }
-.footer-tel{
+.footer-tel {
   font-family: "SukhumvitSet";
   font-size: 32px;
   font-weight: bold;
   margin-top: 3%;
   padding-left: 1%;
 }
-.footer-tel-center{
+.footer-tel-center {
   font-family: "SukhumvitSet";
   font-size: 32px;
   font-weight: bold;
 }
 .footer-container {
   background-image: linear-gradient(
-      0deg,
-      rgba(33, 55, 43, 1) 0%,
-      rgba(33, 55, 43, 1) 60%,
-      rgba(33, 55, 43, 0.6) 100%
-    );
+    0deg,
+    rgba(33, 55, 43, 1) 0%,
+    rgba(33, 55, 43, 1) 60%,
+    rgba(33, 55, 43, 0.6) 100%
+  );
   background-size: cover;
   width: 100%;
   display: flex;
@@ -217,12 +219,12 @@ export default class Footer extends Vue {}
   width: 33.33%;
   padding-left: 5%;
 }
-.footer-bg{
+.footer-bg {
   width: 100%;
   height: 50%;
   position: absolute;
-z-index: -1;
-margin-top: -8%;
+  z-index: -1;
+  margin-top: -8%;
 }
 .footer-logo {
   width: 70%;
@@ -241,12 +243,12 @@ margin-top: -8%;
   padding-right: 5%;
   padding-top: 2%;
   padding-bottom: 2%;
-  font-family:"SukhumvitSet" ;
+  font-family: "SukhumvitSet";
   font-weight: bold;
   font-size: 30px;
   margin-left: 5%;
 }
-.footer-map-padding{
+.footer-map-padding {
   margin: 0.2%;
 }
 .footer-bold {
@@ -320,8 +322,36 @@ margin-top: -8%;
 .footer-desktop {
   display: flex;
 }
-.divFlex{
+.divFlex {
   margin-left: -12%;
+}
+@media screen and (max-width: 1300px) {
+  .footer-description {
+    font-size: 22px;
+  }
+  .footer-bold {
+    font-size: 30px;
+  }
+  .footer-map {
+    font-size: 20px;
+  }
+  .line-icon[data-v-0d2d6594] {
+    width: 15%;
+  }
+  .footer-tel-center{
+    font-size: 24px;
+}
+.footer-tel {
+    font-size: 24px;
+    font-weight: bold;
+}
+.divFlex-left{
+    margin-left: -16%;
+}
+.divFlex {
+    margin-left: -7%;
+}
+
 }
 @media screen and (max-width: 768px) {
   .footer-mobile {
@@ -385,26 +415,28 @@ margin-top: -8%;
   }
   .divFlex-center-font p {
     margin-top: 6%;
-
   }
-  .footer-bg{
+  .footer-bg {
     height: 35%;
     margin-top: -20%;
   }
-  .footer-tel{
+  .footer-tel {
     font-size: 9px;
   }
-  .footer-map{
+  .footer-map {
     font-size: 11px;
   }
-  .footer-description{
+  .footer-description {
     font-size: 9px;
-}
-.divFlex-center-font p{
+  }
+  .divFlex-center-font p {
     margin-top: 11%;
-}
-.divFlex-center-font {
+  }
+  .divFlex-center-font {
     margin-left: 5%;
+  }
+  .footer-bold{
+    font-size: 16px;
 }
 }
 </style>
