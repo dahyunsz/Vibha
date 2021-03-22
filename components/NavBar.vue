@@ -33,8 +33,8 @@
         <hr class="line" />
       </b-navbar-item>
       <b-navbar-item class="nav-item nav-item-mobile">
-        <img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" />
-        <img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" />
+        <a href="https://www.facebook.com/vibharesidence/"><img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" /></a>
+        <a href="https://instagram.com/vibharesidence?igshid=mgzpo4k2x2du"><img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" /></a>
       </b-navbar-item>
     </template>
   </b-navbar>
