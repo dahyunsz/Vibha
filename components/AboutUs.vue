@@ -109,6 +109,7 @@ export default class AboutUs extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+
 .about-us-page {
   background-color: #dcd5cd;
   font-family: "DB-Ozone-X";

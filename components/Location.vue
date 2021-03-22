@@ -132,7 +132,7 @@ export default class Location extends Vue {}
   padding-left: 5%;
 }
 .location-description {
-  font-size: 27px;
+  font-size: 35px;
 }
 .location-img-house {
   position: absolute;

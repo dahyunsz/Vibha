@@ -14,10 +14,10 @@
               (Vibhavadi Hospital)
             </p>
           </div>
-          <div class="divFlex-left">
+          <!-- <div class="divFlex-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
             <p class="footer-tel">095-632-6356</p>
-          </div>
+          </div> -->
         </div>
         <br />
         <div class="footer-left-bottom">
@@ -36,6 +36,27 @@
       <!-- left -->
       <!-- center -->
       <div class="footer-center">
+        <div class="footer-location">
+          <img class="location-icon" src="~assets/icon/location-icon.png" />
+          <a class="map-link" href="https://goo.gl/maps/c28zQYR7dTkftdvN8"><span class="footer-map">
+            <span class="footer-map-padding">G</span>
+            <span class="footer-map-padding">O</span>
+            <span class="footer-map-padding">O</span>
+            <span class="footer-map-padding">G</span>
+            <span class="footer-map-padding">L</span>
+            <span class="footer-map-padding">E</span>
+            &nbsp;
+            <span class="footer-map-padding">M</span>
+            <span class="footer-map-padding">A</span>
+            <span class="footer-map-padding">P</span>
+            <!-- GOOGLE MAP -->
+          </span></a>
+        </div>
+        <img class="footer-logo" src="/footer-logo.png" />
+      </div>
+      <!-- center -->
+      <!-- right -->
+      <div class="footer-right">
         <p class="footer-bold">SALES TEAM CONTACT</p>
         <div class="divFlex-center-column">
           <div class="divFlex-center">
@@ -49,27 +70,7 @@
             </p>
           </div>
         </div>
-        <img class="footer-logo" src="/footer-logo.png" />
-      </div>
-      <!-- center -->
-      <!-- right -->
-      <div class="footer-right">
-        <div class="footer-location">
-          <img class="location-icon" src="~assets/icon/location-icon.png" />
-          <span class="footer-map">
-            <span class="footer-map-padding">G</span>
-            <span class="footer-map-padding">O</span>
-            <span class="footer-map-padding">O</span>
-            <span class="footer-map-padding">G</span>
-            <span class="footer-map-padding">L</span>
-            <span class="footer-map-padding">E</span>
-            &nbsp;
-            <span class="footer-map-padding">M</span>
-            <span class="footer-map-padding">A</span>
-            <span class="footer-map-padding">P</span>
-            <!-- GOOGLE MAP -->
-          </span>
-        </div>
+        
         <br />
         <div class="divFlex-right">
           <img class="line-icon" src="~assets/icon/line-icon.png" />
@@ -93,10 +94,10 @@
               (Vibhavadi Hospital)
             </p>
           </div>
-          <div class="divFlex-left">
+          <!-- <div class="divFlex-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
             <p class="footer-tel">095-632-6356</p>
-          </div>
+          </div> -->
         </div>
         <br />
         <div class="footer-left-bottom">
@@ -207,6 +208,12 @@ export default class Footer extends Vue {}
   padding-top: 8%;
   font-size: 40px;
 }
+.map-link{
+  color: #b7bcb4;
+}
+.map-link:hover{
+  color: #b7bcb4;
+}
 .footer-left {
   width: 33.33%;
   padding-left: 2%;
@@ -274,7 +281,7 @@ export default class Footer extends Vue {}
 .location-icon {
   width: 10%;
   margin-left: 1%;
-  margin-top: 1%;
+  margin-top: 0%;
 }
 .line-icon {
   width: 12%;
@@ -303,12 +310,13 @@ export default class Footer extends Vue {}
 }
 
 .divFlex-center-font p {
-  margin-top: 7%;
+  margin-top: 8%;
   margin-left: 3%;
 }
 .divFlex-right {
   display: flex;
-  margin-top: 3%;
+  margin-top: -5%;
+  margin-left:-1%;
 }
 .footer-line {
   margin-left: 3%;
@@ -366,9 +374,7 @@ export default class Footer extends Vue {}
   .footer-right {
     width: 50%;
   }
-  .footer-description {
-    font-size: 12px;
-  }
+
   .footer-container {
     background-image: linear-gradient(
       0deg,
@@ -413,9 +419,6 @@ export default class Footer extends Vue {}
   .footer-left {
     padding-bottom: 39%;
   }
-  .divFlex-center-font p {
-    margin-top: 6%;
-  }
   .footer-bg {
     height: 35%;
     margin-top: -20%;
@@ -427,16 +430,20 @@ export default class Footer extends Vue {}
     font-size: 11px;
   }
   .footer-description {
-    font-size: 9px;
+    font-size: 10px;
   }
   .divFlex-center-font p {
-    margin-top: 11%;
+    margin-top: 17%;
   }
   .divFlex-center-font {
     margin-left: 5%;
   }
   .footer-bold{
     font-size: 16px;
+}
+.divFlex-center img {
+  width: 100%;
+  margin-top: 100%;
 }
 }
 </style>

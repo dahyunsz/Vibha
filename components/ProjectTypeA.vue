@@ -134,16 +134,16 @@
       <div class="square"></div>
       <div class="project-type-option">
         <div class="is-active">
-          <p @click="onClick_FirstFloor">1<sup>ST</sup> FLOOR PLAN</p>
+          <p @click="onClick_FirstFloor">1<sup>ST</sup> FLOOR</p>
         </div>
         <div class="is-active">
-          <p @click="onClick_SecondFloor">2<sup>ND</sup> FLOOR PLAN</p>
+          <p @click="onClick_SecondFloor">2<sup>ND</sup> FLOOR</p>
         </div>
         <div class="is-active">
           <p @click="onClick_SecondMFloor">2M FLOOR</p>
         </div>
         <div class="is-active">
-          <p @click="onClick_ThirdFloor">3<sup>RD</sup> FLOOR PLAN</p>
+          <p @click="onClick_ThirdFloor">3<sup>RD</sup> FLOOR</p>
         </div>
         <div class="is-active">
           <p @click="onClick_Rooftop">ROOFTOP</p>

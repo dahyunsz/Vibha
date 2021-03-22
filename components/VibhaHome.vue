@@ -3,13 +3,13 @@
     <div class="Vibhahome-page-row">
       <div class="Vibhahome-contact">
       <div class="Vibhahome-contact-container">
-        <img class="facebook-icon" src="~assets/icon/facebook-icon.png" />
+        <a href="https://www.facebook.com/vibharesidence/"><img class="facebook-icon" src="~assets/icon/facebook-icon.png" /></a>
       </div>
       <div class="Vibhahome-contact-container">
-        <img class="instagram-icon" src="~assets/icon/instagram-icon.png" />
+        <a href="https://instagram.com/vibharesidence?igshid=mgzpo4k2x2du"><img class="instagram-icon" src="~assets/icon/instagram-icon.png" /></a>
       </div>
       <div class="Vibhahome-contact-container">
-        <img class="youtube-icon" src="~assets/icon/youtube-icon.png" />
+        <a href="https://www.youtube.com/channel/UCSqR2G03fcY-zQliUUIGfuw"><img class="youtube-icon" src="~assets/icon/youtube-icon.png" /></a>
       </div>
     </div>
     <img class="Vibhahome-logo" src="/Vibhahome-logo.png" alt="" />
@@ -19,7 +19,7 @@
     <div>
       <div class="Vibhahome-title-right">
         <div class="square vibhahome-desktop"></div>
-        <p class="Vibhahome-title">YOUR LIFTIME LIVING BEGINS</p>
+        <p class="Vibhahome-title">YOUR LIFETIME LIVING BEGINS</p>
       </div>
     </div>
   </div>
@@ -89,7 +89,7 @@ export default class VibhaHome extends Vue {}
   width: 30%;
 }
 .square {
-  width: 80%;
+  width: 90%;
   height: 60px;
   background: white;
   opacity: 0.2;
@@ -119,7 +119,7 @@ export default class VibhaHome extends Vue {}
     width: 20%;
   }
   .Vibhahome-title {
-    font-size: 14px;
+    font-size: 18px;
   }
   .Vibhahome-logo {
     width: 50%;
@@ -141,7 +141,7 @@ export default class VibhaHome extends Vue {}
   .Vibhahome-title-right{
     width: 100%;
     text-align: right;
-    margin-top: -6%;
+    margin-top: -7%;
     padding-right: 5%;
   }
 }
