@@ -30,7 +30,7 @@
         <p class="project-description">
           <span class="description-bold">ARCHITECT :</span> ARBAY COMPANY
           LIMITED <br />
-          <span class="description-bold">INTERIOR :</span> CHEMISTRY
+          <span class="description-bold">INTERIOR :</span> STUDIO CHEMISTRI
         </p>
         <p @click="onClick()" class="project-plan">PROJECT PLAN</p>
         <b-modal v-model="projectPlan" id="modal-1" title="BootstrapVue">
@@ -280,7 +280,7 @@ export default class ProjectInfo extends Vue {
 div.vertical-line {
   width: 4px;
   background-color: #1e2f27;
-  height: 172%;
+  height: 160%;
   float: left;
   margin-left: 6.2%;
   position: absolute;
@@ -289,9 +289,9 @@ div.vertical-line {
 .project-line {
   width: 15%;
 }
-.type-padding{
-    padding: 2%;
-  }
+.type-padding {
+  padding: 2%;
+}
 .type-actve {
   border: 1px solid #455a3f;
   color: white;
@@ -352,24 +352,45 @@ div.vertical-line {
 .project-info-right-mobile {
   display: none;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1543px) {
+  .project-plan {
+    width: 35%;
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .type-actve {
+    font-size: 40px;
+  }
+  .type-non-actve {
+    font-size: 40px;
+  }
+  .project-plan {
+    font-size: 40px;
+    width: 40%;
+  }
+  .project-description {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1100px) {
   div.vertical-line {
     width: 2px;
     margin-left: 6.2%;
     height: 132%;
   }
   .type-non-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
   }
   .type-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
   }
   .project-plan {
-    font-size: 25px;
+    font-size: 30px;
   }
   .project-description {
     font-size: 30px;
@@ -381,17 +402,18 @@ div.vertical-line {
     padding-bottom: 10%;
   }
 }
-@media screen and (max-width: 1300px) {
-  .type-actve{
-    font-size: 40px;
+@media screen and (max-width: 900px) {
+  .type-actve {
+    font-size: 30px;
   }
-  .type-non-actve{
-    font-size: 40px;
+  .type-non-actve {
+    font-size: 30px;
   }
-  .project-plan{
-    font-size: 40px;
-    width: 40%;
 }
+@media screen and (max-width: 825px) {
+  .project-plan {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 768px) {
   .textAlignVer {
@@ -448,7 +470,7 @@ div.vertical-line {
     width: 22%;
     justify-content: center;
   }
-  .type-padding{
+  .type-padding {
     padding: 2%;
   }
 }

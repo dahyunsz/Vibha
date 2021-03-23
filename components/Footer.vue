@@ -28,7 +28,7 @@
             </p>
           </div>
           <div class="divFlex-left divFlex">
-            <img class="phone-icon" src="~assets/icon/phone-icon.png" />
+            <img class="phone-icon-left" src="~assets/icon/phone-icon.png" />
             <p class="footer-tel">(02) 212-4460 – 1</p>
           </div>
         </div>
@@ -97,6 +97,7 @@
     <!-- mobile -->
     <div class="footer-mobile">
       <!-- left -->
+      <!-- <div class="footer-flex"> -->
       <div class="footer-left">
         <div class="footer-left-top">
           <div class="footer-form">
@@ -145,7 +146,9 @@
         <br />
         <div class="footer-location">
           <img class="location-icon" src="~assets/icon/location-icon.png" />
-          <span class="footer-map">GOOGLE MAP</span>
+          <div class="footer-map-container">
+            <span class="footer-map">GOOGLE MAP</span>
+          </div>
         </div>
         <br />
         <div class="divFlex-qr">
@@ -154,6 +157,7 @@
           <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
         </div>
       </div>
+      <!-- </div> -->
       <img class="footer-logo" src="/footer-logo.png" />
     </div>
     <!-- right -->
@@ -201,7 +205,7 @@ export default class Footer extends Vue {}
   font-family: "SukhumvitSet";
   font-size: 32px;
   font-weight: bold;
-  margin-top: 3%;
+  margin-top: 2%;
   padding-left: 1%;
 }
 .footer-tel-center {
@@ -236,7 +240,7 @@ export default class Footer extends Vue {}
 }
 .footer-center {
   width: 33.33%;
-  padding-left: 7%;
+  padding-left: 3%;
 }
 .footer-right {
   width: 33.33%;
@@ -258,10 +262,6 @@ export default class Footer extends Vue {}
   border: 1px solid #b7bcb4;
   width: 50%;
   text-align: center;
-  // padding-left: 3%;
-  // padding-right: 3%;
-  // padding-top: -10%;
-  // margin-left: 5%;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 2%;
@@ -291,9 +291,14 @@ export default class Footer extends Vue {}
   width: 8%;
   margin: 2%;
 }
+.phone-icon-left {
+  width: 7%;
+  margin: 2%;
+}
 .mail-icon {
   width: 8%;
   margin: 2%;
+  margin-right: 4%;
 }
 .location-icon {
   width: 10%;
@@ -347,6 +352,41 @@ export default class Footer extends Vue {}
 .divFlex {
   margin-left: -12%;
 }
+.footer-location {
+  display: flex;
+  width: 100%;
+}
+.footer-location a {
+  width: 100%;
+}
+.footer-map-container {
+  width: 100%;
+  margin-top: 1%;
+}
+@media screen and (max-width: 1700px) {
+  .divFlex {
+    margin-left: -6%;
+  }
+  .phone-icon {
+    width: 10%;
+    margin: 1%;
+  }
+  .mail-icon {
+    width: 10%;
+    margin: 1%;
+    margin-right: 3%;
+  }
+  .footer-line {
+    font-size: 35px;
+  }
+  .phone-icon-left {
+    width: 9%;
+    margin: 1%;
+  }
+  .location-icon {
+    width: 12%;
+  }
+}
 @media screen and (max-width: 1600px) {
   .footer-tel {
     font-size: 25px;
@@ -362,17 +402,52 @@ export default class Footer extends Vue {}
     margin: 1%;
     margin-right: 3%;
   }
+  .footer-bg {
+    height: 40%;
+  }
+  .divFlex {
+    margin-left: -14%;
+  }
+  .footer-line {
+    font-size: 33px;
+  }
+  .phone-icon-left {
+    width: 8%;
+    margin: 1%;
+  }
 }
-@media screen and (max-width: 1360px) {
+@media screen and (max-width: 1500px) {
+  .divFlex {
+    margin-left: -11%;
+  }
+  .phone-icon {
+    width: 8%;
+    margin: 1%;
+    margin-right: 3%;
+  }
+  .mail-icon {
+    width: 10%;
+    margin: 0%;
+    margin-right: 4%;
+  }
+  .footer-line {
+    font-size: 31px;
+  }
+  .phone-icon-left {
+    width: 8%;
+    margin: 1%;
+  }
+}
+@media screen and (max-width: 1400px) {
   .footer-map-padding {
     margin: -0.8%;
   }
   .line-icon {
     width: 14%;
   }
-  .footer-center{
+  .footer-center {
     padding-left: 3%;
-}
+  }
   .footer-description {
     font-size: 22px;
   }
@@ -400,13 +475,49 @@ export default class Footer extends Vue {}
     margin-left: -7%;
   }
   .divFlex-right {
-    margin-top: -10%;;
+    margin-top: -10%;
   }
   .footer-map {
     font-size: 30px;
+  }
+  .phone-icon {
+    width: 12%;
+    margin-right: 3%;
+  }
+  .mail-icon {
+    width: 13%;
+    margin: 0%;
+    margin-right: 4%;
+  }
+  .footer-line {
+    font-size: 30px;
+  }
+  .phone-icon-left {
+    width: 9%;
+    margin: 1%;
+  }
 }
+@media screen and (max-width: 1200px) {
+  .phone-ico {
+    width: 10%;
+    margin: 2%;
+  }
+  .divFlex {
+    margin-left: -1%;
+  }
+  .footer-line {
+    font-size: 26px;
+  }
+  .phone-icon-left {
+    width: 9%;
+    margin: 2%;
+  }
+  .location-icon {
+    width: 16%;
+    padding: 2%;
+  }
 }
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1100px) {
   .footer-description {
     font-size: 18px;
   }
@@ -418,9 +529,86 @@ export default class Footer extends Vue {}
   }
   .footer-map {
     font-size: 20px;
+  }
+  .phone-icon {
+    width: 11%;
+    margin: 2%;
+  }
+  .divFlex {
+    margin-left: 4%;
+  }
+  .phone-icon-left {
+    width: 11%;
+    margin: 2%;
+  }
+  .location-icon {
+    width: 18%;
+    padding: 3%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .footer-tel {
+    font-size: 20px;
+  }
+  .footer-logo {
+    width: 78%;
+    margin-top: 45%;
+    margin-left: 10%;
+  }
+  .divFlex {
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .divFlex {
+    margin-left: 5%;
+  }
+  .location-icon {
+    width: 22%;
+    padding: 5%;
+  }
+  .footer-bg{
+    height: 30%;
+}
+}
+@media screen and (max-width: 850px) {
+  .footer-bold {
+    font-size: 24px;
+  }
+  .footer-tel {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .footer-description {
+    font-size: 16px;
+  }
+  .footer-right {
+    width: 33.33%;
+    padding-left: 2%;
+  }
+  .footer-logo {
+    width: 70%;
+    margin-top: 50%;
+    margin-left: 10%;
+  }
+  .footer-bg {
+    height: 27%;
 }
 }
 @media screen and (max-width: 768px) {
+  .footer-bg {
+    // height: 35%;
+    margin-top: -20%;
+  }
+  .footer-container {
+    font-size: 16px;
+    height: 540px;
+    padding-top: 10%;
+  }
+  .divFlex-center img {
+    width: 100%;
+    margin-top: 30%;
+  }
   .footer-mobile {
     display: flex;
   }
@@ -434,13 +622,243 @@ export default class Footer extends Vue {}
     width: 50%;
   }
 
+  .footer-left-top {
+    width: 100%;
+  }
+  .footer-left-bottom {
+    width: 100%;
+  }
+  .divFlex-qr {
+    width: 100%;
+    display: flex;
+  }
+  .line-icon{
+    width: 13%;
+    height: 50%;
+}
+  .footer-line {
+    width: 30%;
+    font-size: 22px;
+  }
+  .line-qrCode {
+    margin-left: 10%;
+    width: 25%;
+    height: 25%;
+  }
+  .footer-logo {
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    margin-top: 35%;
+    margin-left: 37%;
+  }
+  .footer-tel {
+    font-size: 14px;
+    margin-top: 3%;
+  }
+  .footer-map {
+    font-size: 11px;
+  }
+  .footer-description {
+    font-size: 15px;
+  }
+  .divFlex-center-column {
+    display: flex;
+  }
+  .divFlex-center-font {
+    margin-left: 5%;
+  }
+  .footer-bold {
+    font-size: 20px;
+  }
+  .phone-icon {
+    width: 9%;
+    margin: 1%;
+  }
+  .divFlex-center-font p {
+    margin-top: 14%;
+  }
+  .footer-map-container {
+    margin-top: 3%;
+  }
+  .location-icon {
+    width: 10%;
+    padding: 0%;
+  }
+  .footer-map-container {
+    margin-top: 2%;
+  }
+  .divFlex-left {
+    margin-left: -19%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .footer-bg {
+    height: 55%;
+    margin-top: -20%;
+  }
+  .footer-logo {
+    width: 33%;
+    margin-top: 45%;
+    margin-left: 32%;
+  }
   .footer-container {
-    background-image: linear-gradient(
-      0deg,
-      rgba(33, 55, 43, 1) 0%,
-      rgba(33, 55, 43, 1) 55%,
-      rgba(33, 55, 43, 0.6) 100%
-    );
+    font-size: 16px;
+    height: 650px;
+    padding-top: 15%;
+  }
+  .phone-icon {
+    width: 7%;
+    margin: 1%;
+  }
+  .divFlex-left {
+    margin-left: -19%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-logo {
+    margin-top: 60%;
+  }
+  .footer-line {
+    font-size: 18px;
+  }
+  .phone-icon{
+    width: 9%;
+    margin: 1%;
+}
+}
+@media screen and (max-width: 500px) {
+  .footer-container {
+    font-size: 16px;
+    height: 540px;
+    padding-top: 15%;
+  }
+  .divFlex-center-font p {
+    margin-top: 6%;
+  }
+  .footer-line {
+    font-size: 16px;
+  }
+  .footer-container {
+    font-size: 16px;
+    height: 490px;
+    padding-top: 15%;
+}
+.divFlex-left {
+    margin-left: -8%;
+}
+.footer-logo{
+    margin-top: 50%;
+}
+.location-icon {
+    width: 12%;
+    padding: 0%;
+}
+}
+@media screen and (max-width: 400px) {
+  .footer-mobile {
+    display: flex;
+  }
+  .footer-desktop {
+    display: none;
+  }
+  .footer-left {
+    width: 50%;
+  }
+  .footer-right {
+    width: 50%;
+  }
+  .footer-container {
+    font-size: 16px;
+    height: 407px;
+    padding-top: 20%;
+  }
+  .footer-left-top {
+    width: 100%;
+  }
+  .footer-left-bottom {
+    width: 100%;
+  }
+  .divFlex-qr {
+    width: 100%;
+    display: flex;
+  }
+  .line-icon {
+    width: 13%;
+    height: 50%;
+  }
+  .footer-line {
+    width: 30%;
+    font-size: 11px;
+    padding-left: 4%;
+  }
+  .line-qrCode {
+    margin-left: 15%;
+    width: 25%;
+    height: 25%;
+  }
+  .footer-logo {
+    position: absolute;
+    z-index: 1;
+    width: 25%;
+    margin-top: 57%;
+    margin-left: 37%;
+  }
+  .footer-bg {
+    height: 35%;
+    margin-top: -20%;
+  }
+  .footer-tel {
+    font-size: 10px;
+  }
+  .footer-map {
+    font-size: 11px;
+  }
+  .footer-description {
+    font-size: 10px;
+  }
+  .divFlex-center-column {
+    display: flex;
+  }
+  .divFlex-center-font p{
+    margin-top: 15%;
+}
+  .divFlex-center-font {
+    margin-left: 5%;
+  }
+  .footer-bold {
+    font-size: 16px;
+  }
+  .divFlex-center img{
+    width: 100%;
+    margin-top: 65%;
+}
+.location-icon {
+    width: 14%;
+    padding: 0%;
+}
+.footer-location{
+      margin-left: -3%;
+}
+.phone-icon{
+    width: 11%;
+    margin: 1%;
+}
+}
+@media screen and (max-width: 375px) {
+  .footer-mobile {
+    display: flex;
+  }
+  .footer-desktop {
+    display: none;
+  }
+  .footer-left {
+    width: 50%;
+  }
+  .footer-right {
+    width: 50%;
+  }
+  .footer-container {
     font-size: 16px;
     height: 380px;
     padding-top: 20%;
@@ -476,9 +894,6 @@ export default class Footer extends Vue {}
     margin-top: 57%;
     margin-left: 37%;
   }
-  .footer-left {
-    padding-bottom: 39%;
-  }
   .footer-bg {
     height: 35%;
     margin-top: -20%;
@@ -508,5 +923,14 @@ export default class Footer extends Vue {}
     width: 100%;
     margin-top: 100%;
   }
+  .footer-bold {
+    font-size: 16px;
+  }
+  .location-icon {
+    padding: 1%;
+}
+.divFlex-center-font p{
+    margin-top: 19%;
+}
 }
 </style>

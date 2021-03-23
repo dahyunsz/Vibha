@@ -383,10 +383,6 @@ export default class FunctionRoom extends Vue {
 .function-setwidth-mobile {
   display: none;
 }
-.function-color {
-  // opacity: 0.4;
-  // background-color: black;
-}
 .square {
   width: 25%;
   height: 600px;
