@@ -409,7 +409,7 @@ export default class ProjectTypeA extends Vue {
 .project-paddingtop {
   padding-top: 4%;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1360px) {
   .project-type-header {
     font-size: 34px;
   }

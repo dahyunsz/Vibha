@@ -52,45 +52,90 @@
       <div v-if="this.isTypeA">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeB">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-non-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
       <div v-if="this.isTypeC">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
-            <p class="type-non-actve" @click="onclickTypeA">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;A&nbsp;&nbsp;
-            </p>
-            <p class="type-non-actve" @click="onclickTypeB">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;B&nbsp;&nbsp;
-            </p>
-            <p class="type-actve" @click="onclickTypeC">
-              &nbsp;&nbsp;T Y P E&nbsp;&nbsp;C&nbsp;&nbsp;
-            </p>
+            <span class="type-non-actve" @click="onclickTypeA">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">A</p>
+            </span>
+            <span class="type-non-actve" @click="onclickTypeB">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">B</p>
+            </span>
+            <span class="type-actve" @click="onclickTypeC">
+              <p class="type-padding">T</p>
+              <p class="type-padding">Y</p>
+              <p class="type-padding">P</p>
+              <p class="type-padding">E</p>
+              &nbsp;&nbsp;
+              <p class="type-padding">C</p>
+            </span>
           </div>
         </div>
       </div>
@@ -244,28 +289,31 @@ div.vertical-line {
 .project-line {
   width: 15%;
 }
-
+.type-padding{
+    padding: 2%;
+  }
 .type-actve {
   border: 1px solid #455a3f;
   color: white;
   background-color: #455a3f;
-  font-size: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 50%;
-  margin-bottom: 7%;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bold;
+  display: flex;
+  margin: 2%;
+  width: 15%;
+  justify-content: center;
 }
 .type-non-actve {
   border: 1px solid #455a3f;
   color: #455a3f;
-  font-size: 60px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 7%;
+  font-size: 40px;
   cursor: pointer;
   font-weight: bold;
+  display: flex;
+  margin: 2%;
+  width: 15%;
+  justify-content: center;
 }
 
 .vibha-type {
@@ -286,10 +334,6 @@ div.vertical-line {
 .vibha-type-bottom-center {
   display: flex;
   justify-content: center;
-}
-.vibha-type-bottom-center p {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 .project-plan {
   border: 1px solid white;
@@ -390,11 +434,22 @@ div.vertical-line {
     font-size: 16px;
     padding: 5px;
     height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
   }
   .type-actve {
     font-size: 16px;
     padding: 5px;
     height: 100%;
+    display: flex;
+    margin: 2%;
+    width: 22%;
+    justify-content: center;
+  }
+  .type-padding{
+    padding: 2%;
   }
 }
 </style>

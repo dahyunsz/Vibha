@@ -66,8 +66,20 @@ hr.line {
   display: none;
 }
 .nav-padding-right {
-  display: block;
   padding-right: 10%;
+}
+@media screen and (max-width: 1500px) {
+  .nav-item{
+      font-size: 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .nav-item{
+      font-size: 16px;
+  }
+  .nav-padding-right {
+    padding-right: 6%;
+}
 }
 @media screen and (max-width: 1023px) {
   .nav-padding-right {
