@@ -11,17 +11,14 @@
       
       <p class="doublevolume-description-en">
         A high ceiling hall was delicately designed to accommodate family
-        members. It is perfect for common time under sheer of sulight, breezy
+        members. It is perfect for common time under sheer of sunlight, breezy
         air, and natural wind. The interior design is luxury decorated with the
         large glass walls that give you an exposure to outside views and enhance
         valuable family moments in relaxing atmosphere.
       </p>
       <br />
       <p class="doublevolume-description-th">
-        พื้นที่สำหรับการพักผ่อนร่วมกันของสมาชิกภายในบ้าน
-        ถูกออกแบบให้เป็นห้องโถงเพดานสูงมีความโปร่ง โล่ง สบาย พร้อมรับแสง
-        และลมจากธรรมชาติอย่างเต็มที่ เพิ่มความหรูหราด้วยผนังกระจกบานใหญ่
-        เปิดรับมุมมองจากภายนอกสู่ภายใน ช่วยเพิ่ม การผ่อนคลายในทุกๆวันขอครอบครัว
+        พื้นที่สำหรับการพักผ่อนร่วมกันของสมาชิกภายในบ้าน ถูกออกแบบให้เป็นห้องโถงเพดานสูงมีความโปร่ง โล่ง สบาย พร้อมรับแสงและลมจากธรรมชาติอย่างเต็มที่ เพิ่มความหรูหราด้วยผนังกระจกบานใหญ่ เปิดรับมุมมองจากภายนอกสู่ภายใน ช่วยเพิ่มการผ่อนคลายในทุกๆวันของครอบครัว
       </p>
     </div>
     <!-- desktop -->
@@ -34,17 +31,13 @@
       <div class="mobile-bottom">
         <p class="description-mobile">
           A high ceiling hall was delicately designed to accommodate family
-          members. It is perfect for common time under sheer of sulight, breezy
+          members. It is perfect for common time under sheer of sunlight, breezy
           air, and natural wind. The interior design is luxury decorated with
           the large glass walls that give you an exposure to outside views and
           enhance valuable family moments in relaxing atmosphere.
         </p>
         <p class="description-mobile">
-          พื้นที่สำหรับการพักผ่อนร่วมกันของสมาชิกภายในบ้าน
-          ถูกออกแบบให้เป็นห้องโถงเพดานสูงมีความโปร่ง โล่ง สบาย พร้อมรับแสง
-          และลมจากธรรมชาติอย่างเต็มที่ เพิ่มความหรูหราด้วยผนังกระจกบานใหญ่
-          เปิดรับมุมมองจากภายนอกสู่ภายใน ช่วยเพิ่ม
-          การผ่อนคลายในทุกๆวันขอครอบครัว
+          พื้นที่สำหรับการพักผ่อนร่วมกันของสมาชิกภายในบ้าน ถูกออกแบบให้เป็นห้องโถงเพดานสูงมีความโปร่ง โล่ง สบาย พร้อมรับแสงและลมจากธรรมชาติอย่างเต็มที่ เพิ่มความหรูหราด้วยผนังกระจกบานใหญ่ เปิดรับมุมมองจากภายนอกสู่ภายใน ช่วยเพิ่มการผ่อนคลายในทุกๆวันของครอบครัว
         </p>
       </div>
     </div>

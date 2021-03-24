@@ -640,7 +640,6 @@ export default class Footer extends Vue {}
   .footer-right {
     width: 50%;
   }
-
   .footer-left-top {
     width: 100%;
   }

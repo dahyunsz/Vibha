@@ -16,9 +16,7 @@
         </p>
         <br />
         <p class="location-description">
-          ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่าน สำคัญต่าง ๆ
-          ของกรุงเทพฯ ด้วยเส้นทางเข้าออกทั้งจาก ถนนวิภาวดี และถนนพหลโยธิน
-          ใกล้จุดขึ้นรถไฟฟ้าสายเขียว และ สีแดง เพียง 10 นาที
+          ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
         </p>
       </div>
     </div>
@@ -31,9 +29,7 @@
       </p>
       <br />
       <p class="location-description">
-        ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่าน สำคัญต่าง ๆ ของกรุงเทพฯ
-        ด้วยเส้นทางเข้าออกทั้งจาก ถนนวิภาวดี และถนนพหลโยธิน
-        ใกล้จุดขึ้นรถไฟฟ้าสายเขียว และ สีแดง เพียง 10 นาที
+        ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
       </p>
     </div>
 
@@ -110,6 +106,10 @@ export default class Location extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "Butler_Medium_Stencil";
+  src: url(/fonts/Butler_Medium_Stencil.ttf);
+}
 .location-page {
   padding-top: 5%;
   font-family: "DB-Ozone-X";
@@ -143,23 +143,24 @@ export default class Location extends Vue {}
   display: flex;
 }
 .location-bottom-left {
-  width: 50%;
+  width: 65%;
   padding-left: 5%;
-  padding-top: 6%;
+  padding-top: 0%;
 }
 .location-bottom-right {
-  width: 50%;
+  width: 35%;
   padding-left: 3%;
   padding-bottom: 8%;
   color: black;
 }
 .location-table-header {
-  font-size: 65px;
+  font-size: 45px;
+  font-family: "Butler_Medium_Stencil";
 }
 .location-table-data {
-  font-size: 35px;
+  font-size: 30px;
   padding: 1%;
-  width: 300px;
+  width: 500px;
   font-weight: bold;
 }
 .textAlignVer {
@@ -195,26 +196,31 @@ div.vertical-line {
 .location-table-header-mobile {
   display: none;
 }
-@media screen and (max-width: 1600px) {
-  .location-table-data {
-    font-size: 30px;
-  }
-}
-@media screen and (max-width: 1400px) {
-  .location-table-header {
-    font-size: 55px;
-  }
+@media screen and (max-width: 1700px) {
   .location-table-data {
     font-size: 25px;
   }
-  .textAlignVer {
-    font-size: 50px;
+}
+@media screen and (max-width: 1600px) {
+  .location-table-data {
+    font-size: 23px;
+    width: 300px;
   }
+  
+}
+@media screen and (max-width: 1500px) {
+  .location-table-data {
+    font-size: 20px;
+    width: 200px;
+  }
+  
+}
+@media screen and (max-width: 1400px) {
+  .location-description{
+    font-size: 30px;
+}
 }
 @media screen and (max-width: 1300px) {
-  .location-table-header-mobile {
-    display: block;
-  }
   .location-header {
     width: 100%;
     padding-top: 20%;
@@ -236,17 +242,12 @@ div.vertical-line {
     display: block;
     font-size: 16px;
   }
-  .location-right-desktop {
-    display: none;
-  }
+
   .location-right {
     width: 100%;
     padding-top: 81%;
     padding-left: 13%;
     padding-right: 10%;
-  }
-  .location-description {
-    font-size: 30px;
   }
   .location-table-header {
     font-size: 60px;
@@ -281,6 +282,12 @@ div.vertical-line {
     padding-left: 10%;
     font-weight: bold;
   }
+  .location-description{
+    font-size: 30px;
+}
+.location-right-desktop{
+  display: none;
+}
 }
 @media screen and (max-width: 1100px) {
   .location-description {
@@ -311,9 +318,6 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 768px) {
-  .location-table-header-mobile {
-    display: block;
-  }
   .location-header {
     width: 100%;
     padding-top: 20%;
@@ -360,17 +364,10 @@ div.vertical-line {
     padding-left: 0%;
     padding-top: 0%;
   }
-  .location-table-header-desktop {
-    display: none;
-  }
+
   .location-bottom-right table {
     margin: auto;
     width: 75%;
-  }
-  .location-table-header-mobile {
-    color: black;
-    padding-left: 10%;
-    font-weight: bold;
   }
   .location-table-data {
     font-size: 20px;
