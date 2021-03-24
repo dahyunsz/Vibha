@@ -264,12 +264,12 @@ div.vertical-line {
     margin-left: 20%;
   }
   .vertical-line-left-mobile {
-    width: 45%;
+    width: 35%;
     margin-top: 2%;
   }
   .Vibhahome-title {
     font-size: 18px;
-    width: 55%;
+    width: 65%;
     text-align: right;
     padding-right: 2%;
   }
