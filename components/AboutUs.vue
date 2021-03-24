@@ -188,17 +188,73 @@ div.vertical-line {
 }
 @media screen and (max-width: 1700px) {
   .kcc-title {
-    margin-top: -20%;
+    margin-top: -21%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .kcc-title {
+    margin-top: -22%;
   }
 }
 @media screen and (max-width: 1500px) {
   .kcc {
     height: 320px;
   }
+  .kcc-title {
+    margin-top: -21%;
+  }
+  .about-us-description {
+    font-size: 30px;
+    margin: 2%;
+    padding-right: 20%;
+  }
+}
+@media screen and (max-width: 1570px) {
+  .kcc-title {
+    margin-top: -23%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .kcc-title {
+    margin-top: -21%;
+  }
+}
+@media screen and (max-width: 1475px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .kcc-title {
+    margin-top: -22.5%;
+  }
 }
 @media screen and (max-width: 1400px) {
   .kcc {
     height: 300px;
+  }
+  .kcc-title {
+    margin-top: -21%;
+  }
+}
+@media screen and (max-width: 1375px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
+}
+@media screen and (max-width: 1325px) {
+  .kcc-title {
+    margin-top: -22.5%;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -208,15 +264,57 @@ div.vertical-line {
   .kcc-title {
     font-size: 20px;
   }
+  .kcc-title {
+    margin-top: -19%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .kcc-title {
+    margin-top: -20%;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .kcc-title {
+    margin-top: -20%;
+  }
 }
 @media screen and (max-width: 1200px) {
   .kcc-title {
     font-size: 17px;
   }
+  .kcc-title {
+    margin-top: -20%;
+  }
+}
+@media screen and (max-width: 1175px) {
+  .kcc-title {
+    margin-top: -21%;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .kcc-title {
+    margin-top: -22%;
+  }
 }
 @media screen and (max-width: 1100px) {
   .kcc-title {
     margin-top: -22%;
+  }
+  .about-us-description {
+    font-size: 24px;
+  }
+  .textAlignVer {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1075px) {
+  .kcc-title {
+    margin-top: -23%;
+  }
+}
+@media screen and (max-width: 1075px) {
+  .kcc-title {
+    margin-top: -24%;
   }
 }
 @media screen and (max-width: 1000px) {
@@ -230,15 +328,24 @@ div.vertical-line {
   .kcc-title {
     font-size: 15px;
   }
+  .about-us-description {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 900px) {
   .kcc-title {
     margin-top: -21%;
   }
+  .textAlignVer {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 800px) {
   .kcc {
     height: 170px;
+  }
+  .textAlignVer {
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -248,13 +355,11 @@ div.vertical-line {
     padding-right: 15%;
   }
   .textAlignVer {
-    font-size: 25px;
-    margin-left: 31%;
-    margin-top: 160%;
+    font-size: 35px;
+    margin-left: 30%;
   }
   div.vertical-line {
     width: 2px;
-    margin-left: 44%;
   }
   .kcc-desktop {
     display: none;
@@ -274,34 +379,52 @@ div.vertical-line {
   .kcc-container {
     width: 50%;
     height: 290px;
-}
-.kcc-title{
+  }
+  .kcc-title {
     font-size: 20px;
-        margin-top: -36%;
-}
+    margin-top: -36%;
+  }
+  .about-us-logo {
+    width: 50%;
+  }
+  .about-us-logo {
+    padding-top: 5%;
+  }
+  .about-us-description {
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 700px) {
   .kcc-title {
     margin-top: -40%;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .kcc-title {
     margin-top: -37%;
     font-size: 16px;
-}
-.kcc-container {
+  }
+  .kcc-container {
     height: 230px;
+  }
 }
+@media screen and (max-width: 560px) {
+  .kcc-title {
+    margin-top: -40%;
+    font-size: 16px;
+  }
+  .textAlignVer {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 500px) {
   .kcc-title {
     margin-top: -37%;
     font-size: 16px;
-}
-.kcc-container {
+  }
+  .kcc-container {
     height: 190px;
-}
+  }
 }
 @media screen and (max-width: 400px) {
   .about-us-description {
@@ -339,7 +462,13 @@ div.vertical-line {
   }
   .kcc-title {
     font-size: 12px;
-}
+  }
+  .about-us-logo {
+    padding-top: 5%;
+  }
+  .about-us-description {
+    margin: 1%;
+  }
 }
 @media screen and (max-width: 375px) {
   .about-us-description {
@@ -373,7 +502,7 @@ div.vertical-line {
     height: 100%;
   }
   .about-us-logo {
-    width: 70%;
+    width: 60%;
   }
   .kcc-title {
     font-size: 10px;
@@ -383,7 +512,8 @@ div.vertical-line {
   .kcc-title-padding {
     margin-left: 10%;
   }
+  .about-us-logo {
+    padding-top: 5%;
+  }
 }
-
-
 </style>
