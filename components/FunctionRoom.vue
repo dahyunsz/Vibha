@@ -415,6 +415,7 @@ z-index: 1
   justify-items: center;
   color: #455a3f;
   margin-top: 14%;
+  width: 25%;
 }
 @media screen and (max-width: 1750px) {
   .function-container {
@@ -431,12 +432,27 @@ z-index: 1
   height: 72%;
 }
 }
+@media screen and (max-width: 1550px) {
+  .function-container {
+  height: 65%;
+}
+}
 @media screen and (max-width: 1500px) {
   .function-container {
-  height: 74%;
+  height: 67%;
+}
+}
+@media screen and (max-width: 1450px) {
+  .function-container {
+  height: 69%;
 }
 }
 @media screen and (max-width: 1400px) {
+  .function-container {
+  height: 72%;
+}
+}
+@media screen and (max-width: 1350px) {
   .function-container {
   height: 72%;
 }
@@ -459,6 +475,21 @@ z-index: 1
     width: 100%;
     text-align: center;
   }
+  .function-container {
+  height: 53%;
+}
+}
+@media screen and (max-width: 1250px) {
+  .function-container {
+  height: 53%;
+}
+}
+@media screen and (max-width: 1200px) {
+  .function-container {
+  height: 53%;
+}
+}
+@media screen and (max-width: 1150px) {
   .function-container {
   height: 53%;
 }
