@@ -129,7 +129,6 @@ export default class Location extends Vue {}
 }
 .location-description {
   font-size: 40px;
-  text-align: justify;
 }
 .location-img-house {
   position: absolute;
@@ -214,14 +213,34 @@ div.vertical-line {
     font-size: 20px;
     width: 200px;
   }
-  
+  .location-bottom-left {
+    width: 60%;
+    margin: auto;
+    padding-left: 0%;
+    padding-top: 0%;
+  }
+  .location-bottom-right{
+    width: 35%;
+    padding-left: 0%;
+    padding-bottom: 8%;
+    color: black;
+}
 }
 @media screen and (max-width: 1400px) {
   .location-description{
     font-size: 30px;
 }
+.location-table-data {
+    font-size: 18px;
+  }
+  .location-table-data table tr td{
+    width: 20px;
+  }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
+  .location-table-header-mobile{
+    display: block;
+  }
   .location-header {
     width: 100%;
     padding-top: 20%;
@@ -288,6 +307,10 @@ div.vertical-line {
 }
 .location-right-desktop{
   display: none;
+}
+.location-table-data{
+    font-size: 20px;
+    width: 50%;
 }
 }
 @media screen and (max-width: 1100px) {

@@ -89,7 +89,6 @@ export default class DoubleVolume extends Vue {}
   padding-right: 8%;
   padding-left: 3%;
   font-weight: bold;
-  text-align: justify;
 }
 .doublevolume-description-th {
   font-size: 25px;
@@ -98,7 +97,6 @@ export default class DoubleVolume extends Vue {}
   padding-right: 8%;
   padding-bottom: 4%;
   font-weight: bold;
-  text-align: justify;
 }
 .square {
   width: 92%;
@@ -124,7 +122,6 @@ export default class DoubleVolume extends Vue {}
   .description-mobile{
     font-size: 12px;
     margin: 3%;
-    text-align: justify;
   }
   .mobile-title{
     padding-left: 3%;

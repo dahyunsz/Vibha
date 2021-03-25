@@ -136,7 +136,7 @@ export default class VibhaHome extends Vue {}
   color: white;
   font-size: 25px;
   font-weight: bold;
-  width: 25%;
+  width: 35%;
   text-align: center;
   font-family: "Kiona-Regular";
 }
@@ -146,11 +146,11 @@ div.vertical-line {
   height: 3px;
 }
 .vertical-line-left {
-  width: 37.5%;
+  width: 32.5%;
   margin-top: 1.25%;
 }
 .vertical-line-right {
-  width: 37.5%;
+  width: 32.5%;
   margin-top: 1.25%;
 }
 @media screen and (max-width: 1800px) {

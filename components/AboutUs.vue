@@ -130,8 +130,7 @@ export default class AboutUs extends Vue {}
 }
 .about-us-description {
   margin: 2%;
-  padding-right: 20%;
-  text-align: justify;
+  padding-right: 20%;  
   font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;

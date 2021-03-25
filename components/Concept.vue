@@ -123,7 +123,6 @@ body {
   font-size: 35px;
   padding-top: 12%;
   padding-right: 6%;
-  text-align: justify;
 }
 
 .concept-func-component {
@@ -137,7 +136,6 @@ body {
 .concept-func-description {
   font-size: 30px;
   padding-right: 20%;
-  text-align: justify;
 }
 .textAlignVer {
   display: block;

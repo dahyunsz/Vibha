@@ -137,13 +137,11 @@ body {
   font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;
-  text-align: justify;
 }
 .Vibha-detail-description-swapDesktop {
   font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;
-  text-align: justify;
 }
 .Vibha-detail-top p {
   font-size: 88px;
@@ -330,7 +328,6 @@ div.vertical-line {
     font-size: 17px;
     font-family: "SukhumvitSet";
     font-weight: bold;
-    text-align: justify;
   }
   .Vibha-detail-description-right {
     padding-right: 0%;
