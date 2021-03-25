@@ -7,7 +7,7 @@
       </transition>
       <div v-show="!isLoad" class="loading">Loading...</div>
     </div>
-    <h1 class="project-titile">2nd FLOOR PLAN</h1>
+    <h1 v-show="isLoad" class="project-titile">2nd FLOOR PLAN</h1>
   </div>
 </template>
 
