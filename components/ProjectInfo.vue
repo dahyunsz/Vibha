@@ -49,7 +49,7 @@
         <img class="Vibha-detail-top-img" src="/Vibhalogo.png" />
       </div>
 
-      <div v-if="this.isTypeA">
+      <div v-show="this.isTypeA">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-actve" @click="onclickTypeA">
@@ -79,7 +79,7 @@
           </div>
         </div>
       </div>
-      <div v-if="this.isTypeB">
+      <div v-show="this.isTypeB">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-non-actve" @click="onclickTypeA">
@@ -109,7 +109,7 @@
           </div>
         </div>
       </div>
-      <div v-if="this.isTypeC">
+      <div v-show="this.isTypeC">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-non-actve" @click="onclickTypeA">
@@ -140,13 +140,13 @@
         </div>
       </div>
 
-      <div v-if="this.isTypeA">
+      <div v-show="this.isTypeA">
         <ProjectTypeA />
       </div>
-      <div v-if="this.isTypeB">
+      <div v-show="this.isTypeB">
         <ProjectTypeB />
       </div>
-      <div v-if="this.isTypeC">
+      <div v-show="this.isTypeC">
         <ProjectTypeC />
       </div>
     </div>

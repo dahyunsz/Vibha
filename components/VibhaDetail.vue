@@ -190,7 +190,7 @@ div.vertical-line {
   font-size: 40px;
 }
 .Vibha-detail-description-right {
-  padding-right: 15%;
+  padding-right: 10%;
   padding-left: 2%;
 }
 .Vibha-detail-img-mobile {
