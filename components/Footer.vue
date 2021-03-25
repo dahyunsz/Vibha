@@ -10,7 +10,7 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR <br />
+              VI PLAZA 2nd FLOOR <br />
               (Vibhavadi Hospital)
             </p>
           </div>
@@ -88,7 +88,7 @@
           <div class="footer-form">
             <p class="footer-bold">SALES GALLERY</p>
             <p class="footer-description">
-              VI PLAZA 2nd fLOOR <br />
+              VI PLAZA 2nd FLOOR <br />
               (Vibhavadi Hospital)
             </p>
           </div>

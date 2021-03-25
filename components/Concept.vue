@@ -24,7 +24,7 @@
         </p>
         <br />
         <p>
-          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาสดีรังสิต รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาดรวมถึงสถานศึกษาและโรงพยาบาลชั้นนำ
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาวดีรังสิต รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาดรวมถึงสถานศึกษาและโรงพยาบาลชั้นนำ
         </p>
       </div>
     </div>
@@ -39,8 +39,7 @@
           <p>
             Every single house is designed with the concept of modern luxury
             with a simply functional twist on top of mind to accommodate every
-            changeover and meet the needs of all family members. <br />
-            It is thoughtfully outlined to maximize usable space while
+            changeover and meet the needs of all family members. It is thoughtfully outlined to maximize usable space while
             maintaining the perfect blend between modern design and the touch of
             nature.
           </p>
@@ -124,6 +123,7 @@ body {
   font-size: 35px;
   padding-top: 12%;
   padding-right: 6%;
+  text-align: justify;
 }
 
 .concept-func-component {
@@ -137,6 +137,7 @@ body {
 .concept-func-description {
   font-size: 30px;
   padding-right: 20%;
+  text-align: justify;
 }
 .textAlignVer {
   display: block;

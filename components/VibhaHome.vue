@@ -92,8 +92,8 @@ export default class VibhaHome extends Vue {}
   width: 30%;
   position: absolute;
   z-index: 1;
-  margin-top: -5%;
-  margin-left: 12%;
+  margin-top: -10%;
+  margin-left: 6%;
 }
 .vibhahome-desktop {
   display: block;

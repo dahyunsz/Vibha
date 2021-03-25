@@ -83,6 +83,7 @@ export default class TheGreenSpaceEN extends Vue {}
   padding-left: 3%;
   font-weight: bold;
   padding-bottom: 4%;
+  text-align: justify;
 }
 .square {
   width: 92%;
@@ -108,6 +109,7 @@ export default class TheGreenSpaceEN extends Vue {}
   .description-mobile{
     font-size: 12px;
     margin: 3%;
+    text-align: justify;
   }
   .mobile-title{
     padding-left: 3%;

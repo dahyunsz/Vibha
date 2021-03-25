@@ -101,6 +101,10 @@ export default class AboutUs extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+@font-face {
+  font-family: "SukhumvitSet";
+  src: url(/fonts/SukhumvitSet.ttf);
+}
 
 .about-us-page {
   background-color: #dcd5cd;
@@ -125,9 +129,13 @@ export default class AboutUs extends Vue {}
   text-align: center;
 }
 .about-us-description {
-  font-size: 34px;
   margin: 2%;
   padding-right: 20%;
+  text-align: justify;
+  font-size: 24px;
+  font-family: "SukhumvitSet";
+  font-weight: bold;
+  padding-bottom: 5%;
 }
 .about-us-logo {
   width: 25%;
@@ -192,6 +200,11 @@ div.vertical-line {
     margin-top: -22%;
   }
 }
+@media screen and (max-width: 1570px) {
+  .kcc-title {
+    margin-top: -23%;
+  }
+}
 @media screen and (max-width: 1500px) {
   .kcc {
     height: 320px;
@@ -200,17 +213,12 @@ div.vertical-line {
     margin-top: -21%;
   }
   .about-us-description {
-    font-size: 30px;
+    font-size: 22px;
     margin: 2%;
     padding-right: 20%;
   }
 }
-@media screen and (max-width: 1570px) {
-  .kcc-title {
-    margin-top: -23%;
-  }
-}
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1487px) {
   .kcc-title {
     margin-top: -21%;
   }
@@ -236,6 +244,9 @@ div.vertical-line {
   }
   .kcc-title {
     margin-top: -21%;
+  }
+  .about-us-description {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1375px) {
@@ -297,7 +308,7 @@ div.vertical-line {
     margin-top: -22%;
   }
   .about-us-description {
-    font-size: 24px;
+    font-size: 19px;
   }
   .textAlignVer {
     font-size: 50px;
@@ -325,7 +336,7 @@ div.vertical-line {
     font-size: 15px;
   }
   .about-us-description {
-    font-size: 22px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -387,7 +398,7 @@ div.vertical-line {
     padding-top: 5%;
   }
   .about-us-description {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -424,7 +435,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 400px) {
   .about-us-description {
-    font-size: 12px;
+    font-size: 11px;
     margin: 2%;
     padding-right: 15%;
   }
@@ -468,7 +479,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 375px) {
   .about-us-description {
-    font-size: 12px;
+    font-size: 11px;
     margin: 2%;
     padding-right: 15%;
   }

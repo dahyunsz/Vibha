@@ -11,9 +11,9 @@
         <p>
           In 2020, the company has expanded the business to capture the
           potential for housing development in the Vibhavadi
-          Rangsit-Phaholyothin area, which is a high growth district. <br />
+          Rangsit-Phaholyothin area, which is a high growth district. 
           It is surrounded by various amenities including the Green and Red
-          Skytrain connects traveling to the inner and outer Bangkok. <br />
+          Skytrain connects traveling to the inner and outer Bangkok. 
           The area also provides easy access to department stores, universities,
           hospitals, and parks that are scattered around the area.
         </p>
@@ -27,7 +27,10 @@
         </p>
         <br />
         <p class="Vibha-detail-description-swapDesktop">
-          ในปี 2563 เนื่องจากทางบริษัทฯ เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
+          ในปี 2563 เนื่องจากทางบริษัทฯ
+          เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน
+          ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ
+          ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
         </p>
       </div>
     </div>
@@ -45,15 +48,26 @@
       <div class="Vibha-detail-description-right">
         <div class="Vibha-detail-description-swapMobile">
           <p class="Vibha-detail-swapMobile">
-            ในปี 2563 เนื่องจากทางบริษัทฯ เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
+            ในปี 2563 เนื่องจากทางบริษัทฯ
+            เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน
+            ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ
+            ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
           </p>
           <p class="Vibha-detail-swapMobile">
-            เชื่อมต่อทั้งกรุงเทพชั้นในและชั้นนอก รวมถึงสถานที่สำคัญ ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
+            เชื่อมต่อทั้งกรุงเทพชั้นในและชั้นนอก รวมถึงสถานที่สำคัญ
+            ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ
+            วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY
+            มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ
+            โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
           </p>
         </div>
 
         <p class="Vibha-detail-description-swapDesktop">
-          เชื่อมต่อทั้งกรุงเทพชั้นในและชั้นนอก รวมถึงสถานที่สำคัญ ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
+          เชื่อมต่อทั้งกรุงเทพชั้นในและชั้นนอก รวมถึงสถานที่สำคัญ
+          ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ
+          วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY
+          มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ
+          โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
         </p>
       </div>
       <div class="Vibha-detail-tree-center">
@@ -116,18 +130,20 @@ body {
   background-color: #93a49e;
 }
 .Vibha-detail-bottom {
-  font-size: 25px;
   padding-left: 18%;
   padding-top: 13%;
   padding-right: 5%;
   padding-bottom: 15%;
+  font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;
+  text-align: justify;
 }
 .Vibha-detail-description-swapDesktop {
-  font-size: 25px;
+  font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;
+  text-align: justify;
 }
 .Vibha-detail-top p {
   font-size: 88px;
@@ -157,7 +173,7 @@ body {
 div.vertical-line {
   width: 4px;
   background-color: #1e2f27;
-  height: 173%;
+  height: 120%;
   float: left;
   margin-left: 6.2%;
   position: absolute;
@@ -165,10 +181,7 @@ div.vertical-line {
   margin-top: -5%;
 }
 .Vibha-detail-top-img {
-  // position: absolute;
-  // z-index: 1;
   margin-left: -2%;
-  // margin-top: -20%;
   margin-bottom: -10%;
 }
 .Vibha-detail-top-header {
@@ -196,6 +209,12 @@ div.vertical-line {
 @media screen and (max-width: 1500px) {
   .Vibha-detail-top p {
     font-size: 72px;
+  }
+  .Vibha-detail-bottom {
+    font-size: 22px;
+  }
+  .Vibha-detail-description-swapDesktop {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -231,16 +250,15 @@ div.vertical-line {
     font-size: 53px;
   }
   .Vibha-detail-bottom {
-    font-size: 18px;
+    font-size: 19px;
   }
   .Vibha-detail-description-swapDesktop {
-    font-size: 18px;
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 1024px) {
-  .Vibha-detail-bottom {
-    font-size: 25px;
-  }
+
+
 }
 @media screen and (max-width: 1000px) {
   .Vibha-detail-bottom {
@@ -312,6 +330,7 @@ div.vertical-line {
     font-size: 17px;
     font-family: "SukhumvitSet";
     font-weight: bold;
+    text-align: justify;
   }
   .Vibha-detail-description-right {
     padding-right: 0%;
@@ -355,10 +374,10 @@ div.vertical-line {
   }
   .Vibha-detail-swapMobile {
     font-size: 12px;
-}
-.Vibha-detail-bottom {
+  }
+  .Vibha-detail-bottom {
     font-size: 12px;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .Vibha-detail-left {
@@ -398,7 +417,7 @@ div.vertical-line {
   .Vibha-detail-swapMobile {
     width: 50%;
     padding: 2%;
-    font-size: 11px;
+    font-size: 12px;
     font-family: "SukhumvitSet";
     font-weight: bold;
   }

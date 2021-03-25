@@ -129,6 +129,7 @@ export default class Location extends Vue {}
 }
 .location-description {
   font-size: 40px;
+  text-align: justify;
 }
 .location-img-house {
   position: absolute;
@@ -453,7 +454,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 375px) {
   .location-description {
-    font-size: 16px;
+    font-size: 15px;
   }
   .location-table-data {
     font-size: 14px;
