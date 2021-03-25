@@ -135,7 +135,7 @@ export default class VibhaHome extends Vue {}
 .Vibhahome-title {
   color: white;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: bolder;
   width: 35%;
   text-align: center;
   font-family: "Kiona-Regular";

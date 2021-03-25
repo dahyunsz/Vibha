@@ -2,7 +2,8 @@
   <b-navbar>
     <div class="square"></div>
     <template #end>
-      <b-navbar-item
+      <div class="nav-padding-right">
+        <b-navbar-item
         v-scroll-to="{ el: '#aboutus' }"
         class="nav-item nav-padding-top"
       >
@@ -36,6 +37,7 @@
         <a href="https://www.facebook.com/vibharesidence/"><img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" /></a>
         <a href="https://instagram.com/vibharesidence?igshid=mgzpo4k2x2du"><img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" /></a>
       </b-navbar-item>
+      </div>
     </template>
   </b-navbar>
 </template>
@@ -66,7 +68,8 @@ hr.line {
   display: none;
 }
 .nav-padding-right {
-  padding-right: 10%;
+  margin-right: 25%;
+  display: flex;
 }
 @media screen and (max-width: 1500px) {
   .nav-item{

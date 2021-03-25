@@ -120,9 +120,11 @@ body {
 }
 .concept-modern-right {
   width: 53%;
-  font-size: 35px;
   padding-top: 12%;
   padding-right: 6%;
+  font-size: 24px;
+  font-family: "SukhumvitSet";
+  font-weight: bold;
 }
 
 .concept-func-component {
@@ -193,7 +195,7 @@ div.vertical-line {
     font-size: 70px;
   }
   .concept-modern-right {
-    font-size: 33px;
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 1500px) {
@@ -202,14 +204,21 @@ div.vertical-line {
   }
   .concept-modern-right {
     padding-top: 6%;
+    font-size: 22px;
   }
+  
 }
 @media screen and (max-width: 1450px) {
   .concept-modern-right {
-    font-size: 29px;
+    font-size: 21px;
   }
   .concept-func-header {
     font-size: 65px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .concept-modern-right {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -217,7 +226,6 @@ div.vertical-line {
     font-size: 50px;
   }
   .concept-modern-right {
-    font-size: 29px;
     padding-top: 6%;
   }
   .concept-func-description {
@@ -243,7 +251,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 1100px) {
   .concept-modern-right {
-    font-size: 23px;
+    font-size: 19px;
     padding-top: 7%;
   }
   .concept-modern-left {
@@ -272,6 +280,11 @@ div.vertical-line {
     font-size: 40px;
 }
 }
+@media screen and (max-width: 1000px) {
+  .concept-modern-right {
+    font-size: 16px;
+  }
+}
 @media screen and (max-width: 850px) {
   div.vertical-line {
     height: 200%;
@@ -291,6 +304,11 @@ div.vertical-line {
     font-size: 35px;
 }
 }
+@media screen and (max-width: 800px) {
+  .concept-modern-right {
+    font-size: 15px;
+  }
+}
 @media screen and (max-width: 768px) {
   .concept-mobile {
     display: block;
@@ -305,10 +323,6 @@ div.vertical-line {
   .concept-img {
     display: none;
   }
-  .concept-modern-right {
-    width: 53%;
-    font-size: 12px;
-  }
   .concept-modern-left {
     width: 40%;
     font-size: 22px;
@@ -320,7 +334,10 @@ div.vertical-line {
     margin-left: 60%;
   }
   .concept-modern-right {
+    width: 53%;
     padding-bottom: 17%;
+    font-size: 17px;
+    padding-top: 16%;
   }
   .concept-func-img {
     margin-top: -10%;
@@ -341,10 +358,6 @@ div.vertical-line {
   }
   .concept-desktop {
     display: none;
-  }
-  .concept-modern-right {
-    font-size: 20px;
-    padding-top: 16%;
   }
   .concept-modern-left {
     font-size: 40px;
@@ -432,7 +445,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 500px) {
   .concept-modern-right {
-    font-size: 16px;
+    font-size: 15px;
     padding-top: 16%;
   }
   .concept-modern-left {
@@ -455,7 +468,7 @@ div.vertical-line {
 }
 @media screen and (max-width: 400px) {
   .concept-modern-right {
-    font-size: 14px;
+    font-size: 12px;
     padding-top: 16%;
   }
   .concept-modern-left {

@@ -1,7 +1,11 @@
 <template>
   <div class="project-page">
     <div class="project-center">
-      <img class="project-plan-img" src="/TypeA/A-F01.jpg" >
+      <!-- <img class="project-plan-img" src="/TypeA/A-F01.jpg" /> -->
+      <transition>
+        <img class="project-plan-img" v-show="isLoad" :src="url" @load="loaded" />
+      </transition>
+      <div v-show="!isLoad" class="loading">Loading...</div>
     </div>
     <h1 class="project-titile">1ST FLOOR PLAN</h1>
   </div>
@@ -12,6 +16,19 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component
 export default class FirstFloor extends Vue {
+  url = "";
+  images = "/TypeA/A-F01.jpg";
+  isLoad = false;
+  created() {
+    this.loadImg();
+  }
+  loadImg() {
+    this.isLoad = false;
+    this.url = this.images;
+  }
+  loaded() {
+    this.isLoad = true;
+  }
 }
 </script>
 
@@ -20,6 +37,13 @@ export default class FirstFloor extends Vue {
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+.loading {
+  font-size: 60px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding-top: 20%;
+}
 .project-page {
   width: 100%;
   background-color: white;
@@ -27,15 +51,15 @@ export default class FirstFloor extends Vue {
   font-family: "DB-Ozone-X";
   text-align: center;
 }
-.project-plan-container{
+.project-plan-container {
   text-align: center;
   align-content: center;
 }
-.project-plan-img{
+.project-plan-img {
   width: 30%;
   text-align: center;
 }
-.project-plan-title{
+.project-plan-title {
   font-size: 30px;
 }
 .project-header {
@@ -43,7 +67,7 @@ export default class FirstFloor extends Vue {
   font-weight: bold;
   color: white;
 }
-.project-titile{
+.project-titile {
   font-size: 50px;
   text-align: left;
   font-weight: bold;
@@ -51,7 +75,7 @@ export default class FirstFloor extends Vue {
   padding-left: 5%;
 }
 @media screen and (max-width: 768px) {
-  .project-titile{
+  .project-titile {
     font-size: 16px;
   }
 }

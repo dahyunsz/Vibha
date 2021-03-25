@@ -10,16 +10,14 @@
         <br />
         <br />
         <p class="project-description">
-          <span class="description-bold">DEVELOPER : </span><br />K. COMMERCIAL
-          & CONSTRUCTION CO.,LTD <br /><span class="description-bold"
-            >PROJECT LAND AREA :</span
-          >
-          263 SQ. WAH <br />
-          <span class="description-bold">PROJECT TYPE :</span> MODERN LUXURY
-          SINGLE HOUSES<br /><span class="description-bold">TOTAL UNIT :</span>
-          4 UNITS
+          <span class="description-bold">DEVELOPER : <br> </span>
         </p>
-
+        <p class="project-description go-top">
+          K. COMMERCIAL & CONSTRUCTION CO.,LTD <br />
+          <span class="description-bold">PROJECT LAND AREA :</span>263 SQ. WAH <br />
+          <span class="description-bold">PROJECT TYPE :</span> MODERN LUXURY SINGLE HOUSES<br />
+          <span class="description-bold">TOTAL UNIT :</span> 4 UNITS
+        </p>
         <br />
         <p class="project-description">
           <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI 60
@@ -49,7 +47,7 @@
         <img class="Vibha-detail-top-img" src="/Vibhalogo.png" />
       </div>
 
-      <div v-show="this.isTypeA">
+      <div v-show="this.isTypeA" class="bottom-margintop">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-actve" @click="onclickTypeA">
@@ -79,7 +77,7 @@
           </div>
         </div>
       </div>
-      <div v-show="this.isTypeB">
+      <div v-show="this.isTypeB" class="bottom-margintop">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-non-actve" @click="onclickTypeA">
@@ -109,7 +107,7 @@
           </div>
         </div>
       </div>
-      <div v-show="this.isTypeC">
+      <div v-show="this.isTypeC" class="bottom-margintop">
         <div class="vibha-type-bottom">
           <div class="vibha-type-bottom-center">
             <span class="type-non-actve" @click="onclickTypeA">
@@ -300,7 +298,7 @@ div.vertical-line {
   cursor: pointer;
   font-weight: bold;
   display: flex;
-  margin: 2%;
+  margin: 3%;
   width: 15%;
   justify-content: center;
 }
@@ -311,7 +309,7 @@ div.vertical-line {
   cursor: pointer;
   font-weight: bold;
   display: flex;
-  margin: 2%;
+  margin: 3%;
   width: 15%;
   justify-content: center;
 }
@@ -344,6 +342,7 @@ div.vertical-line {
   margin-bottom: 10%;
   text-align: center;
   cursor: pointer;
+  font-weight: bold;
 }
 .project-description-inner {
   color: #727a7d;
@@ -351,6 +350,16 @@ div.vertical-line {
 }
 .project-info-right-mobile {
   display: none;
+}
+.description-bold-marigntop{
+  margin-top: -1%;
+}
+.bottom-margintop{
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+.go-top{
+  margin-top:-2.5% ;
 }
 @media screen and (max-width: 1600px) {
   .project-plan {
@@ -369,6 +378,9 @@ div.vertical-line {
   .project-description {
     font-size: 33px;
   }
+  .project-header {
+  font-size: 55px;
+}
 }
 @media screen and (max-width: 1500px) {
   .project-description {

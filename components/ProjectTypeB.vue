@@ -404,11 +404,11 @@ export default class ProjectTypeB extends Vue {
 .type-non-actve {
   border: 1px solid #455a3f;
   color: #455a3f;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   display: flex;
   margin: 2%;
-  width: 35%;
+  width: 45%;
   justify-content: center;
   margin-left: -2%;
 }
@@ -498,6 +498,9 @@ export default class ProjectTypeB extends Vue {
   .square {
     height: 111%;
   }
+  .type-non-actve{
+    font-size: 35px;
+}
 }
 @media screen and (max-width: 1024px) {
   .type-container-mobile {
@@ -628,6 +631,11 @@ export default class ProjectTypeB extends Vue {
     font-size: 35px;
   }
 }
+@media screen and (max-width: 768px) {
+  .type-non-actve {
+    width: 50%;
+  }
+}
 @media screen and (max-width: 700px) {
   .square {
     height: 117.7%;
@@ -681,7 +689,7 @@ export default class ProjectTypeB extends Vue {
     height: 68%;
   }
   .type-non-actve {
-    width: 50%;
+    width: 55%;
   }
   .project-type-option {
     font-size: 15px;

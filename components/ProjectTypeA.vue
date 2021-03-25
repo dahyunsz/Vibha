@@ -5,13 +5,13 @@
         <img class="type-bg" src="/type-bg.jpg" alt="" />
         <div class="project-type-left-padding">
           <span class="type-non-actve">
-              <p class="type-padding">T</p>
-              <p class="type-padding">Y</p>
-              <p class="type-padding">P</p>
-              <p class="type-padding">E</p>
-              &nbsp;&nbsp;
-              <p class="type-padding">A</p>
-            </span>
+            <p class="type-padding">T</p>
+            <p class="type-padding">Y</p>
+            <p class="type-padding">P</p>
+            <p class="type-padding">E</p>
+            &nbsp;&nbsp;
+            <p class="type-padding">A</p>
+          </span>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
           <p class="project-type-description">61.1 SQ.WAH / 53 SQ.WAH</p>
@@ -404,45 +404,41 @@ export default class ProjectTypeA extends Vue {
 .type-non-actve {
   border: 1px solid #455a3f;
   color: #455a3f;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: bold;
   display: flex;
   margin: 2%;
-  width: 35%;
+  width: 45%;
   justify-content: center;
   margin-left: -2%;
 }
-.type-padding{
-    padding: 2%;
-  }
+.type-padding {
+  padding: 2%;
+}
 @media screen and (max-width: 1700px) {
-.project-type-bottom{
-
+  .project-type-bottom {
     padding-top: 20%;
-
-}
-.square {
+  }
+  .square {
     height: 106%;
-}
+  }
 }
 @media screen and (max-width: 1600px) {
-.project-type-bottom{
-
+  .project-type-bottom {
     padding-top: 20%;
-
-}
-.project-type-Topic{
+  }
+  .project-type-Topic {
     font-size: 30px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 20px;
-}
-.type-title{
+  }
+  .type-title {
     font-size: 30px;
-}
-.square {
+  }
+  .square {
     height: 106%;
-}
+  }
 }
 @media screen and (max-width: 1400px) {
   .project-type-Topic {
@@ -471,40 +467,43 @@ export default class ProjectTypeA extends Vue {
   }
   .type-img-container {
     width: 23%;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 24px;
-}
-.project-type-left-padding{
+  }
+  .project-type-left-padding {
     padding-top: 23%;
-}
+  }
 }
 @media screen and (max-width: 1300px) {
-.square {
+  .square {
     height: 100%;
   }
 }
 @media screen and (max-width: 1200px) {
-.project-type-Topic{
+  .project-type-Topic {
     font-size: 25px;
-}
-.project-type-description {
+  }
+  .project-type-description {
     font-size: 17px;
-}
-.square {
+  }
+  .square {
     height: 92%;
   }
 }
 @media screen and (max-width: 1100px) {
-.type-title{
+  .type-title {
     font-size: 22px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 15px;
-}
-.square {
+  }
+  .square {
     height: 85%;
-}
+  }
+  .type-non-actve {
+    font-size: 35px;
+  }
 }
 @media screen and (max-width: 1024px) {
   .type-container-mobile {
@@ -583,10 +582,10 @@ export default class ProjectTypeA extends Vue {
   .project-type {
     flex-direction: column;
   }
-  .square{
+  .square {
     height: 131.7%;
     width: 35%;
-}
+  }
   .project-type-option {
     width: 35%;
   }
@@ -625,80 +624,85 @@ export default class ProjectTypeA extends Vue {
   }
   .type-non-actve {
     width: 40%;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   .square {
     height: 102.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 35px;
+  }
 }
+@media screen and (max-width: 768px) {
+  .type-non-actve {
+    width: 50%;
+  }
 }
 @media screen and (max-width: 700px) {
   .square {
-        height: 89.7%;
+    height: 89.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 35px;
-}
-.project-type-description {
+  }
+  .project-type-description {
     font-size: 18px;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 18px;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .square {
     height: 76.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 27px;
-}
-.project-type-option {
+  }
+  .project-type-option {
     font-size: 20px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 2%;
-}
+  }
 }
 @media screen and (max-width: 500px) {
   .square {
     height: 63.7%;
   }
-  .type-non-actve{
+  .type-non-actve {
     font-size: 23px;
-}
-.project-type-option {
+  }
+  .project-type-option {
     font-size: 17px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 2%;
-}
-.project-type-Topic {
+  }
+  .project-type-Topic {
     font-size: 20px;
-}
-.project-type-description{
+  }
+  .project-type-description {
     font-size: 12px;
-}
+  }
 }
 @media screen and (max-width: 400px) {
-.square {
+  .square {
     height: 51%;
   }
   .type-non-actve {
-    width: 50%;
-}
-.project-type-option {
+    width: 55%;
+  }
+  .project-type-option {
     font-size: 15px;
-}
-.project-type-bottom {
+  }
+  .project-type-bottom {
     padding-left: 0%;
-}
-.type-title {
+  }
+  .type-title {
     font-size: 15px;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .type-container-mobile {

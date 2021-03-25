@@ -1,7 +1,11 @@
 <template>
   <div class="project-page">
     <div class="project-center">
-      <img class="project-plan-img" src="/TypeB/B-F02.jpg" >
+      <!-- <img class="project-plan-img" src="/TypeB/B-F02.jpg" > -->
+      <transition>
+        <img class="project-plan-img" v-show="isLoad" :src="url" @load="loaded" />
+      </transition>
+      <div v-show="!isLoad" class="loading">Loading...</div>
     </div>
     <h1 class="project-titile">2nd FLOOR PLAN</h1>
   </div>
@@ -12,6 +16,19 @@ import { Vue, Component, Prop } from "vue-property-decorator";
 
 @Component
 export default class SecondFloor extends Vue {
+  url = "";
+  images = "/TypeB/B-F02.jpg";
+  isLoad = false;
+  created() {
+    this.loadImg();
+  }
+  loadImg() {
+    this.isLoad = false;
+    this.url = this.images;
+  }
+  loaded() {
+    this.isLoad = true;
+  }
 }
 </script>
 
@@ -19,6 +36,13 @@ export default class SecondFloor extends Vue {
 @font-face {
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
+}
+.loading {
+  font-size: 60px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  padding-top: 20%;
 }
 .project-page {
   width: 100%;

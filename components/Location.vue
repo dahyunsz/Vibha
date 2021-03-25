@@ -120,7 +120,7 @@ export default class Location extends Vue {}
 }
 .location-header {
   width: 100%;
-  padding-top: 20%;
+  padding-top: 15%;
   display: flex;
 }
 .location-left {
@@ -132,7 +132,7 @@ export default class Location extends Vue {}
   padding-left: 5%;
 }
 .location-description {
-  font-size: 40px;
+  font-size: 32px;
 }
 .location-img-house {
   position: absolute;
@@ -143,11 +143,11 @@ export default class Location extends Vue {}
   width: 100%;
   background-color: #b7bcb4;
   margin-top: 20%;
-  padding-top: 15%;
+  padding-top: 20%;
   display: flex;
 }
 .location-bottom-left {
-  width: 65%;
+  width: 55%;
   padding-left: 5%;
   padding-top: 0%;
 }
@@ -204,6 +204,9 @@ div.vertical-line {
   .location-table-data {
     font-size: 25px;
   }
+  .location-description {
+    font-size: 32px;
+  }
 }
 @media screen and (max-width: 1600px) {
   .location-table-data {
@@ -213,20 +216,23 @@ div.vertical-line {
 }
 @media screen and (max-width: 1500px) {
   .location-table-data {
-    font-size: 20px;
+    font-size: 24px;
     width: 200px;
   }
   .location-bottom-left {
-    width: 60%;
+    width: 55%;
     margin: auto;
     padding-left: 0%;
     padding-top: 0%;
   }
   .location-bottom-right {
-    width: 35%;
+    width: 40%;
     padding-left: 0%;
     padding-bottom: 8%;
     color: black;
+  }
+  .location-bottom {
+    margin-top: 13%;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -234,7 +240,7 @@ div.vertical-line {
     font-size: 30px;
   }
   .location-table-data {
-    font-size: 18px;
+    font-size: 24px;
   }
   .location-table-data table tr td {
     width: 20px;
@@ -246,7 +252,6 @@ div.vertical-line {
   }
   .location-header {
     width: 100%;
-    padding-top: 20%;
   }
   .location-img-house {
     position: absolute;
@@ -312,8 +317,7 @@ div.vertical-line {
     display: none;
   }
   .location-table-data {
-    font-size: 20px;
-    // width: 50%;
+    font-size: 25px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -347,7 +351,6 @@ div.vertical-line {
 @media screen and (max-width: 768px) {
   .location-header {
     width: 100%;
-    padding-top: 20%;
   }
   .location-img-house {
     position: absolute;
@@ -408,6 +411,14 @@ div.vertical-line {
   div.vertical-line {
     height: 110%;
     width: 2px;
+  }
+  .textAlignVer {
+    font-size: 35px;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+  .Vibha-detail-top p {
+    padding-top: 20%;
   }
 }
 @media screen and (max-width: 700px) {
