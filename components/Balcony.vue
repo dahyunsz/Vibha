@@ -12,11 +12,11 @@
         type are perfectly placed in the center. It is connected to every
         functional area. You will get a scenic view within a comfortable
         atmosphere and shade of green from outside space, where you achieve
-        quality time with family and important guests.
+        quality time with family and <span class="inline-block">important guests.</span>
       </p>
       <br />
       <p class="balcony-description-th">
-        บริเวณชั้น 2 สระว่ายน้ำ Outdoor และ Balcony ถูกจัดวางที่ใจกลางอย่างลงตัวเชื่อมให้ทุกพื้นที่การใช้สอยได้รับทัศนียภาพ และบรรยากาศแบบสบายๆ สัมผัสความร่มรื่นด้วยพื้นที่สีเขียวจากภายนอก ช่วยเติมเต็มการพักผ่อนร่วมกันของครอบครัวและแขกคนสำคัญ
+        บริเวณชั้น 2 สระว่ายน้ำ Outdoor และ Balcony ถูกจัดวางที่ใจกลางอย่างลงตัวเชื่อมให้ทุกพื้นที่การใช้สอยได้รับทัศนียภาพ และบรรยากาศแบบสบายๆ สัมผัสความร่มรื่นด้วยพื้นที่สีเขียวจากภายนอก ช่วยเติมเต็มการพักผ่อนร่วมกันของครอบครัวและ<span class="inline-block">แขกคนสำคัญ</span>
         </p>
     </div>
     <!-- mobile -->
@@ -31,10 +31,10 @@
         type are perfectly placed in the center. It is connected to every
         functional area. You will get a scenic view within a comfortable
         atmosphere and shade of green from outside space, where you achieve
-        quality time with family and important guests.
+        quality time with family and <span class="inline-block">important guests.</span>
         </p>
         <p class="description-mobile">
-        บริเวณชั้น 2 สระว่ายน้ำ Outdoor และ Balcony ถูกจัดวางที่ใจกลางอย่างลงตัวเชื่อมให้ทุกพื้นที่การใช้สอยได้รับทัศนียภาพ และบรรยากาศแบบสบายๆ สัมผัสความร่มรื่นด้วยพื้นที่สีเขียวจากภายนอก ช่วยเติมเต็มการพักผ่อนร่วมกันของครอบครัวและแขกคนสำคัญ
+        บริเวณชั้น 2 สระว่ายน้ำ Outdoor และ Balcony ถูกจัดวางที่ใจกลางอย่างลงตัวเชื่อมให้ทุกพื้นที่การใช้สอยได้รับทัศนียภาพ และบรรยากาศแบบสบายๆ สัมผัสความร่มรื่นด้วยพื้นที่สีเขียวจากภายนอก ช่วยเติมเต็มการพักผ่อนร่วมกันของครอบครัวและ<span class="inline-block">แขกคนสำคัญ</span>
         </p>
       </div>
     </div>
@@ -60,6 +60,9 @@ export default class Balcony extends Vue {}
   background-image: url(/function-bg.jpg);
   color: black;
   font-family:'DB-Ozone-X';
+}
+.inline-block{
+  display: inline-block;
 }
 .balcony-left {
   width: 22%;

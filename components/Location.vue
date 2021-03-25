@@ -12,13 +12,13 @@
         <p class="location-description">
           It is convenient to connect your journey to the major districts of
           Bangkok via Vibhavadi and Phaholyothin Road, which easily access the
-          green and red line Skytrain within 10 minutes drive.
+          green and red line Skytrain within <span class="inline-block">10 minutes drive.</span>
         </p>
         <br />
         <p class="location-description">
           ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ
           ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน
-          ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
+          ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง <span class="inline-block">เพียง 10 นาที</span>
         </p>
       </div>
     </div>
@@ -27,13 +27,13 @@
       <p class="location-description">
         It is convenient to connect your journey to the major districts of
         Bangkok via Vibhavadi and Phaholyothin Road, which easily access the
-        green and red line Skytrain within 10 minutes drive.
+        green and red line Skytrain within <span class="inline-block">10 minutes drive.</span>
       </p>
       <br />
       <p class="location-description">
         ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ
         ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน
-        ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
+        ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง <span class="inline-block">เพียง 10 นาที</span>
       </p>
     </div>
 
@@ -118,6 +118,9 @@ export default class Location extends Vue {}
   padding-top: 5%;
   font-family: "DB-Ozone-X";
 }
+.inline-block{
+  display: inline-block;
+}
 .location-header {
   width: 100%;
   padding-top: 15%;
@@ -164,7 +167,7 @@ export default class Location extends Vue {}
 .location-table-data {
   font-size: 30px;
   padding: 1%;
-  // width: 500px;
+  width: 500px;
   font-weight: bold;
 }
 .textAlignVer {

@@ -24,7 +24,7 @@
         </p>
         <br />
         <p>
-          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาวดีรังสิต รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาดรวมถึงสถานศึกษาและโรงพยาบาลชั้นนำ
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาวดีรังสิต รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาดรวมถึงสถานศึกษาและ<span class="inline-block">โรงพยาบาลชั้นนำ</span>
         </p>
       </div>
     </div>
@@ -40,12 +40,11 @@
             Every single house is designed with the concept of modern luxury
             with a simply functional twist on top of mind to accommodate every
             changeover and meet the needs of all family members. It is thoughtfully outlined to maximize usable space while
-            maintaining the perfect blend between modern design and the touch of
-            nature.
+            maintaining the perfect blend between modern design and the touch <span class="inline-block">of nature.</span>
           </p>
           <br />
           <p>
-            ทุกหลังได้รับการออกแบบสถาปัตยกรรมบนแนวคิด “ A modern luxury design with a simply functional twist ” เพื่อรองรับการปรับเปลี่ยนในทุกช่วงเวลาและตอบโจทย์การใช้ชีวิตของสมาชิกทุกคนภายในบ้าน ความพิถีพิถันในการออกแบบเพื่อให้เกิดพื้นที่ใช้สอยสูงสุด แต่ยังคงไว้ซึ่งดีไซน์ที่ลงตัว ผสมผสานกับธรรมชาติและความสดชื่น คือสิ่งสำคัญที่สร้างสรรค์อย่างใส่ใจเพื่อการอยู่อาศัยที่ลงตัว
+            ทุกหลังได้รับการออกแบบสถาปัตยกรรมบนแนวคิด “ A modern luxury design with a simply functional twist ” เพื่อรองรับการปรับเปลี่ยนในทุกช่วงเวลาและตอบโจทย์การใช้ชีวิตของสมาชิกทุกคนภายในบ้าน ความพิถีพิถันในการออกแบบเพื่อให้เกิดพื้นที่ใช้สอยสูงสุด แต่ยังคงไว้ซึ่งดีไซน์ที่ลงตัว ผสมผสานกับธรรมชาติและความสดชื่น คือสิ่งสำคัญที่สร้างสรรค์อย่างใส่ใจเพื่อ<span class="inline-block">การอยู่อาศัย</span><span class="inline-block">ที่ลงตัว</span>
           </p>
           <br /><br /><br />
         </div>
@@ -95,6 +94,9 @@ export default class Concept extends Vue {}
 body {
   font-size: 0em;
 }
+.inline-block{
+  display: inline-block;
+}
 .concept-modern-left {
   width: 40%;
   font-weight: bold;
@@ -137,7 +139,7 @@ body {
 }
 .concept-func-description {
   font-size: 30px;
-  padding-right: 20%;
+  padding-right: 15%;
 }
 .textAlignVer {
   display: block;
@@ -203,7 +205,6 @@ div.vertical-line {
     font-size: 55px;
   }
   .concept-modern-right {
-    padding-top: 6%;
     font-size: 22px;
   }
   
@@ -224,9 +225,6 @@ div.vertical-line {
 @media screen and (max-width: 1300px) {
   .concept-modern-left {
     font-size: 50px;
-  }
-  .concept-modern-right {
-    padding-top: 6%;
   }
   .concept-func-description {
     font-size: 29px;
@@ -252,7 +250,6 @@ div.vertical-line {
 @media screen and (max-width: 1100px) {
   .concept-modern-right {
     font-size: 19px;
-    padding-top: 7%;
   }
   .concept-modern-left {
     font-size: 45px;

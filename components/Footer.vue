@@ -20,12 +20,12 @@
           <div class="footer-form">
             <p class="footer-bold">HEAD OFFICE</p>
             <p class="footer-description">
-              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, Bangkok 10120
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, <span class="inline-block">Bangkok 10120</span>
             </p>
           </div>
           <div class="divFlex-left divFlex">
             <img class="phone-icon-left" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">(02) 212-4460 – 1</p>
+            <p class="footer-tel inline-block">(02) 212-4460 – 1</p>
           </div>
         </div>
       </div>
@@ -33,24 +33,26 @@
       <!-- center -->
       <div class="footer-center">
         <div class="footer-location">
-          <img class="location-icon" src="~assets/icon/location-icon.png" />
-          <a class="map-link" href="https://goo.gl/maps/c28zQYR7dTkftdvN8"
-            ><span class="footer-map">
-              <span class="footer-map-padding">G</span>
-              <span class="footer-map-padding">O</span>
-              <span class="footer-map-padding">O</span>
-              <span class="footer-map-padding">G</span>
-              <span class="footer-map-padding">L</span>
-              <span class="footer-map-padding">E</span>
-              &nbsp;
-              <span class="footer-map-padding">M</span>
-              <span class="footer-map-padding">A</span>
-              <span class="footer-map-padding">P</span>
-              <!-- GOOGLE MAP -->
-            </span></a
-          >
+          <div class="footer-location-flex">
+            <img class="location-icon" src="~assets/icon/location-icon.png" />
+            <a class="map-link" href="https://goo.gl/maps/c28zQYR7dTkftdvN8"
+              ><span class="footer-map">
+                <span class="footer-map-padding">G</span>
+                <span class="footer-map-padding">O</span>
+                <span class="footer-map-padding">O</span>
+                <span class="footer-map-padding">G</span>
+                <span class="footer-map-padding">L</span>
+                <span class="footer-map-padding">E</span>
+                &nbsp;
+                <span class="footer-map-padding">M</span>
+                <span class="footer-map-padding">A</span>
+                <span class="footer-map-padding">P</span>
+                <!-- GOOGLE MAP -->
+              </span>
+            </a>
+          </div>
+          <img class="footer-logo" src="/footer-logo.png" />
         </div>
-        <img class="footer-logo" src="/footer-logo.png" />
       </div>
       <!-- center -->
       <!-- right -->
@@ -59,17 +61,17 @@
         <div class="divFlex-center-column">
           <div class="div-contact-right">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">095-632-6356</p>
+            <p class="footer-tel inline-block">095-632-6356</p>
           </div>
           <div class="div-contact-right">
             <img class="mail-icon" src="~assets/icon/mail-icon.png" />
-            <p class="footer-mail footer-description">
+            <p class="footer-mail footer-description inline-block">
               VIBHASALES@KCCTHAILAND.COM
             </p>
           </div>
           <div class="div-contact-right">
             <img class="line-icon" src="~assets/icon/line-icon.png" />
-            <p class="footer-line">@vibharesidence</p>
+            <p class="footer-line inline-block">@vibharesidence</p>
           </div>
           <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
         </div>
@@ -97,12 +99,12 @@
           <div class="footer-form">
             <p class="footer-bold">HEAD OFFICE</p>
             <p class="footer-description">
-              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, Bangkok 10120
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, <span class="inline-block">Bangkok 10120</span>
             </p>
           </div>
           <div class="divFlex-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">(02) 212-4460 – 1</p>
+            <p class="footer-tel inline-block">(02) 212-4460 – 1</p>
           </div>
         </div>
       </div>
@@ -113,11 +115,11 @@
         <div class="divFlex-center-column">
           <div class="div-contact-right">
             <img class="phone-icon-right" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel">095-632-6356</p>
+            <p class="footer-tel inline-block">095-632-6356</p>
           </div>
           <div class="div-contact-right">
             <img class="mail-icon" src="~assets/icon/mail-icon.png" />
-            <p class="footer-mail footer-description">
+            <p class="footer-mail footer-description inline-block">
               VIBHASALES@KCCTHAILAND.COM
             </p>
           </div>
@@ -143,7 +145,7 @@
           <div class="div-contact-right">
             <div class="divFlex-qr">
               <img class="line-icon" src="~assets/icon/line-icon.png" />
-              <p class="footer-line">@vibharesidence</p>
+              <p class="footer-line inline-block">@vibharesidence</p>
               <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
             </div>
           </div>
@@ -196,6 +198,9 @@ export default class Footer extends Vue {}
   margin-top: 2%;
   align-items: flex-start;
 }
+.inline-block{
+  display: inline-block;
+}
 .footer-tel {
   font-family: "SukhumvitSet";
   font-size: 32px;
@@ -225,6 +230,8 @@ export default class Footer extends Vue {}
 }
 .map-link {
   color: #b7bcb4;
+  width: 80%;
+  margin-top: 5%;
 }
 .map-link:hover {
   color: #b7bcb4;
@@ -235,7 +242,7 @@ export default class Footer extends Vue {}
 }
 .footer-center {
   width: 33.33%;
-  padding-left: 3%;
+  text-align: center;
 }
 .footer-right {
   width: 33.33%;
@@ -251,20 +258,19 @@ export default class Footer extends Vue {}
 .footer-logo {
   width: 70%;
   margin-top: 30%;
-  margin-left: 10%;
 }
 .footer-map {
   border: 1px solid #b7bcb4;
   width: 50%;
   text-align: center;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-left: 9%;
+  padding-right: 9%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   font-family: "SukhumvitSet";
   font-weight: bold;
-  font-size: 30px;
-  margin-left: 5%;
+  font-size: 35px;
+  // margin-left: 5%;
 }
 .footer-map-padding {
   margin: 0.2%;
@@ -297,11 +303,6 @@ export default class Footer extends Vue {}
   margin-right: 4%;
   padding-top: 1%;
   margin-left: 1%;
-}
-.location-icon {
-  width: 10%;
-  margin-left: 1%;
-  margin-top: 0%;
 }
 .line-icon {
   width: 12%;
@@ -353,9 +354,8 @@ export default class Footer extends Vue {}
   margin-left: -12%;
 }
 .footer-location {
-  display: flex;
+  display: block;
   width: 100%;
-  padding-left: 7%;
   align-items: flex-start;
 }
 .footer-location a {
@@ -368,10 +368,26 @@ export default class Footer extends Vue {}
 .divFlex-center-column {
   margin-top: -3%;
 }
-.phone-icon-right{
-    width: 9%;
-    margin: 1%;
-    margin-right: 4%;
+.phone-icon-right {
+  width: 9%;
+  margin: 1%;
+  margin-right: 4%;
+}
+.footer-location-flex {
+  width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.location-icon {
+  width: 20%;
+  padding: 3%;
+}
+@media screen and (max-width: 1750px) {
+  .footer-map {
+    font-size: 33px;
+  }
 }
 @media screen and (max-width: 1700px) {
   .divFlex {
@@ -393,9 +409,11 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
-  .location-icon {
-    width: 12%;
-  }
+}
+@media screen and (max-width: 1610px) {
+.footer-map{
+    font-size: 31px;
+}
 }
 @media screen and (max-width: 1600px) {
   .footer-tel {
@@ -425,6 +443,14 @@ export default class Footer extends Vue {}
     width: 8%;
     margin: 1%;
   }
+  .footer-map {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .footer-map {
+    font-size: 29px;
+}
 }
 @media screen and (max-width: 1500px) {
   .divFlex {
@@ -447,6 +473,9 @@ export default class Footer extends Vue {}
     width: 8%;
     margin: 1%;
   }
+  .footer-map {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .footer-map-padding {
@@ -455,17 +484,11 @@ export default class Footer extends Vue {}
   .line-icon {
     width: 14%;
   }
-  .footer-center {
-    padding-left: 3%;
-  }
   .footer-description {
     font-size: 22px;
   }
   .footer-bold {
     font-size: 30px;
-  }
-  .footer-map {
-    font-size: 20px;
   }
   .line-icon {
     width: 15%;
@@ -506,14 +529,13 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
-  .footer-location {
-    padding-left: 5%;
-  }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1350px) {
+  .footer-map {
+    font-size: 25px;
+  }
   .location-icon {
-    width: 16%;
-    padding: 2%;
+    padding-top: 6%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -530,10 +552,6 @@ export default class Footer extends Vue {}
   .phone-icon-left {
     width: 9%;
     margin: 2%;
-  }
-  .location-icon {
-    width: 16%;
-    padding: 2%;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -561,34 +579,28 @@ export default class Footer extends Vue {}
     margin: 2%;
   }
   .location-icon {
-    width: 18%;
-    padding: 3%;
+    width: 23%;
   }
 }
 @media screen and (max-width: 1000px) {
   .footer-tel {
     font-size: 20px;
   }
-  .footer-logo {
-    width: 78%;
-    margin-top: 45%;
-    margin-left: 10%;
-  }
   .divFlex {
     margin-left: 1%;
   }
+}
+@media screen and (max-width: 950px) {
+  .footer-map {
+    font-size: 21px;
+  }
   .location-icon {
-    width: 22%;
-    padding: 4%;
+    width: 25%;
   }
 }
 @media screen and (max-width: 900px) {
   .divFlex {
     margin-left: 5%;
-  }
-  .location-icon {
-    width: 22%;
-    padding: 5%;
   }
   .footer-bg {
     height: 30%;
@@ -597,6 +609,9 @@ export default class Footer extends Vue {}
     width: 11%;
     margin: 1%;
     margin-right: 3%;
+  }
+  .footer-map {
+    font-size: 19px;
   }
 }
 @media screen and (max-width: 850px) {
@@ -622,13 +637,11 @@ export default class Footer extends Vue {}
   .footer-bg {
     height: 27%;
   }
+  .footer-map {
+    font-size: 17px;
+  }
   .location-icon {
-    width: 24%;
-    margin-left: -5%;
-
-    .footer-map {
-      font-size: 17px;
-    }
+    padding-top: 10%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -701,9 +714,6 @@ export default class Footer extends Vue {}
   .footer-description {
     font-size: 15px;
   }
-  .divFlex-center-column {
-    display: flex;
-  }
   .divFlex-center-font {
     margin-left: 5%;
   }
@@ -715,10 +725,6 @@ export default class Footer extends Vue {}
   }
   .footer-map-container {
     margin-top: 3%;
-  }
-  .location-icon {
-    width: 10%;
-    padding: 0%;
   }
   .footer-map-container {
     margin-top: 2%;
@@ -737,25 +743,42 @@ export default class Footer extends Vue {}
   .div-contact-right {
     margin-top: 3%;
   }
-  .phone-icon {
-    width: 9%;
-    margin: 1%;
-    margin-right: 4%;
-  }
-  .footer-mail{
+  .footer-mail {
     margin-top: 4%;
-}
-.mail-icon{
+  }
+  .mail-icon {
     width: 10%;
     margin: 1%;
     margin-right: 4%;
-}
-.footer-map-padding{
+  }
+  .footer-map-padding {
     margin: -0.05%;
-}
-.footer-bg{
+  }
+  .footer-bg {
     height: 45%;
-}
+  }
+  .location-icon {
+    padding-top: 0%;
+    width: 15%;
+    // padding-left: -1%;
+    // padding-bottom: 2%;
+  }
+  .footer-location {
+    display: flex;
+    margin-left: -1%;
+  }
+  .footer-map {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 15px;
+  }
+  .phone-icon {
+    width: 8%;
+    margin: 1%;
+    margin-right: 1%;
+  }
 }
 @media screen and (max-width: 700px) {
   .footer-bg {
@@ -783,7 +806,7 @@ export default class Footer extends Vue {}
 @media screen and (max-width: 650px) {
   .div-contact-right {
     margin-top: 4%;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .footer-logo {
@@ -798,6 +821,9 @@ export default class Footer extends Vue {}
   }
   .divFlex-center-font p {
     margin-top: 9%;
+  }
+  .divFlex-left {
+    margin-left: -11%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -823,9 +849,35 @@ export default class Footer extends Vue {}
   .footer-logo {
     margin-top: 50%;
   }
+  .footer-map {
+    font-size: 13px;
+  }
   .location-icon {
-    width: 12%;
-    padding: 0%;
+    padding: 2%;
+  }
+}
+@media screen and (max-width: 490px) {
+  .line-qrCode {
+    margin-left: 13%;
+  }
+  .footer-logo {
+    margin-top: 55%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footer-logo {
+    margin-top: 60%;
+  }
+  .line-qrCode {
+    margin-left: 16%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .footer-logo {
+    margin-top: 65%;
+  }
+  .line-qrCode {
+    margin-left: 18%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -902,13 +954,6 @@ export default class Footer extends Vue {}
   .divFlex-center img {
     width: 100%;
     margin-top: 65%;
-  }
-  .location-icon {
-    width: 14%;
-    padding: 0%;
-  }
-  .footer-location {
-    margin-left: -3%;
   }
   .phone-icon {
     width: 11%;
@@ -993,11 +1038,27 @@ export default class Footer extends Vue {}
   .footer-bold {
     font-size: 16px;
   }
-  .location-icon {
-    padding: 1%;
-  }
   .divFlex-center-font p {
     margin-top: 19%;
+  }
+  .phone-icon-right {
+    width: 10%;
+  }
+  .line-icon {
+    width: 14%;
+    height: 50%;
+  }
+  .footer-line {
+    padding-left: 0%;
+  }
+  .line-qrCode {
+    margin-left: 10%;
+  }
+  .divFlex-left {
+    margin-left: -8%;
+  }
+  .footer-tel {
+    margin-top: 3%;
   }
 }
 </style>

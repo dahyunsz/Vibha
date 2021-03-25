@@ -58,6 +58,9 @@ export default class MasterBedroom extends Vue {}
   color: black;
   font-family: "DB-Ozone-X";
 }
+.inline-block{
+  display: inline-block;
+}
 .bedroom-left {
   width: 22%;
   padding-top: 10%;

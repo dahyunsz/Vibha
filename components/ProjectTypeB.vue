@@ -248,6 +248,9 @@ export default class ProjectTypeB extends Vue {
   display: flex;
   font-family: "DB-Ozone-X";
 }
+.inline-block{
+  display: inline-block;
+}
 .project-type-left {
   width: 40%;
 }

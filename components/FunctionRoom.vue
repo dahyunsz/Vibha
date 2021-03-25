@@ -512,6 +512,11 @@ z-index: 1
   height: 53%;
 }
 }
+@media screen and (max-width: 1024px) {
+  .function-container {
+  height: 33%;
+}
+}
 @media screen and (max-width: 1000px) {
   .function-top {
     height: 410px;
@@ -556,6 +561,11 @@ z-index: 1
   .function-container{
     height: 60%;
     width: 50%;
+}
+}
+@media screen and (max-width: 768px) {
+  .function-container {
+    height: 49%;
 }
 }
 @media screen and (max-width: 500px) {

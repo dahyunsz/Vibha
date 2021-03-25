@@ -2,7 +2,7 @@
   <b-navbar>
     <div class="square"></div>
     <template #end>
-      <div class="nav-padding-right">
+      <!-- <div class="nav-padding-right"> -->
         <b-navbar-item
         v-scroll-to="{ el: '#aboutus' }"
         class="nav-item nav-padding-top"
@@ -28,7 +28,7 @@
       </b-navbar-item>
       <b-navbar-item
         v-scroll-to="{ el: '#contactus' }"
-        class="nav-item"
+        class="nav-item nav-padding-right "
       >
         CONTACT US
         <hr class="line" />
@@ -37,7 +37,7 @@
         <a href="https://www.facebook.com/vibharesidence/"><img class="nav-icon" src="~assets/icon/facebook-icon-navbar.png" /></a>
         <a href="https://instagram.com/vibharesidence?igshid=mgzpo4k2x2du"><img class="nav-icon" src="~assets/icon/instagram-icon-navbar.png" /></a>
       </b-navbar-item>
-      </div>
+      <!-- </div> -->
     </template>
   </b-navbar>
 </template>
@@ -58,6 +58,9 @@ export default class NavBar extends Vue {}
   font-size: 24px;
   text-align: center;
 }
+.inline-block{
+  display: inline-block;
+}
 .nav-item-padding {
   padding-right: 10%;
 }
@@ -68,7 +71,7 @@ hr.line {
   display: none;
 }
 .nav-padding-right {
-  margin-right: 25%;
+  margin-right: 10%;
   display: flex;
 }
 @media screen and (max-width: 1500px) {

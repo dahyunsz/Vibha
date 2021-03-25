@@ -16,11 +16,11 @@
             addition to construction works in the private sector, the company
             also has notable achievements in the government sector, government
             organizations, and state enterprises. Throughout the years, the
-            company has total value greater than 9,000 million baht.
+            company has total value greater than <span class="inline-block">9,000 million baht.</span>
           </p>
           <br />
           <p>
-            บริษัท เค. คอมเมอร์เชียล แอนด์ คอนสตรัคชั่น จำกัด ได้เข้าสู่ธุรกิจรับเหมาก่อสร้างในปี พ.ศ. 2530 ด้วยทุนจดทะเบียน 100 ล้านบาท ตลอดระยะเวลาที่ผ่านมาจนถึงปัจจุบัน นอกจากผลงานการก่อสร้างในภาคเอกชน ยังได้มีผลงานในส่วนภาคราชการ หรือองค์กรของรัฐฯ รวมถึงรัฐวิสาหกิจ มูลค่ารวมมากกว่า 9,000 ล้านบาท
+            บริษัท เค. คอมเมอร์เชียล แอนด์ คอนสตรัคชั่น จำกัด ได้เข้าสู่ธุรกิจรับเหมาก่อสร้างในปี พ.ศ. 2530 ด้วยทุนจดทะเบียน 100 ล้านบาท ตลอดระยะเวลาที่ผ่านมาจนถึงปัจจุบัน นอกจากผลงานการก่อสร้างในภาคเอกชน ยังได้มีผลงานในส่วนภาคราชการ หรือองค์กรของรัฐฯ รวมถึงรัฐวิสาหกิจ มูลค่ารวมมากกว่า <span class="inline-block">9,000 ล้านบาท</span>
           </p>
           <br /><br />
         </div>
@@ -105,11 +105,13 @@ export default class AboutUs extends Vue {}
   font-family: "SukhumvitSet";
   src: url(/fonts/SukhumvitSet.ttf);
 }
-
 .about-us-page {
   background-color: #dcd5cd;
   font-family: "DB-Ozone-X";
   color: black;
+}
+.inline-block{
+  display: inline-block;
 }
 .about-us-component {
   width: 100%;
@@ -130,7 +132,7 @@ export default class AboutUs extends Vue {}
 }
 .about-us-description {
   margin: 2%;
-  padding-right: 20%;  
+  padding-right: 16%;  
   font-size: 24px;
   font-family: "SukhumvitSet";
   font-weight: bold;

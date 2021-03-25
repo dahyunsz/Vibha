@@ -13,7 +13,7 @@
         spacious area on the rooftop. The residents can experience planting and
         decorating trees where they create a fresh atmosphere and balance the
         air circulation from outside to inside. The house is perfect for you and
-        your family to rest in nature.
+        your family to rest <span class="inline-block">in nature.</span>
       </p>
     </div>
     <!-- mobile -->
@@ -30,7 +30,7 @@
         spacious area on the rooftop. The residents can experience planting and
         decorating trees where they create a fresh atmosphere and balance the
         air circulation from outside to inside. The house is perfect for you and
-        your family to rest in nature.
+        your family to rest <span class="inline-block">in nature.</span>
         </p>
       </div>
     </div>
@@ -56,6 +56,9 @@ export default class TheGreenSpaceEN extends Vue {}
   background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
+}
+.inline-block{
+  display: inline-block;
 }
 .green-en-left {
   width: 22%;

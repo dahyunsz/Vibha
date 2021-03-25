@@ -12,11 +12,11 @@
         easy access, the bedroom and bathroom have been designed to be suitable,
         safe, open to natural light, and fresh air from outside. The elder can
         enjoy a small garden beside the bedroom, making it most relaxing moment
-        in the house.
+        in <span class="inline-block">the house.</span>
       </p>
       <br />
       <p class="elderly-description-th">
-        เพื่อสนองความต้องการและความสะดวกสบายในการดูแลผู้สูงอายุภายในบ้าน ชั้นหนึ่งถูกจัดวางให้เป๋นพื้นที่ส่วนตัวของผู้สูงอายุ เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม ปลอดภัย สามารถเป็ดรับแสง และอากาศบริสุทธิ์จาก ภายนอกพร้อมกับสวนเล็กๆด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ในทุกช่วงเวลา
+        เพื่อสนองความต้องการและความสะดวกสบายในการดูแลผู้สูงอายุภายในบ้าน ชั้นหนึ่งถูกจัดวางให้เป๋นพื้นที่ส่วนตัวของผู้สูงอายุ เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม ปลอดภัย สามารถเป็ดรับแสง และอากาศบริสุทธิ์จาก ภายนอกพร้อมกับสวนเล็กๆด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ใน<span class="inline-block">ทุกช่วงเวลา</span>
       </p>
     </div>
     <!-- mobile -->
@@ -32,10 +32,10 @@
         easy access, the bedroom and bathroom have been designed to be suitable,
         safe, open to natural light, and fresh air from outside. The elder can
         enjoy a small garden beside the bedroom, making it most relaxing moment
-        in the house.
+        in <span class="inline-block">the house.</span>
         </p>
         <p class="description-mobile">
-          เพื่อสนองความต้องการและความสะดวกสบายในการดูแลผู้สูงอายุภายในบ้าน ชั้นหนึ่งถูกจัดวางให้เป๋นพื้นที่ส่วนตัวของผู้สูงอายุ เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม ปลอดภัย สามารถเป็ดรับแสง และอากาศบริสุทธิ์จาก ภายนอกพร้อมกับสวนเล็กๆด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ในทุกช่วงเวลา
+          เพื่อสนองความต้องการและความสะดวกสบายในการดูแลผู้สูงอายุภายในบ้าน ชั้นหนึ่งถูกจัดวางให้เป๋นพื้นที่ส่วนตัวของผู้สูงอายุ เพื่อการเข้าถึงที่ง่าย ภายในห้องนอนและห้องน้ำได้รับการดีไซน์ให้เหมาะสม ปลอดภัย สามารถเป็ดรับแสง และอากาศบริสุทธิ์จาก ภายนอกพร้อมกับสวนเล็กๆด้านข้าง ให้การพักผ่อนเป็นไปอย่งเต็มที่ใน<span class="inline-block">ทุกช่วงเวลา</span>
         </p>
       </div>
     </div>
@@ -61,6 +61,9 @@ export default class ElderlyFunc extends Vue {}
   background-image: url(/function-bg.jpg);
   color: black;
   font-family: "DB-Ozone-X";
+}
+.inline-block{
+  display: inline-block;
 }
 .elderly-left {
   width: 22%;

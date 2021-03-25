@@ -3,7 +3,7 @@
     <div class="project-center">
       <img class="project-plan-img" src="/project-plan.jpg" >
     </div>
-    <h1 class="project-titile">PROJECT PLAN</h1>
+    <h1 class="project-titile inline-block">PROJECT PLAN</h1>
   </div>
 </template>
 
@@ -26,6 +26,9 @@ export default class ProjectPlan extends Vue {
   color: black;
   font-family: "DB-Ozone-X";
   text-align: center;
+}
+.inline-block{
+  display: inline-block;
 }
 .project-plan-container{
   text-align: center;

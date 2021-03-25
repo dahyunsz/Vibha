@@ -11,11 +11,11 @@
         <p>
           In 2020, the company has expanded the business to capture the
           potential for housing development in the Vibhavadi
-          Rangsit-Phaholyothin area, which is a high growth district. 
-          It is surrounded by various amenities including the Green and Red
-          Skytrain connects traveling to the inner and outer Bangkok. 
-          The area also provides easy access to department stores, universities,
-          hospitals, and parks that are scattered around the area.
+          Rangsit-Phaholyothin area, which is a high growth district. It is
+          surrounded by various amenities including the Green and Red Skytrain
+          connects traveling to the inner and outer Bangkok. The area also
+          provides easy access to department stores, universities, hospitals,
+          and parks that are scattered around <span class="inline-block">the area.</span>
         </p>
         <br />
         <p>
@@ -23,14 +23,14 @@
           modern luxury single houses at the location of Vibhavadi Road Soi 60
           or Phaholyothin Soi 49/1, focusing on customers who want a low-rise
           house with reasonable price and quality. The construction of the first
-          phase is expected to begin in March 2021.
+          phase is expected to begin in <span class="inline-block">March 2021.</span>
         </p>
         <br />
         <p class="Vibha-detail-description-swapDesktop">
           ในปี 2563 เนื่องจากทางบริษัทฯ
           เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน
           ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ
-          ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
+          ทั้งรถไฟฟ้าสายสีเขียว และ <span class="inline-block">สายสีแดง</span>
         </p>
       </div>
     </div>
@@ -51,14 +51,14 @@
             ในปี 2563 เนื่องจากทางบริษัทฯ
             เล็งเห็นศักยภาพการพัฒนาที่อยู่อาศัยในย่านวิภาวดีรังสิต – พหลโยธิน
             ซึ่งเป็นย่านที่รายล้อมด้วยสิ่งอำนวยความสะดวกต่างๆ
-            ทั้งรถไฟฟ้าสายสีเขียว และ สายสีแดง
+            ทั้งรถไฟฟ้าสายสีเขียว และ <span class="inline-block">สายสีแดง</span>
           </p>
           <p class="Vibha-detail-swapMobile">
             เชื่อมต่อทั้งกรุงเทพชั้นในและชั้นนอก รวมถึงสถานที่สำคัญ
             ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ
             วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY
             มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ
-            โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
+            โดยคาดว่าจะเริ่มก่อสร้างเฟสแรก <span class="inline-block">ในปี 2564</span>
           </p>
         </div>
 
@@ -67,7 +67,7 @@
           ห้างสรรพสินค้าและสวนสาธารณะที่กระจายอยู่รอบพื้นที่ จึงริเริ่มโครงการ
           วิภา เรสซิเดนท์ บ้านเดี่ยวระดับ LUXURY
           มุ่งเน้นลูกค้าที่ต้องการที่อยู่อาศัยแนวราบที่เหมาะสมทั้งราคาและคุณภาพ
-          โดยคาดว่าจะเริ่มก่อสร้างเฟสแรกในปี 2564
+          โดยคาดว่าจะเริ่มก่อสร้างเฟสแรก <span class="inline-block">ในปี 2564</span>
         </p>
       </div>
       <div class="Vibha-detail-tree-center">
@@ -112,6 +112,9 @@ export default class VibhaDetail extends Vue {}
 }
 body {
   font-size: 0em;
+}
+.inline-block{
+  display: inline-block;
 }
 .Vibha-detail-page {
   width: 100%;
@@ -255,8 +258,6 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 1024px) {
-
-
 }
 @media screen and (max-width: 1000px) {
   .Vibha-detail-bottom {
@@ -328,6 +329,7 @@ div.vertical-line {
     font-size: 17px;
     font-family: "SukhumvitSet";
     font-weight: bold;
+    display: block;
   }
   .Vibha-detail-description-right {
     padding-right: 0%;
@@ -343,6 +345,9 @@ div.vertical-line {
   .project-type-option {
     height: 0%;
   }
+  .Vibha-detail-top p {
+    padding-top: 18%;
+  }
 }
 @media screen and (max-width: 700px) {
   div.vertical-line {
@@ -352,6 +357,17 @@ div.vertical-line {
 @media screen and (max-width: 600px) {
   div.vertical-line {
     height: 217%;
+  }
+  .Vibha-detail-description-swapMobile {
+    padding-left: 11%;
+  }
+}
+@media screen and (max-width: 595px) {
+  .Vibha-detail-swapMobile {
+    font-size: 16px;
+  }
+  .Vibha-detail-description-swapMobile {
+    padding-left: 9%;
   }
 }
 @media screen and (max-width: 500px) {

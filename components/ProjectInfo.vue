@@ -10,18 +10,19 @@
         <br />
         <br />
         <p class="project-description">
-          <span class="description-bold">DEVELOPER : <br> </span>
+          <span class="description-bold">DEVELOPER : <br /> </span>
         </p>
         <p class="project-description go-top">
           K. COMMERCIAL & CONSTRUCTION CO.,LTD <br />
-          <span class="description-bold">PROJECT LAND AREA :</span>263 SQ. WAH <br />
-          <span class="description-bold">PROJECT TYPE :</span> MODERN LUXURY SINGLE HOUSES<br />
+          <span class="description-bold">PROJECT LAND AREA :</span>263 SQ. WAH
+          <br />
+          <span class="description-bold">PROJECT TYPE :</span> MODERN LUXURY
+          SINGLE HOUSES<br />
           <span class="description-bold">TOTAL UNIT :</span> 4 UNITS
         </p>
         <br />
         <p class="project-description">
-          <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI 60
-          / <br />
+          <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI 60/<br/>
           PHAHOLYOTHIN ROAD SOI 49/1
         </p>
         <br />
@@ -207,6 +208,9 @@ export default class ProjectInfo extends Vue {
   color: #1e2f27;
   font-family: "DB-Ozone-X";
 }
+.inline-block{
+  display: inline-block;
+}
 .project-info {
   width: 100%;
   display: flex;
@@ -351,15 +355,15 @@ div.vertical-line {
 .project-info-right-mobile {
   display: none;
 }
-.description-bold-marigntop{
+.description-bold-marigntop {
   margin-top: -1%;
 }
-.bottom-margintop{
-    margin-top: -2%;
-    margin-bottom: 3%;
+.bottom-margintop {
+  margin-top: -2%;
+  margin-bottom: 3%;
 }
-.go-top{
-  margin-top:-2.5% ;
+.go-top {
+  margin-top: -2.5%;
 }
 @media screen and (max-width: 1600px) {
   .project-plan {
@@ -379,8 +383,8 @@ div.vertical-line {
     font-size: 33px;
   }
   .project-header {
-  font-size: 55px;
-}
+    font-size: 55px;
+  }
 }
 @media screen and (max-width: 1500px) {
   .project-description {
@@ -465,11 +469,6 @@ div.vertical-line {
   .project-description {
     font-size: 25px;
   }
-  .project-plan {
-    width: 80%;
-    font-size: 25px;
-    margin-bottom: 20%;
-  }
   .project-info-right-mobile {
     display: block;
     width: 100%;
@@ -512,6 +511,14 @@ div.vertical-line {
   div.vertical-line {
     height: 135%;
   }
+  .project-info-left {
+    width: 80%;
+  }
+  .project-plan{
+    width: 40%;
+    font-size: 25px;
+    margin-bottom: 20%;
+}
 }
 @media screen and (max-width: 600px) {
   .project-description {
@@ -530,6 +537,9 @@ div.vertical-line {
   .type-actve {
     font-size: 25px;
   }
+  .project-plan {
+    font-size: 22px;
+}
 }
 @media screen and (max-width: 500px) {
   .project-description {
@@ -548,6 +558,9 @@ div.vertical-line {
   .type-actve {
     font-size: 20px;
   }
+  .project-plan {
+    font-size: 19px;
+}
 }
 @media screen and (max-width: 400px) {
   .project-description {
@@ -560,6 +573,9 @@ div.vertical-line {
   div.vertical-line {
     height: 135%;
   }
+  .project-plan {
+    font-size: 17px;
+}
 }
 @media screen and (max-width: 375px) {
   .textAlignVer {
@@ -618,5 +634,10 @@ div.vertical-line {
   .type-padding {
     padding: 2%;
   }
+  .project-plan{
+    width: 40%;
+    font-size: 16px;
+    margin-bottom: 20%;
+}
 }
 </style>
