@@ -16,7 +16,9 @@
         </p>
         <br />
         <p class="location-description">
-          ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
+          ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ
+          ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน
+          ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
         </p>
       </div>
     </div>
@@ -29,7 +31,9 @@
       </p>
       <br />
       <p class="location-description">
-        ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
+        ความสะดวกสบายที่เชื่อมต่อการเดินทางของคุณสู่ย่านสำคัญต่างๆ ของกรุงเทพฯ
+        ด้วยเส้นทางเข้าออกทั้งจากถนนวิภาวดี และถนนพหลโยธิน
+        ใกล้จุดขึ้นรถไฟฟ้าสายสีเขียวและสีแดง เพียง 10 นาที
       </p>
     </div>
 
@@ -160,7 +164,7 @@ export default class Location extends Vue {}
 .location-table-data {
   font-size: 30px;
   padding: 1%;
-  width: 500px;
+  // width: 500px;
   font-weight: bold;
 }
 .textAlignVer {
@@ -204,9 +208,8 @@ div.vertical-line {
 @media screen and (max-width: 1600px) {
   .location-table-data {
     font-size: 23px;
-    width: 300px;
+    // width: 300px
   }
-  
 }
 @media screen and (max-width: 1500px) {
   .location-table-data {
@@ -219,26 +222,26 @@ div.vertical-line {
     padding-left: 0%;
     padding-top: 0%;
   }
-  .location-bottom-right{
+  .location-bottom-right {
     width: 35%;
     padding-left: 0%;
     padding-bottom: 8%;
     color: black;
-}
+  }
 }
 @media screen and (max-width: 1400px) {
-  .location-description{
+  .location-description {
     font-size: 30px;
-}
-.location-table-data {
+  }
+  .location-table-data {
     font-size: 18px;
   }
-  .location-table-data table tr td{
+  .location-table-data table tr td {
     width: 20px;
   }
 }
 @media screen and (max-width: 1350px) {
-  .location-table-header-mobile{
+  .location-table-header-mobile {
     display: block;
   }
   .location-header {
@@ -277,7 +280,7 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 30px;
-    width: 50px;
+    // width: 50px;
   }
   .location-bottom-right {
     width: 100%;
@@ -302,16 +305,16 @@ div.vertical-line {
     padding-left: 10%;
     font-weight: bold;
   }
-  .location-description{
+  .location-description {
     font-size: 30px;
-}
-.location-right-desktop{
-  display: none;
-}
-.location-table-data{
+  }
+  .location-right-desktop {
+    display: none;
+  }
+  .location-table-data {
     font-size: 20px;
-    width: 50%;
-}
+    // width: 50%;
+  }
 }
 @media screen and (max-width: 1100px) {
   .location-description {
@@ -327,7 +330,7 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 25px;
-    width: 50px;
+    // width: 50px;
   }
   .location-table-header {
     font-size: 55px;
@@ -375,7 +378,7 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 16px;
-    width: 50px;
+    // width: 50px;
   }
   .location-bottom-right {
     width: 100%;
@@ -395,12 +398,12 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 20px;
-    width: 50px;
+    // width: 50px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 42px;
     margin-top: 1%;
-     margin-left: 5%;
+    margin-left: 5%;
   }
   div.vertical-line {
     height: 110%;
@@ -411,10 +414,10 @@ div.vertical-line {
   .location-description {
     font-size: 25px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 42px;
     margin-top: 1%;
-     margin-left: 5%;
+    margin-left: 5%;
   }
   div.vertical-line {
     height: 100%;
@@ -427,9 +430,9 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 18px;
-    width: 50px;
+    // width: 50px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 38px;
     margin-top: 1%;
     margin-left: 5%;
@@ -444,9 +447,9 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 17px;
-    width: 50px;
+    // width: 50px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 32px;
     margin-top: 1%;
   }
@@ -460,15 +463,15 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 15px;
-    width: 50px;
+    // width: 50px;
   }
   .location-table-header {
     font-size: 30px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 28px;
     margin-top: -1%;
-     margin-left: 4%;
+    margin-left: 4%;
   }
   div.vertical-line {
     height: 70%;
@@ -481,15 +484,15 @@ div.vertical-line {
   }
   .location-table-data {
     font-size: 14px;
-    width: 50px;
+    // width: 50px;
   }
   .location-table-header {
     font-size: 25px;
   }
-  .textAlignVer{
+  .textAlignVer {
     font-size: 25px;
     margin-top: -1%;
-     margin-left: 4%;
+    margin-left: 4%;
   }
   div.vertical-line {
     height: 60%;

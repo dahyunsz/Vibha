@@ -473,7 +473,7 @@ div.vertical-line {
     width: 40%;
   }
   .type-non-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
     display: flex;
@@ -482,7 +482,7 @@ div.vertical-line {
     justify-content: center;
   }
   .type-actve {
-    font-size: 16px;
+    font-size: 30px;
     padding: 5px;
     height: 100%;
     display: flex;
@@ -512,6 +512,12 @@ div.vertical-line {
   div.vertical-line {
     height: 135%;
   }
+  .type-non-actve {
+    font-size: 25px;
+  }
+  .type-actve {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 500px) {
   .project-description {
@@ -523,6 +529,12 @@ div.vertical-line {
   }
   div.vertical-line {
     height: 135%;
+  }
+  .type-non-actve {
+    font-size: 20px;
+  }
+  .type-actve {
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -575,7 +587,7 @@ div.vertical-line {
   }
   .type-non-actve {
     font-size: 16px;
-    padding: 5px;
+    padding: 2px;
     height: 100%;
     display: flex;
     margin: 2%;
@@ -584,7 +596,7 @@ div.vertical-line {
   }
   .type-actve {
     font-size: 16px;
-    padding: 5px;
+    padding: 2px;
     height: 100%;
     display: flex;
     margin: 2%;

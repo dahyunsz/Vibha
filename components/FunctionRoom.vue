@@ -638,5 +638,13 @@ z-index: 1
     height: 31%;
     width: 50%;
 }
+
+}
+@media screen and (max-width: 360px) {
+  .function-container{
+    height: 30%;
+    width: 50%;
+}
+
 }
 </style>

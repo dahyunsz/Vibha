@@ -815,4 +815,10 @@ export default class ProjectTypeB extends Vue {
     font-size: 8px;
   }
 }
+@media screen and (max-width: 360px) {
+  .square{
+    height: 76%;
+    width: 35%;
+}
+}
 </style>
