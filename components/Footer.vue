@@ -102,7 +102,7 @@
               11 Sathu Pradit Rd, Chong Nonsi, Yannawa, <span class="inline-block">Bangkok 10120</span>
             </p>
           </div>
-          <div class="divFlex-left">
+          <div class="divFlex-left footer-tel-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
             <p class="footer-tel inline-block">(02) 212-4460 – 1</p>
           </div>
@@ -207,6 +207,7 @@ export default class Footer extends Vue {}
   font-weight: bold;
   margin-top: 2%;
   padding-left: 1%;
+  width: 80%;
 }
 .footer-tel-center {
   font-family: "SukhumvitSet";
@@ -313,6 +314,7 @@ export default class Footer extends Vue {}
   justify-content: center;
   margin-left: -20%;
   align-items: flex-start;
+  width: 100%;
 }
 .divFlex-center {
   display: flex;
@@ -351,7 +353,7 @@ export default class Footer extends Vue {}
   display: flex;
 }
 .divFlex {
-  margin-left: -12%;
+  margin-left: 13%;
 }
 .footer-location {
   display: block;
@@ -390,9 +392,6 @@ export default class Footer extends Vue {}
   }
 }
 @media screen and (max-width: 1700px) {
-  .divFlex {
-    margin-left: -6%;
-  }
   .phone-icon {
     width: 10%;
     margin: 1%;
@@ -433,9 +432,6 @@ export default class Footer extends Vue {}
   .footer-bg {
     height: 40%;
   }
-  .divFlex {
-    margin-left: -14%;
-  }
   .footer-line {
     font-size: 33px;
   }
@@ -453,9 +449,6 @@ export default class Footer extends Vue {}
 }
 }
 @media screen and (max-width: 1500px) {
-  .divFlex {
-    margin-left: -11%;
-  }
   .phone-icon {
     width: 8%;
     margin: 1%;
@@ -501,11 +494,7 @@ export default class Footer extends Vue {}
     font-weight: bold;
   }
   .divFlex-left {
-    margin-left: -16%;
     height: 25%;
-  }
-  .divFlex {
-    margin-left: -7%;
   }
   .divFlex-right {
     margin-top: -10%;
@@ -543,9 +532,6 @@ export default class Footer extends Vue {}
     width: 10%;
     margin: 2%;
   }
-  .divFlex {
-    margin-left: -1%;
-  }
   .footer-line {
     font-size: 26px;
   }
@@ -571,9 +557,6 @@ export default class Footer extends Vue {}
     width: 11%;
     margin: 2%;
   }
-  .divFlex {
-    margin-left: 4%;
-  }
   .phone-icon-left {
     width: 11%;
     margin: 2%;
@@ -586,9 +569,6 @@ export default class Footer extends Vue {}
   .footer-tel {
     font-size: 20px;
   }
-  .divFlex {
-    margin-left: 1%;
-  }
 }
 @media screen and (max-width: 950px) {
   .footer-map {
@@ -599,9 +579,6 @@ export default class Footer extends Vue {}
   }
 }
 @media screen and (max-width: 900px) {
-  .divFlex {
-    margin-left: 5%;
-  }
   .footer-bg {
     height: 30%;
   }
@@ -729,9 +706,6 @@ export default class Footer extends Vue {}
   .footer-map-container {
     margin-top: 2%;
   }
-  .divFlex-left {
-    margin-left: -19%;
-  }
   .divFlex-center-column {
     display: block;
   }
@@ -760,8 +734,6 @@ export default class Footer extends Vue {}
   .location-icon {
     padding-top: 0%;
     width: 15%;
-    // padding-left: -1%;
-    // padding-bottom: 2%;
   }
   .footer-location {
     display: flex;
@@ -778,6 +750,10 @@ export default class Footer extends Vue {}
     width: 8%;
     margin: 1%;
     margin-right: 1%;
+  }
+  .footer-tel-left{
+    margin-left: 13%;
+    padding-left: 0%;
   }
 }
 @media screen and (max-width: 700px) {
@@ -799,9 +775,6 @@ export default class Footer extends Vue {}
     width: 7%;
     margin: 1%;
   }
-  .divFlex-left {
-    margin-left: -19%;
-  }
 }
 @media screen and (max-width: 650px) {
   .div-contact-right {
@@ -822,9 +795,6 @@ export default class Footer extends Vue {}
   .divFlex-center-font p {
     margin-top: 9%;
   }
-  .divFlex-left {
-    margin-left: -11%;
-  }
 }
 @media screen and (max-width: 500px) {
   .footer-container {
@@ -842,9 +812,6 @@ export default class Footer extends Vue {}
     font-size: 16px;
     height: 490px;
     padding-top: 15%;
-  }
-  .divFlex-left {
-    margin-left: -8%;
   }
   .footer-logo {
     margin-top: 50%;
@@ -1053,9 +1020,6 @@ export default class Footer extends Vue {}
   }
   .line-qrCode {
     margin-left: 10%;
-  }
-  .divFlex-left {
-    margin-left: -8%;
   }
   .footer-tel {
     margin-top: 3%;
