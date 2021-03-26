@@ -20,7 +20,8 @@
           <div class="footer-form">
             <p class="footer-bold">HEAD OFFICE</p>
             <p class="footer-description">
-              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, <span class="inline-block">Bangkok 10120</span>
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa,
+              <span class="inline-block">Bangkok 10120</span>
             </p>
           </div>
           <div class="divFlex-left divFlex">
@@ -99,7 +100,8 @@
           <div class="footer-form">
             <p class="footer-bold">HEAD OFFICE</p>
             <p class="footer-description">
-              11 Sathu Pradit Rd, Chong Nonsi, Yannawa, <span class="inline-block">Bangkok 10120</span>
+              11 Sathu Pradit Rd, Chong Nonsi, Yannawa,
+              <span class="inline-block">Bangkok 10120</span>
             </p>
           </div>
           <div class="divFlex-left footer-tel-left">
@@ -198,7 +200,7 @@ export default class Footer extends Vue {}
   margin-top: 2%;
   align-items: flex-start;
 }
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 .footer-tel {
@@ -411,9 +413,9 @@ export default class Footer extends Vue {}
   }
 }
 @media screen and (max-width: 1610px) {
-.footer-map{
+  .footer-map {
     font-size: 31px;
-}
+  }
 }
 @media screen and (max-width: 1600px) {
   .footer-tel {
@@ -447,7 +449,7 @@ export default class Footer extends Vue {}
 @media screen and (max-width: 1550px) {
   .footer-map {
     font-size: 29px;
-}
+  }
 }
 @media screen and (max-width: 1500px) {
   .phone-icon {
@@ -528,6 +530,17 @@ export default class Footer extends Vue {}
     padding-top: 6%;
   }
 }
+@media screen and (max-width: 1250px) {
+  .footer-map {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .footer-map {
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 1200px) {
   .phone-ico {
     width: 10%;
@@ -544,9 +557,19 @@ export default class Footer extends Vue {}
     font-size: 29px;
   }
 }
+@media screen and (max-width: 1160px) {
+  .footer-map {
+    font-size: 28px;
+  }
+}
 @media screen and (max-width: 1150px) {
   .footer-map {
     font-size: 28px;
+  }
+}
+@media screen and (max-width: 1130px) {
+  .footer-map {
+    font-size: 27px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -574,6 +597,11 @@ export default class Footer extends Vue {}
     width: 23%;
   }
 }
+@media screen and (max-width: 1085px) {
+  .footer-map {
+    font-size: 24.75px;
+  }
+}
 @media screen and (max-width: 1050px) {
   .footer-map {
     font-size: 25px;
@@ -585,6 +613,11 @@ export default class Footer extends Vue {}
   }
   .footer-map {
     font-size: 24px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .footer-map {
+    font-size: 22px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -767,13 +800,13 @@ export default class Footer extends Vue {}
     margin: 1%;
     margin-right: 1%;
   }
-  .footer-tel-left{
+  .footer-tel-left {
     margin-left: 13%;
     padding-left: 0%;
   }
-  .footer-map{
+  .footer-map {
     margin-left: 0%;
-}
+  }
 }
 @media screen and (max-width: 700px) {
   .footer-bg {

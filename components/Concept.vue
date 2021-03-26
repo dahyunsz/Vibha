@@ -24,7 +24,12 @@
         </p>
         <br />
         <p>
-          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาวดีรังสิต รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า ตลาดรวมถึงสถานศึกษาและ<span class="inline-block">โรงพยาบาลชั้นนำ</span>
+          บ้านหรูสไตล์โมเดิร์นที่พร้อมตอบสนองการใช้ชีวิตในทุกรูปแบบที่เป็นคุณ
+          ตั้งอยู่ในย่านที่พักอาศัยถนนวิภาวดีรังสิต
+          รายล้อมด้วยธรรมชาติและไลฟ์สไตล์ ทั้งสวนสาธารณะ ศูนย์การค้า
+          ตลาดรวมถึงสถานศึกษาและ<span class="inline-block"
+            >โรงพยาบาลชั้นนำ</span
+          >
         </p>
       </div>
     </div>
@@ -39,12 +44,21 @@
           <p>
             Every single house is designed with the concept of modern luxury
             with a simply functional twist on top of mind to accommodate every
-            changeover and meet the needs of all family members. It is thoughtfully outlined to maximize usable space while
-            maintaining the perfect blend between modern design and the touch <span class="inline-block">of nature.</span>
+            changeover and meet the needs of all family members. It is
+            thoughtfully outlined to maximize usable space while maintaining the
+            perfect blend between modern design and the touch
+            <span class="inline-block">of nature.</span>
           </p>
           <br />
           <p>
-            ทุกหลังได้รับการออกแบบสถาปัตยกรรมบนแนวคิด “ A modern luxury design with a simply functional twist ” เพื่อรองรับการปรับเปลี่ยนในทุกช่วงเวลาและตอบโจทย์การใช้ชีวิตของสมาชิกทุกคนภายในบ้าน ความพิถีพิถันในการออกแบบเพื่อให้เกิดพื้นที่ใช้สอยสูงสุด แต่ยังคงไว้ซึ่งดีไซน์ที่ลงตัว ผสมผสานกับธรรมชาติและความสดชื่น คือสิ่งสำคัญที่สร้างสรรค์อย่างใส่ใจเพื่อ<span class="inline-block">การอยู่อาศัย</span><span class="inline-block">ที่ลงตัว</span>
+            ทุกหลังได้รับการออกแบบสถาปัตยกรรมบนแนวคิด “ A modern luxury design
+            with a simply functional twist ”
+            เพื่อรองรับการปรับเปลี่ยนในทุกช่วงเวลาและตอบโจทย์การใช้ชีวิตของสมาชิกทุกคนภายในบ้าน
+            ความพิถีพิถันในการออกแบบเพื่อให้เกิดพื้นที่ใช้สอยสูงสุด
+            แต่ยังคงไว้ซึ่งดีไซน์ที่ลงตัว ผสมผสานกับธรรมชาติและความสดชื่น
+            คือสิ่งสำคัญที่สร้างสรรค์อย่างใส่ใจเพื่อ<span class="inline-block"
+              >การอยู่อาศัย</span
+            ><span class="inline-block">ที่ลงตัว</span>
           </p>
           <br /><br /><br />
         </div>
@@ -94,7 +108,7 @@ export default class Concept extends Vue {}
 body {
   font-size: 0em;
 }
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 .concept-modern-left {
@@ -201,13 +215,22 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 1500px) {
+  div.vertical-line {
+    height: 275%;
+  }
+}
+@media screen and (max-width: 1500px) {
   .concept-modern-left {
     font-size: 55px;
   }
   .concept-modern-right {
     font-size: 22px;
   }
-  
+}
+@media screen and (max-width: 1450px) {
+  div.vertical-line {
+    height: 260%;
+  }
 }
 @media screen and (max-width: 1450px) {
   .concept-modern-right {
@@ -233,7 +256,7 @@ div.vertical-line {
     font-size: 60px;
   }
   div.vertical-line {
-    height: 250%;
+    height: 240%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -245,7 +268,12 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 40px;
+  }
 }
+@media screen and (max-width: 1150px) {
+  div.vertical-line {
+    height: 230%;
+  }
 }
 @media screen and (max-width: 1100px) {
   .concept-modern-right {
@@ -256,7 +284,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 40px;
-}
+  }
 }
 @media screen and (max-width: 1024px) {
   div.vertical-line {
@@ -275,7 +303,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 40px;
-}
+  }
 }
 @media screen and (max-width: 1000px) {
   .concept-modern-right {
@@ -299,11 +327,16 @@ div.vertical-line {
   .textAlignVer {
     margin-left: 50%;
     font-size: 35px;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   .concept-modern-right {
     font-size: 15px;
+  }
+}
+@media screen and (max-width: 780px) {
+  div.vertical-line {
+    height: 175%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -368,14 +401,14 @@ div.vertical-line {
   }
   .concept-door {
     height: 320px;
-}
-div.vertical-line {
+  }
+  div.vertical-line {
     height: 160%;
   }
   .textAlignVer {
     margin-left: 70%;
     font-size: 40px;
-}
+  }
 }
 @media screen and (max-width: 700px) {
   .concept-mobile {
@@ -418,7 +451,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 30px;
-}
+  }
 }
 @media screen and (max-width: 600px) {
   .concept-modern-right {
@@ -454,10 +487,10 @@ div.vertical-line {
   .concept-func-description {
     font-size: 14px;
   }
-  .concept-door{
+  .concept-door {
     height: 300px;
-}
-div.vertical-line {
+  }
+  div.vertical-line {
     width: 2px;
     margin-left: 8%;
     height: 130%;
@@ -477,9 +510,9 @@ div.vertical-line {
   .concept-func-description {
     font-size: 12px;
   }
-  .concept-door{
+  .concept-door {
     height: 270px;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .concept-modern-right {
@@ -495,10 +528,10 @@ div.vertical-line {
   .concept-func-description {
     font-size: 11px;
   }
-  .concept-door{
+  .concept-door {
     height: 260px;
-}
-div.vertical-line {
+  }
+  div.vertical-line {
     width: 2px;
     margin-left: 8%;
     height: 100%;

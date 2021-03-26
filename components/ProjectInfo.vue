@@ -618,6 +618,9 @@ div.vertical-line {
   .project-plan {
     font-size: 17px;
   }
+  div.vertical-line {
+    height: 130%;
+}
 }
 @media screen and (max-width: 375px) {
   .textAlignVer {
