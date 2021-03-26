@@ -341,7 +341,7 @@ div.vertical-line {
 .project-plan {
   border: 1px solid white;
   color: white;
-  width: 35%;
+  width: 40%;
   font-size: 50px;
   margin-top: 7%;
   margin-bottom: 10%;
@@ -366,9 +366,14 @@ div.vertical-line {
 .go-top {
   margin-top: -2.5%;
 }
+@media screen and (max-width: 1700px) {
+  .project-plan {
+    width: 40%;
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 1600px) {
   .project-plan {
-    width: 35%;
     font-size: 40px;
   }
   .project-descriptio {
@@ -377,7 +382,6 @@ div.vertical-line {
 }
 @media screen and (max-width: 1500px) {
   .project-plan {
-    width: 35%;
     font-size: 40px;
   }
   .project-description {
@@ -398,6 +402,10 @@ div.vertical-line {
 @media screen and (max-width: 1400px) {
   div.vertical-line {
     height: 134%;
+  }
+  .project-plan {
+    width: 40%;
+    font-size: 40px;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -478,6 +486,9 @@ div.vertical-line {
   .textAlignVer {
     font-size: 50px;
   }
+  .project-plan {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 825px) {
   .project-plan {
@@ -531,7 +542,7 @@ div.vertical-line {
     margin-left: 40%;
   }
   div.vertical-line {
-    height: 220%;
+    height: 180%;
   }
   .project-info-left {
     width: 80%;

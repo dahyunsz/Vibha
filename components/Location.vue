@@ -237,6 +237,9 @@ div.vertical-line {
   .location-bottom {
     margin-top: 13%;
   }
+  div.vertical-line {
+    height: 50%;
+  }
 }
 @media screen and (max-width: 1400px) {
   .location-description {
@@ -323,12 +326,14 @@ div.vertical-line {
     font-size: 25px;
   }
 }
-@media screen and (max-width: 1100px) {
-  .location-description {
-    font-size: 28px;
-  }
+@media screen and (max-width: 1260px) {
   div.vertical-line {
     height: 140%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  div.vertical-line {
+    height: 130%;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -346,9 +351,14 @@ div.vertical-line {
     height: 130%;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 975px) {
   div.vertical-line {
     height: 120%;
+  }
+}
+@media screen and (max-width: 900px) {
+  div.vertical-line {
+    height: 110%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -412,7 +422,7 @@ div.vertical-line {
     margin-left: 5%;
   }
   div.vertical-line {
-    height: 110%;
+    height: 80%;
     width: 2px;
   }
   .textAlignVer {
@@ -434,7 +444,7 @@ div.vertical-line {
     margin-left: 5%;
   }
   div.vertical-line {
-    height: 100%;
+    height: 80%;
     width: 2px;
   }
 }
@@ -443,8 +453,7 @@ div.vertical-line {
     font-size: 24px;
   }
   .location-table-data {
-    font-size: 18px;
-    // width: 50px;
+    font-size: 18px
   }
   .textAlignVer {
     font-size: 38px;
@@ -452,7 +461,7 @@ div.vertical-line {
     margin-left: 5%;
   }
   div.vertical-line {
-    height: 90%;
+    height: 80%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -468,7 +477,7 @@ div.vertical-line {
     margin-top: 1%;
   }
   div.vertical-line {
-    height: 85%;
+    height: 75%;
   }
 }
 @media screen and (max-width: 400px) {
@@ -492,6 +501,12 @@ div.vertical-line {
     width: 2px;
   }
 }
+@media screen and (max-width: 380px) {
+  div.vertical-line {
+    height: 60%;
+    width: 2px;
+  }
+}
 @media screen and (max-width: 375px) {
   .location-description {
     font-size: 15px;
@@ -509,7 +524,7 @@ div.vertical-line {
     margin-left: 4%;
   }
   div.vertical-line {
-    height: 60%;
+    height: 50%;
     width: 2px;
   }
 }

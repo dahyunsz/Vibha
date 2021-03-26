@@ -348,6 +348,9 @@ div.vertical-line {
   .Vibha-detail-top p {
     padding-top: 18%;
   }
+  div.vertical-line {
+    height: 190%;
+}
 }
 @media screen and (max-width: 700px) {
   div.vertical-line {

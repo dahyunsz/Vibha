@@ -12,7 +12,7 @@ export default class Topnav extends Vue {}
 <style lang="scss" scoped>
 .square {
   width: 100%;
-  height: 5px;
+  height: 30px;
   background: white;
 }
 @media screen and (max-width: 1023px) {

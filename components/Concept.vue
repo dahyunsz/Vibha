@@ -402,13 +402,13 @@ div.vertical-line {
   .concept-door {
     height: 320px;
   }
-  div.vertical-line {
-    height: 160%;
-  }
   .textAlignVer {
     margin-left: 70%;
     font-size: 40px;
   }
+  div.vertical-line{
+    height: 130%;
+}
 }
 @media screen and (max-width: 700px) {
   .concept-mobile {
