@@ -1,7 +1,9 @@
 <template>
   <div>
     <Topnav/>
-    <NavBar />
+    <div class="div-flex">
+      <NavBar />
+    </div>
     <VibhaHome/>
     <AboutUs/>
     <VibhaDetail/>
@@ -48,4 +50,12 @@ export default class Index extends Vue {
 </script>
 
 <style lang="scss" scoped>
+.div-flex{
+  margin-right: 5%;
+}
+@media screen and (max-width: 1023px) {
+  .div-flex{
+  margin-right: 0%;
+}
+}
 </style>

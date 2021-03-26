@@ -1,8 +1,7 @@
 <template>
   <b-navbar>
-    <div class="square"></div>
-    <template #end>
-      <!-- <div class="nav-padding-right"> -->
+    <template #end class="nav-padding-right">
+      <!-- <div class="nav-padding-right" > -->
         <b-navbar-item
         v-scroll-to="{ el: '#aboutus' }"
         class="nav-item nav-padding-top"
@@ -28,7 +27,7 @@
       </b-navbar-item>
       <b-navbar-item
         v-scroll-to="{ el: '#contactus' }"
-        class="nav-item nav-padding-right "
+        class="nav-item"
       >
         CONTACT US
         <hr class="line" />
@@ -40,6 +39,7 @@
       <!-- </div> -->
     </template>
   </b-navbar>
+  
 </template>
 
 <script lang="ts">
@@ -54,12 +54,17 @@ export default class NavBar extends Vue {}
   font-family: "DB-Ozone-X";
   src: url(/fonts/DB-Ozone-X.ttf);
 }
+.square{
+  width: 50px;
+  height: 100%;
+}
 .nav-item {
   font-size: 24px;
   text-align: center;
 }
-.inline-block{
-  display: inline-block;
+.block{
+  display: block;
+  margin-bottom: -0.1%;
 }
 .nav-item-padding {
   padding-right: 10%;
