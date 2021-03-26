@@ -14,11 +14,11 @@
           </span>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
-          <p class="project-type-description">96.41 SQ.WAH</p>
+          <p class="project-type-description">96.3 SQ.M</p>
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
           <p class="project-type-description">
-            952.75 SQ. METRE
+            952 SQ.METRE
             <span class="project-description-inner">(Rooftop included)</span>
           </p>
         </div>

@@ -112,7 +112,7 @@
           </div>
           <div class="divFlex-left footer-tel-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel inline-block">(02) 212-4460 – 1</p>
+            <p class="footer-tel inline-block"><a class="tel-call" href="tel:0221244601">(02) 212-4460 – 1</a></p>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
         <div class="divFlex-center-column">
           <div class="div-contact-right">
             <img class="phone-icon-right" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel inline-block">095-632-6356</p>
+            <p class="footer-tel inline-block"><a class="tel-call" href="tel:0956326356">095-632-6356</a></p>
           </div>
           <div class="div-contact-right">
             <img class="mail-icon" src="~assets/icon/mail-icon.png" />
@@ -221,6 +221,9 @@ export default class Footer extends Vue {}
   margin-top: 2%;
   padding-left: 1%;
   width: 80%;
+}
+.tel-call{
+  color: #b7bcb4;
 }
 .footer-tel-center {
   font-family: "SukhumvitSet";
