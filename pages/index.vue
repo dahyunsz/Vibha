@@ -2,7 +2,12 @@
   <div>
     <Topnav/>
     <div class="div-flex">
-      <NavBar />
+      <div class="nav-desktop">
+        <NavBar />
+      </div>
+      <div class="nav-mobile">
+        <NavBarMobile/>
+      </div>
     </div>
     <VibhaHome/>
     <AboutUs/>
@@ -30,6 +35,8 @@ import ProjectInfo from "../components/ProjectInfo.vue";
 import FunctionRoom from "../components/FunctionRoom.vue";
 import Location from "../components/Location.vue";
 import Footer from "../components/Footer.vue";
+import NavBarMobile from "../components/NavBarMobile.vue";
+
 @Component({
   components: {
     Topnav,
@@ -43,6 +50,7 @@ import Footer from "../components/Footer.vue";
     FunctionRoom,
     Location,
     Footer,
+    NavBarMobile
   },
 })
 export default class Index extends Vue {
@@ -53,9 +61,18 @@ export default class Index extends Vue {
 .div-flex{
   margin-right: 5%;
 }
+.nav-mobile{
+  display: none;
+}
 @media screen and (max-width: 1023px) {
   .div-flex{
   margin-right: 0%;
+}
+.nav-desktop{
+  display: none;
+}
+.nav-mobile{
+  display: block;
 }
 }
 </style>

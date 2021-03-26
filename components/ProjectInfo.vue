@@ -425,6 +425,9 @@ div.vertical-line {
   div.vertical-line {
     height: 130%;
   }
+  .textAlignVer {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 1200px) {
   div.vertical-line {
@@ -459,6 +462,9 @@ div.vertical-line {
     padding-left: 2%;
     padding-bottom: 10%;
   }
+  .textAlignVer {
+    font-size: 45px;
+  }
 }
 @media screen and (max-width: 1000px) {
   .project-description {
@@ -466,6 +472,10 @@ div.vertical-line {
   }
   .project-header {
     font-size: 60px;
+  }
+  .textAlignVer {
+    font-size: 40px;
+    margin-left: 40%;
   }
 }
 @media screen and (max-width: 950px) {
@@ -484,7 +494,7 @@ div.vertical-line {
     font-size: 22px;
   }
   .textAlignVer {
-    font-size: 50px;
+    font-size: 35px;
   }
   .project-plan {
     font-size: 25px;
@@ -493,6 +503,9 @@ div.vertical-line {
 @media screen and (max-width: 825px) {
   .project-plan {
     font-size: 25px;
+  }
+  .textAlignVer {
+    font-size: 32px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -539,7 +552,7 @@ div.vertical-line {
   }
   .textAlignVer {
     font-size: 35px;
-    margin-left: 40%;
+    margin-left: 35%;
   }
   div.vertical-line {
     height: 180%;
@@ -556,6 +569,9 @@ div.vertical-line {
 @media screen and (max-width: 740px) {
   div.vertical-line {
     height: 210%;
+  }
+  .textAlignVer {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 685px) {
@@ -578,7 +594,7 @@ div.vertical-line {
     font-size: 20px;
   }
   .textAlignVer {
-    font-size: 35px;
+    font-size: 28px;
     margin-left: 35%;
   }
   div.vertical-line {
@@ -594,13 +610,18 @@ div.vertical-line {
     font-size: 22px;
   }
 }
+@media screen and (max-width: 550px) {
+  .textAlignVer {
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 500px) {
   .project-description {
     font-size: 16px;
   }
   .textAlignVer {
-    font-size: 32px;
-    margin-left: 35%;
+    font-size: 25px;
+    margin-left: 30%;
   }
   div.vertical-line {
     height: 135%;
@@ -615,12 +636,17 @@ div.vertical-line {
     font-size: 19px;
   }
 }
+@media screen and (max-width: 450px) {
+  .textAlignVer{
+    margin-top: 177%;
+}
+}
 @media screen and (max-width: 400px) {
   .project-description {
     font-size: 14px;
   }
   .textAlignVer {
-    font-size: 30px;
+    font-size: 24px;
     margin-left: 35%;
   }
   div.vertical-line {
@@ -631,13 +657,13 @@ div.vertical-line {
   }
   div.vertical-line {
     height: 130%;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .textAlignVer {
-    font-size: 25px;
+    font-size: 24px;
     margin-left: 31%;
-    margin-top: 270%;
+    margin-top: 215%;
   }
   div.vertical-line {
     width: 2px;
