@@ -386,7 +386,6 @@ export default class Footer extends Vue {}
 .location-icon {
   width: 20%;
   padding: 3%;
-  align-items: flex-start;
 }
 @media screen and (max-width: 1750px) {
   .footer-map {
