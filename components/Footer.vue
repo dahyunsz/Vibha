@@ -387,7 +387,6 @@ export default class Footer extends Vue {}
   width: 20%;
   padding: 3%;
   align-items: flex-start;
-  height: 100%;
 }
 @media screen and (max-width: 1750px) {
   .footer-map {
