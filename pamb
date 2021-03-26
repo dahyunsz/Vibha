@@ -6,7 +6,7 @@ TIMESTAMP=$3
 NAMESPACE=$4
 
 function print_howto() {
-    echo "How to use : pamb CMD APP_VERSION TIMESTAMP NAMESPACE OTHER_PARAM1 OTHER_PARAM2 (eg. pamb build 6.0 201906011030 stg)"
+    echo ""
 }
 
 if [ "$CMD" = "" ]; then

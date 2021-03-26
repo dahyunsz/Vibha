@@ -14,19 +14,19 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "PAM can help marketer do their everyday tasks easier & automate. To increase operational efficiency and grow revenue faster.",
+          "",
       },
       {
         hid: "twitter:title",
         name: "twitter:title",
         content:
-          "PAM can help marketer do their everyday tasks easier & automate. To increase operational efficiency and grow revenue faster.",
+          "",
       },
       {
         hid: "twitter:description",
         name: "twitter:description",
         content:
-          "PAM was established and developed from a vision of deep tech marketing as its core engine which will deliver unprecedented efficiency and create a market advantage opportunity for businesses. We passionate to support businesses of all sizes to compete in the borderless market. And keep up with the changes in technology that occur almost every day",
+          "",
       },
       {
         hid: "twitter:image",
@@ -37,19 +37,19 @@ export default {
         hid: "twitter:image:alt",
         name: "twitter:image:alt",
         content:
-          "PAM can help marketer do their everyday tasks easier & automate. To increase operational efficiency and grow revenue faster.",
+          "",
       },
       {
         hid: "og:title",
         property: "og:title",
         content:
-          "PAM can help marketer do their everyday tasks easier & automate. To increase operational efficiency and grow revenue faster.",
+          "",
       },
       {
         hid: "og:description",
         property: "og:description",
         content:
-          "PAM was established and developed from a vision of deep tech marketing as its core engine which will deliver unprecedented efficiency and create a market advantage opportunity for businesses. We passionate to support businesses of all sizes to compete in the borderless market. And keep up with the changes in technology that occur almost every day",
+          "",
       },
       {
         hid: "og:image",
@@ -65,7 +65,7 @@ export default {
         hid: "og:image:alt",
         property: "og:image:alt",
         content:
-          "PAM can help marketer do their everyday tasks easier & automate. To increase operational efficiency and grow revenue faster.",
+          "",
       },
       {
         name: "viewport",
