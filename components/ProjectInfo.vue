@@ -466,6 +466,12 @@ div.vertical-line {
     font-size: 45px;
   }
 }
+@media screen and (max-width: 1024px) {
+  div.vertical-line{
+    width: 2px;
+    height: 75%;
+}
+}
 @media screen and (max-width: 1000px) {
   .project-description {
     font-size: 25px;

@@ -304,6 +304,10 @@ div.vertical-line {
   .textAlignVer {
     font-size: 40px;
   }
+  div.vertical-line{
+    height: 125%;
+    width: 2px;
+}
 }
 @media screen and (max-width: 1000px) {
   .concept-modern-right {

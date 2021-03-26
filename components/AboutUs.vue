@@ -325,6 +325,12 @@ div.vertical-line {
     margin-top: -24%;
   }
 }
+@media screen and (max-width: 1024px) {
+  div.vertical-line{
+    height: 75%;
+    width: 2px;
+}
+}
 @media screen and (max-width: 1000px) {
   .kcc {
     height: 190px;

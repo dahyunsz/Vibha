@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Topnav/>
+    <!-- <Topnav/> -->
     <div class="div-flex">
       <div class="nav-desktop">
         <NavBar />
@@ -60,6 +60,7 @@ export default class Index extends Vue {
 <style lang="scss" scoped>
 .div-flex{
   margin-right: 5%;
+  margin-top: -1.5%;
 }
 .nav-mobile{
   display: none;

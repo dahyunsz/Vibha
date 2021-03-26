@@ -258,6 +258,10 @@ div.vertical-line {
   }
 }
 @media screen and (max-width: 1024px) {
+  div.vertical-line{
+    height: 55%;
+    width: 2px;
+}
 }
 @media screen and (max-width: 1000px) {
   .Vibha-detail-bottom {

@@ -1,5 +1,5 @@
 <template>
-  <b-navbar>
+  <b-navbar :fixed-top="false">
     <template #end class="nav-padding-right">
       <!-- <div class="nav-padding-right" > -->
         <b-navbar-item

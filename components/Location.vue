@@ -348,7 +348,8 @@ div.vertical-line {
     font-size: 55px;
   }
   div.vertical-line {
-    height: 130%;
+    height: 80%;
+    width: 2px;
   }
 }
 @media screen and (max-width: 975px) {

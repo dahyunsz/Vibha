@@ -646,6 +646,11 @@ export default class Footer extends Vue {}
   .footer-map {
   }
 }
+@media screen and (max-width: 1024px) {
+  .footer-bg {
+    height: 22%;
+}
+}
 @media screen and (max-width: 1000px) {
   .footer-tel {
     font-size: 20px;
