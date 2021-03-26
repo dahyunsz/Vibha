@@ -264,14 +264,14 @@ export default class Footer extends Vue {}
   border: 1px solid #b7bcb4;
   width: 50%;
   text-align: center;
-  padding-left: 9%;
-  padding-right: 9%;
+  padding-left: 8%;
+  padding-right: 8%;
   padding-top: 4%;
   padding-bottom: 4%;
   font-family: "SukhumvitSet";
   font-weight: bold;
   font-size: 35px;
-  // margin-left: 5%;
+  margin-left: -10%;
 }
 .footer-map-padding {
   margin: 0.2%;
@@ -501,7 +501,7 @@ export default class Footer extends Vue {}
     margin-top: -10%;
   }
   .footer-map {
-    font-size: 30px;
+    font-size: 33px;
   }
   .phone-icon {
     width: 12%;
@@ -522,7 +522,7 @@ export default class Footer extends Vue {}
 }
 @media screen and (max-width: 1350px) {
   .footer-map {
-    font-size: 25px;
+    font-size: 31px;
   }
   .location-icon {
     padding-top: 6%;
@@ -540,6 +540,14 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 2%;
   }
+  .footer-map {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .footer-map {
+    font-size: 28px;
+  }
 }
 @media screen and (max-width: 1100px) {
   .footer-description {
@@ -552,7 +560,7 @@ export default class Footer extends Vue {}
     margin-top: -14%;
   }
   .footer-map {
-    font-size: 22px;
+    font-size: 26px;
   }
   .phone-icon {
     width: 11%;
@@ -566,9 +574,17 @@ export default class Footer extends Vue {}
     width: 23%;
   }
 }
+@media screen and (max-width: 1050px) {
+  .footer-map {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .footer-tel {
     font-size: 20px;
+  }
+  .footer-map {
+    font-size: 24px;
   }
 }
 @media screen and (max-width: 950px) {
@@ -610,7 +626,6 @@ export default class Footer extends Vue {}
   .footer-logo {
     width: 70%;
     margin-top: 50%;
-    margin-left: 10%;
   }
   .footer-bg {
     height: 27%;
@@ -756,6 +771,9 @@ export default class Footer extends Vue {}
     margin-left: 13%;
     padding-left: 0%;
   }
+  .footer-map{
+    margin-left: 0%;
+}
 }
 @media screen and (max-width: 700px) {
   .footer-bg {

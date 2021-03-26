@@ -22,7 +22,8 @@
         </p>
         <br />
         <p class="project-description">
-          <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI 60/<br/>
+          <span class="description-bold">LOCATION :</span> VIBHAVADI ROAD SOI
+          60/<br />
           PHAHOLYOTHIN ROAD SOI 49/1
         </p>
         <br />
@@ -208,7 +209,7 @@ export default class ProjectInfo extends Vue {
   color: #1e2f27;
   font-family: "DB-Ozone-X";
 }
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 .project-info {
@@ -385,10 +386,18 @@ div.vertical-line {
   .project-header {
     font-size: 55px;
   }
+  div.vertical-line {
+    height: 140%;
+  }
 }
 @media screen and (max-width: 1500px) {
   .project-description {
     font-size: 32px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  div.vertical-line {
+    height: 134%;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -405,12 +414,20 @@ div.vertical-line {
   .project-description {
     font-size: 30px;
   }
+  div.vertical-line {
+    height: 130%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  div.vertical-line {
+    height: 125%;
+  }
 }
 @media screen and (max-width: 1100px) {
   div.vertical-line {
     width: 2px;
     margin-left: 6.2%;
-    height: 132%;
+    height: 115%;
   }
   .type-non-actve {
     font-size: 30px;
@@ -441,6 +458,11 @@ div.vertical-line {
   }
   .project-header {
     font-size: 60px;
+  }
+}
+@media screen and (max-width: 950px) {
+  div.vertical-line {
+    height: 105%;
   }
 }
 @media screen and (max-width: 900px) {
@@ -509,16 +531,36 @@ div.vertical-line {
     margin-left: 40%;
   }
   div.vertical-line {
-    height: 135%;
+    height: 220%;
   }
   .project-info-left {
     width: 80%;
   }
-  .project-plan{
+  .project-plan {
     width: 40%;
     font-size: 25px;
     margin-bottom: 20%;
+  }
 }
+@media screen and (max-width: 740px) {
+  div.vertical-line {
+    height: 210%;
+  }
+}
+@media screen and (max-width: 685px) {
+  div.vertical-line {
+    height: 200%;
+  }
+}
+@media screen and (max-width: 640px) {
+  div.vertical-line {
+    height: 195%;
+  }
+}
+@media screen and (max-width: 640px) {
+  div.vertical-line {
+    height: 190%;
+  }
 }
 @media screen and (max-width: 600px) {
   .project-description {
@@ -539,7 +581,7 @@ div.vertical-line {
   }
   .project-plan {
     font-size: 22px;
-}
+  }
 }
 @media screen and (max-width: 500px) {
   .project-description {
@@ -560,7 +602,7 @@ div.vertical-line {
   }
   .project-plan {
     font-size: 19px;
-}
+  }
 }
 @media screen and (max-width: 400px) {
   .project-description {
@@ -575,7 +617,7 @@ div.vertical-line {
   }
   .project-plan {
     font-size: 17px;
-}
+  }
 }
 @media screen and (max-width: 375px) {
   .textAlignVer {
@@ -634,10 +676,13 @@ div.vertical-line {
   .type-padding {
     padding: 2%;
   }
-  .project-plan{
+  .project-plan {
     width: 40%;
     font-size: 16px;
     margin-bottom: 20%;
-}
+  }
+  div.vertical-line {
+    height: 120%;
+  }
 }
 </style>
