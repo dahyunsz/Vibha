@@ -603,6 +603,12 @@ z-index: 1
     width: 50%;
 }
 }
+@media screen and (max-width: 414px) {
+  .function-container{
+    height: 48%;
+    width: 50%;
+}
+}
 @media screen and (max-width: 375px) {
   .function-container-desktop {
     display: none;
@@ -652,9 +658,14 @@ z-index: 1
 }
 @media screen and (max-width: 360px) {
   .function-container{
-    height: 30%;
+    height: 39%;
+    width: 50%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .function-container{
+    height: 44%;
     width: 50%;
 }
-
 }
 </style>
