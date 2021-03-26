@@ -14,7 +14,7 @@
           </span>
           <br />
           <p class="project-type-Topic project-paddingtop">LAND AREA :</p>
-          <p class="project-type-description">96.3 SQ.M</p>
+          <p class="project-type-description">97.3 SQ.M</p>
           <br />
           <p class="project-type-Topic">USABLE AREA :</p>
           <p class="project-type-description">
