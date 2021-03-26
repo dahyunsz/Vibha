@@ -411,6 +411,13 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
+  .footer-map {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .location-icon {
+    margin-left: 2%;
+  }
 }
 @media screen and (max-width: 1610px) {
   .footer-map {
@@ -805,6 +812,9 @@ export default class Footer extends Vue {}
     padding-left: 0%;
   }
   .footer-map {
+    margin-left: 0%;
+  }
+  .location-icon {
     margin-left: 0%;
   }
 }
