@@ -35,10 +35,7 @@
       <div class="footer-center">
         <div class="footer-location">
           <div class="footer-location-flex">
-            <img
-              class="location-icon"
-              src="~assets/icon/location-icon.png"
-            />
+            <img class="location-icon" src="~assets/icon/location-icon.png" />
             <a
               class="map-link"
               style="flex-grow: 1"
@@ -112,7 +109,9 @@
           </div>
           <div class="divFlex-left footer-tel-left">
             <img class="phone-icon" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel inline-block"><a class="tel-call" href="tel:0221244601">(02) 212-4460 – 1</a></p>
+            <p class="footer-tel inline-block">
+              <a class="tel-call" href="tel:0221244601">(02) 212-4460 – 1</a>
+            </p>
           </div>
         </div>
       </div>
@@ -123,13 +122,22 @@
         <div class="divFlex-center-column">
           <div class="div-contact-right">
             <img class="phone-icon-right" src="~assets/icon/phone-icon.png" />
-            <p class="footer-tel inline-block"><a class="tel-call" href="tel:0956326356">095-632-6356</a></p>
+            <p class="footer-tel inline-block">
+              <a class="tel-call" href="tel:0956326356">095-632-6356</a>
+            </p>
           </div>
           <div class="div-contact-right">
             <img class="mail-icon" src="~assets/icon/mail-icon.png" />
             <p class="footer-mail footer-description inline-block">
               VIBHASALES@KCCTHAILAND.COM
             </p>
+          </div>
+          <div class="div-contact-right">
+            <div class="divFlex-qr">
+              <img class="line-icon" src="~assets/icon/line-icon.png" />
+              <p class="footer-line inline-block">@vibharesidence</p>
+              <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
+            </div>
           </div>
           <div class="div-contact-right">
             <div class="footer-location">
@@ -153,13 +161,6 @@
                   </span>
                 </a>
               </div>
-            </div>
-          </div>
-          <div class="div-contact-right">
-            <div class="divFlex-qr">
-              <img class="line-icon" src="~assets/icon/line-icon.png" />
-              <p class="footer-line inline-block">@vibharesidence</p>
-              <img class="line-qrCode" src="/footer-qrcode.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -222,7 +223,7 @@ export default class Footer extends Vue {}
   padding-left: 1%;
   width: 80%;
 }
-.tel-call{
+.tel-call {
   color: #b7bcb4;
 }
 .footer-tel-center {
@@ -400,7 +401,7 @@ export default class Footer extends Vue {}
 }
 .location-icon {
   width: 20%;
-  padding: 1%;  
+  padding: 1%;
   width: 80px;
   height: 80px;
 }
@@ -436,8 +437,6 @@ export default class Footer extends Vue {}
 @media screen and (max-width: 1650px) {
   div.vertical-line {
     height: 80%;
-  }
-  .footer-map {
   }
 }
 @media screen and (max-width: 1610px) {
@@ -555,7 +554,7 @@ export default class Footer extends Vue {}
     width: 9%;
     margin: 1%;
   }
-  .location-icon {    
+  .location-icon {
     width: 80px;
     height: 68px;
   }
@@ -565,14 +564,13 @@ export default class Footer extends Vue {}
     font-size: 26px;
   }
   .location-icon {
-
   }
 }
 @media screen and (max-width: 1300px) {
   .footer-map {
     font-size: 24px;
   }
-  .location-icon {    
+  .location-icon {
     width: 80px;
     height: 60px;
   }
@@ -598,7 +596,7 @@ export default class Footer extends Vue {}
   .footer-map {
     font-size: 22px;
   }
-  .location-icon {    
+  .location-icon {
     width: 70px;
     height: 60px;
   }
@@ -628,7 +626,7 @@ export default class Footer extends Vue {}
   .footer-map {
     font-size: 21px;
   }
-  .location-icon {    
+  .location-icon {
     width: 65px;
     height: 50px;
   }
@@ -652,7 +650,7 @@ export default class Footer extends Vue {}
 @media screen and (max-width: 1024px) {
   .footer-bg {
     height: 22%;
-}
+  }
 }
 @media screen and (max-width: 1000px) {
   .footer-tel {
@@ -662,7 +660,6 @@ export default class Footer extends Vue {}
     font-size: 20px;
   }
   .location-icon {
-
   }
 }
 @media screen and (max-width: 980px) {
@@ -673,7 +670,7 @@ export default class Footer extends Vue {}
   .footer-map {
     font-size: 20px;
   }
-  .location-icon {    
+  .location-icon {
     width: 65px;
     height: 55px;
   }
@@ -786,7 +783,7 @@ export default class Footer extends Vue {}
     position: absolute;
     z-index: 1;
     width: 25%;
-    margin-top: 35%;
+    margin-top: 45%;
     margin-left: 37%;
   }
   .footer-tel {
@@ -865,6 +862,9 @@ export default class Footer extends Vue {}
     width: 55px;
     height: 45px;
   }
+  .footer-container {
+    height: 610px;
+  }
 }
 @media screen and (max-width: 700px) {
   .footer-bg {
@@ -890,6 +890,13 @@ export default class Footer extends Vue {}
   .div-contact-right {
     margin-top: 4%;
   }
+  .footer-map {
+    font-size: 15px;
+  }
+  .location-icon {
+    width: 50px;
+    height: 40px;
+}
 }
 @media screen and (max-width: 600px) {
   .footer-logo {
@@ -906,11 +913,16 @@ export default class Footer extends Vue {}
     margin-top: 9%;
   }
   .footer-map {
-    font-size: 16px;
+    font-size: 14px;
   }
   .location-icon {
     width: 50px;
     height: 40px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .footer-map {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -934,12 +946,12 @@ export default class Footer extends Vue {}
     margin-top: 50%;
   }
   .footer-map {
-    font-size: 14px;
+    font-size: 12px;
   }
-  .location-icon {
-    width: 45px;
-    height: 35px;
-  }
+  .location-icon{
+    width: 40px;
+    height: 31px;
+}
 }
 @media screen and (max-width: 490px) {
   .line-qrCode {
@@ -965,11 +977,8 @@ export default class Footer extends Vue {}
   }
 }
 @media screen and (max-width: 425px) {
-  .footer-logo {
-    margin-top: 65%;
-  }
-  .line-qrCode {
-    margin-left: 18%;
+  .footer-map {
+    font-size: 10px;
   }
 }
 @media screen and (max-width: 400px) {
@@ -1049,6 +1058,13 @@ export default class Footer extends Vue {}
     width: 11%;
     margin: 1%;
   }
+  .location-icon {
+    width: 30px;
+    height: 28px;
+  }
+  .footer-map{
+    font-size: 9px;
+}
 }
 @media screen and (max-width: 375px) {
   .footer-mobile {
@@ -1130,6 +1146,7 @@ export default class Footer extends Vue {}
   }
   .phone-icon-right {
     width: 10%;
+    margin-right: 5%;
   }
   .line-icon {
     width: 14%;
@@ -1145,11 +1162,16 @@ export default class Footer extends Vue {}
     margin-top: 3%;
   }
   .footer-map {
-    font-size: 10px;
+    font-size: 8px;
   }
   .location-icon {
-    width: 35px;
+    width: 33px;
     height: 28px;
   }
+  .mail-icon{
+    width: 10%;
+    margin: 1%;
+    margin-right: 6%;
+}
 }
 </style>

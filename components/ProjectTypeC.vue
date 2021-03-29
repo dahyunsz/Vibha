@@ -40,7 +40,7 @@
               <img class="type-img" src="~assets/icon/type-1_2.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">4 Bathrooms</p>
+              <p class="type-title">5 Bathrooms</p>
             </div>
           </div>
 
@@ -67,7 +67,7 @@
               <img class="type-img" src="~assets/icon/type-1_3.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">5 Car parking</p>
+              <p class="type-title">4 Car parking</p>
             </div>
           </div>
 
@@ -96,7 +96,7 @@
               <img class="type-img" src="~assets/icon/type-1_2.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">4 Bathrooms</p>
+              <p class="type-title">5 Bathrooms</p>
             </div>
           </div>
           <div class="type-container car-container">
@@ -104,7 +104,7 @@
               <img class="type-img" src="~assets/icon/type-1_3.png" />
             </div>
             <div class="type-title-container">
-              <p class="type-title">5 Car parking</p>
+              <p class="type-title">4 Car parking</p>
             </div>
           </div>
           <div class="type-container powerRoom-container">
