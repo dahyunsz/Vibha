@@ -40,15 +40,15 @@
       </div>
       <div class="function-area">
         <!-- <div @click="onClick14()" class="square pointer"></div> -->
-        <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
+        <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
           <div class="function-title-container">
-            <p>Elderly functionelderly</p>
+            <p>MASTER BEDROOM</p>
           </div>
           <div class="function-title-container">
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img @click="onClick14()" @mouseover="imgShow14()" @mouseleave="imgOut14()" class="function-container pointer" src="/func1-4.jpg"/>
+        <img @click="onClick22()" @mouseover="imgShow22()" @mouseleave="imgOut22()" class="function-container pointer" src="/func2-2.jpg"/>
       </div>
     </div>
     <div class="function-bottom function-container-desktop">
@@ -66,15 +66,15 @@
       </div>
       <div class="function-area">
         <!-- <div @click="onClick22()" class="square pointer"></div> -->
-        <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
+        <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
           <div class="function-title-container">
-            <p>MASTER BEDROOM</p>
+            <p>Elderly functionelderly</p>
           </div>
           <div class="function-title-container">
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img @click="onClick22()" @mouseover="imgShow22()" @mouseleave="imgOut22()" class="function-container pointer" src="/func2-2.jpg"/>
+        <img @click="onClick14()" @mouseover="imgShow14()" @mouseleave="imgOut14()" class="function-container pointer" src="/func1-4.jpg"/>
       </div>
       <div class="function-area">
         <!-- <div @click="onClick23()" class="square pointer"></div> -->
@@ -131,18 +131,19 @@
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <div @click="onClick13()" v-if="img13 == true" @mouseover="imgShow13()" class="function-title">
-          <div class="function-title-container-right">
-            <p>Restroom</p>
+          <div @click="onClick21()" v-if="img21 == true" @mouseover="imgShow21()" class="function-title">
+          <div class="function-title-container-left">
+            <p>BALCONY & POOL</p>
           </div>
-          <div class="function-title-container-right">
+          <div class="function-title-container-left">
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img @click="onClick13()" @mouseover="imgShow13()" @mouseleave="imgOut13()" class="function-container pointer" src="/func1-3.jpg"/>
+        <img @click="onClick21()" @mouseover="imgShow21()" @mouseleave="imgOut21()" class="function-container pointer" src="/func2-1.jpg"/>
         </div>
+        
         <div class="function-area">
-        <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
+          <div @click="onClick14()" v-if="img14 == true" @mouseover="imgShow14()" class="function-title">
           <div class="function-title-container-right">
             <p>Elderly functionelderly</p>
           </div>
@@ -155,18 +156,18 @@
       </div>
       <div class="function-setwidth">
         <div class="function-area">
-          <div @click="onClick21()" v-if="img21 == true" @mouseover="imgShow21()" class="function-title">
-          <div class="function-title-container-left">
-            <p>BALCONY & POOL</p>
+          <div @click="onClick13()" v-if="img13 == true" @mouseover="imgShow13()" class="function-title">
+          <div class="function-title-container-right">
+            <p>Restroom</p>
           </div>
-          <div class="function-title-container-left">
+          <div class="function-title-container-right">
             <img class="add-icon" src="~assets/icon/add-icon.png" />
           </div>
         </div>
-        <img @click="onClick21()" @mouseover="imgShow21()" @mouseleave="imgOut21()" class="function-container pointer" src="/func2-1.jpg"/>
+        <img @click="onClick13()" @mouseover="imgShow13()" @mouseleave="imgOut13()" class="function-container pointer" src="/func1-3.jpg"/>
         </div>
         <div class="function-area">
-          <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
+        <div @click="onClick22()" v-if="img22 == true" @mouseover="imgShow22()" class="function-title">
           <div class="function-title-container-right">
             <p>MASTER BEDROOM</p>
           </div>

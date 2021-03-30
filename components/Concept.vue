@@ -13,7 +13,7 @@
       <div class="concept-modern-left concept-mobile">
         <p>
           A Modern <br />Luxury <br />
-          House
+          Design
         </p>
       </div>
       <div class="concept-modern-right">
@@ -47,7 +47,7 @@
             changeover and meet the needs of all family members. It is
             thoughtfully outlined to maximize usable space while maintaining the
             perfect blend between modern design and the touch
-            <span class="inline-block">of nature.</span>
+            <span class="inline-block">of nature.</span> Making it ideal for living
           </p>
           <br />
           <p>
