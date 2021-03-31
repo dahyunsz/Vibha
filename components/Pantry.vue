@@ -13,7 +13,7 @@
       </p>
       <br />
       <p class="pantry-description-th">
-        พื้นที่ห้องแพนทรีถูกจัดเตรียมไว้ครบทุกฟังค์ชั่นพร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหารและ<span class="inline-block">ห้องนั่งเล่น</span>
+        พื้นที่ห้องแพนทรีถูกจัดเตรียมไว้ครบทุก<span class="inline-block">ฟังค์ชั่น</span>พร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหารและ<span class="inline-block">ห้องนั่งเล่น</span>
       </p>
     </div>
     <!-- mobile -->
@@ -29,7 +29,7 @@
           also living room that will ideally complete your living experience.
         </p>
         <p class="description-mobile">
-          พื้นที่ห้องแพนทรีถูกจัดเตรียมไว้ครบทุกฟังค์ชั่นพร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหารและ<span class="inline-block">ห้องนั่งเล่น</span>
+          พื้นที่ห้องแพนทรีถูกจัดเตรียมไว้ครบทุก<span class="inline-block">ฟังค์ชั่น</span>พร้อมรับการใช้สอยที่หลากหลาย และสะดวกสบาย โดยผ่านการออกแบบให้เชื่อมต่อระหว่างห้องครัวไทย กับบริเวณโถงห้องรับประทานอาหารและ<span class="inline-block">ห้องนั่งเล่น</span>
         </p>
       </div>
     </div>
@@ -107,10 +107,12 @@ export default class Pantry extends Vue {}
   }
   .mobile-bottom {
     display: flex;
+    width: 100%;
   }
   .description-mobile {
     font-size: 12px;
     margin: 3%;
+    width: 50%;
   }
   .mobile-title {
     padding-left: 3%;
