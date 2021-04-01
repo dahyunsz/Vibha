@@ -360,24 +360,8 @@ export default class FunctionRoom extends Vue {
   width: 100%;
   font-family: "DB-Ozone-X";
 }
-.function-top {
-  width: 100%;
-  display: flex;
-  height: 600px;
-}
-.function-bottom {
-  width: 100%;
-  display: flex;
-  height: 600px;
-}
 .function-area {
   width: 25%;
-}
-.function-container {
-  height: 64%;
-  width: 25%;
-  position: absolute;
-z-index: 1
 }
 .function-container:hover {
   opacity: 0.5;
@@ -418,63 +402,91 @@ z-index: 1
   margin-top: 14%;
   width: 25%;
 }
+.function-top {
+  width: 100%;
+  display: flex;
+  height: 600px;
+}
+.function-bottom {
+  width: 100%;
+  display: flex;
+  height: 600px;
+}
+.function-container {
+  height: 600px;
+  width: 25%;
+  position: absolute;
+  z-index: 1
+}
 @media screen and (max-width: 1750px) {
   .function-container {
-  height: 72%;
+  height: 600px;
 }
 }
 @media screen and (max-width: 1700px) {
-  .function-container {
-  height: 72%;
-}
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1650px) {
-  .function-container {
-  height: 72%;
-}
-}
-@media screen and (max-width: 1635px) {
-  .function-container {
-  height: 72%;
-}
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1635px) {
-  .function-container {
-  height: 72%;
+//   .function-container {
+//   height: 72%;
+// }
 }
+@media screen and (max-width: 1635px) {
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1600px) {
-  .function-container {
-  height: 72%;
-}
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1550px) {
-  .function-container {
-  height: 72%;
-}
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1500px) {
-  .function-container {
-  height: 72%;
-}
+  .function-container{
+      height: 570px;
+  }
+  .function-top{
+      height: 570px;
+  }
+  .function-bottom{
+      height: 570px;
+  }
 }
 @media screen and (max-width: 1450px) {
-  .function-container {
-  height: 69%;
-}
-.function-top {
-    height: 580px;
-}
+//   .function-container {
+//   height: 69%;
+// }
+// .function-top {
+//     height: 580px;
+// }
 }
 @media screen and (max-width: 1400px) {
+  .function-top {
+    height: 500px;
+  }
+  .function-bottom {
+    height: 500px;
+  }
   .function-container {
-  height: 69%;
+  height: 500px;
 }
 }
 @media screen and (max-width: 1350px) {
-  .function-container {
-  height: 72%;
-}
+//   .function-container {
+//   height: 72%;
+// }
 }
 @media screen and (max-width: 1300px) {
   .function-top {
@@ -483,6 +495,9 @@ z-index: 1
   .function-bottom {
     height: 445px;
   }
+  .function-container {
+  height: 445px;
+}
   .square {
     height: 445px;
   }
@@ -494,28 +509,49 @@ z-index: 1
     width: 100%;
     text-align: center;
   }
-  .function-container {
-  height: 53%;
-}
 }
 @media screen and (max-width: 1250px) {
+  .function-top {
+    height: 430px;
+  }
+  .function-bottom {
+    height: 430px;
+  }
   .function-container {
-  height: 53%;
+  height: 430px;
 }
 }
 @media screen and (max-width: 1200px) {
+  .function-top {
+    height: 420px;
+  }
+  .function-bottom {
+    height: 420px;
+  }
   .function-container {
-  height: 53%;
+  height: 420px;
 }
 }
 @media screen and (max-width: 1150px) {
+.function-top {
+    height: 410px;
+  }
+  .function-bottom {
+    height: 410px;
+  }
   .function-container {
-  height: 53%;
+  height: 410px;
 }
 }
 @media screen and (max-width: 1024px) {
+  .function-top {
+    height: 400px;
+  }
+  .function-bottom {
+    height: 400px;
+  }
   .function-container {
-  height: 33%;
+  height: 400px;
 }
 }
 @media screen and (max-width: 1000px) {
@@ -526,7 +562,43 @@ z-index: 1
     height: 410px;
   }
   .function-container {
-  height: 49%;
+  height: 410px;
+}
+//   .function-container {
+//   height: 410px;
+// }
+}
+@media screen and (max-width: 950px) {
+  .function-top {
+    height: 390px;
+  }
+  .function-bottom {
+    height: 390px;
+  }
+  .function-container {
+  height: 390px;
+}
+}
+@media screen and (max-width: 900px) {
+  .function-top {
+    height: 365px;
+  }
+  .function-bottom {
+    height: 365px;
+  }
+  .function-container {
+  height: 365px;
+}
+}
+@media screen and (max-width: 850px) {
+  .function-top {
+    height: 340px;
+  }
+  .function-bottom {
+    height: 340px;
+  }
+  .function-container {
+  height: 340px;
 }
 }
 @media screen and (max-width: 800px) {
@@ -566,8 +638,43 @@ z-index: 1
 }
 @media screen and (max-width: 768px) {
   .function-container {
-    height: 49%;
+    height: 500px;
 }
+.function-setwidth{
+    height: 500px;
+}
+}
+@media screen and (max-width: 650px) {
+  .function-container {
+    height: 480px;
+  }
+  .function-setwidth{
+      height: 480px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .function-container {
+    height: 460px;
+  }
+  .function-setwidth{
+      height: 460px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .function-container {
+    height: 430px;
+  }
+  .function-setwidth{
+      height: 430px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .function-container {
+    height: 400px;
+  }
+  .function-setwidth{
+      height: 400px;
+  }
 }
 @media screen and (max-width: 500px) {
   .function-container-desktop {
@@ -579,11 +686,6 @@ z-index: 1
   .function-setwidth-mobile {
     display: flex;
     flex-direction: column;
-  }
-  .function-setwidth {
-    width: 100%;
-    display: flex;
-    height: 350px;
   }
   .function-title {
     font-size: 15px;
@@ -599,16 +701,36 @@ z-index: 1
     width: 100%;
     text-align: center;
   }
-  .function-container{
-    height: 42%;
-    width: 50%;
+  .function-container {
+    height: 370px;
+  }
+  .function-setwidth{
+      height: 370px;
+  }
 }
+@media screen and (max-width: 475px) {
+.function-container {
+    height: 340px;
+  }
+  .function-setwidth{
+      height: 340px;
+  }
 }
-@media screen and (max-width: 414px) {
-  .function-container{
-    height: 48%;
-    width: 50%;
+@media screen and (max-width: 450px) {
+.function-container {
+    height: 320px;
+  }
+  .function-setwidth{
+      height: 320px;
+  }
 }
+@media screen and (max-width: 400px) {
+.function-container {
+    height: 300px;
+  }
+  .function-setwidth{
+      height: 300px;
+  }
 }
 @media screen and (max-width: 375px) {
   .function-container-desktop {
@@ -620,11 +742,6 @@ z-index: 1
   .function-setwidth-mobile {
     display: flex;
     flex-direction: column;
-  }
-  .function-setwidth {
-    width: 100%;
-    display: flex;
-    height: 250px;
   }
   .square {
     width: 50%;
@@ -651,22 +768,28 @@ z-index: 1
     width: 100%;
     text-align: center;
   }
-  .function-container{
-    height: 31%;
-    width: 50%;
-}
+  .function-container {
+    height: 280px;
+  }
+  .function-setwidth{
+      height: 280px;
+  }
 
 }
 @media screen and (max-width: 360px) {
-  .function-container{
-    height: 39%;
-    width: 50%;
+  .function-container {
+    height: 280px;
+  }
+  .function-setwidth{
+      height: 280px;
   }
 }
 @media screen and (max-width: 320px) {
-  .function-container{
-    height: 44%;
-    width: 50%;
-}
+  .function-container {
+    height: 240px;
+  }
+  .function-setwidth{
+      height: 240px;
+  }
 }
 </style>
