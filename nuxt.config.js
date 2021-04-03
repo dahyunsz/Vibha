@@ -31,7 +31,7 @@ export default {
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "A Modern Luxury Design House Locates in a residential area on Vibhavadi Rangsit Road. It is surrounded by nature and convenient facilities",
+        content: "/footer-logo.png",
       },
       {
         hid: "twitter:image:alt",
@@ -54,12 +54,12 @@ export default {
       {
         hid: "og:image",
         property: "og:image",
-        content: "/",
+        content: "/footer-logo.png",
       },
       {
         hid: "og:image:secure_url",
         property: "og:image:secure_url",
-        content: "/",
+        content: "/footer-logo.png",
       },
       {
         hid: "og:image:alt",
